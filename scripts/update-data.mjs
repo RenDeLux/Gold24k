@@ -8,7 +8,7 @@
 //   4. Ambil berita penting (tarif, perang, The Fed, dst) ke data/news.json
 //  Tidak butuh library tambahan: cukup Node 18+.
 // =============================================================
-import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, readdir, unlink } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -307,6 +307,30 @@ async function main() {
   } else {
     warn('Semua pencarian berita gagal, data berita lama dipertahankan');
   }
+
+  // laporan pasar per akhir sesi
+  if (!onlyNews) await updateReports(now);
+}
+
+// ---------- 5. laporan pasar otomatis ----------
+async function updateReports(now) {
+  const { generateReports } = await import('./reports.mjs');
+  const prices = await readJSON('prices.json', { samples: [] });
+  const news = (await readJSON('news.json', { items: [] })).items || [];
+  const existing = (await readJSON('reports.json', { items: [] })).items || [];
+  const samples = prices.samples.map((s) => ({ ms: Date.parse(s.t), usd: +s.usd, idr: s.idr ? +s.idr : null })).sort((a, b) => a.ms - b.ms);
+  const [owner, repo] = (process.env.GITHUB_REPOSITORY || '').split('/');
+  const siteUrl = process.env.SITE_URL || (owner && repo ? `https://${owner.toLowerCase()}.github.io/${repo}/` : '');
+
+  const { items, files, created } = generateReports({ samples, news, existing, nowMs: now, siteUrl });
+  const dir = path.join(ROOT, 'reports');
+  await mkdir(dir, { recursive: true });
+  for (const [name, html] of Object.entries(files)) await writeFile(path.join(dir, name), html);
+  // hapus file laporan lama yang sudah tidak ada di daftar
+  const keep = new Set(items.flatMap((r) => [`${r.id}-id.html`, `${r.id}-en.html`]));
+  for (const f of await readdir(dir)) if (f.endsWith('.html') && !keep.has(f)) await unlink(path.join(dir, f));
+  await writeJSON('reports.json', { updated: new Date(now).toISOString(), items });
+  log(created.length ? `Laporan baru: ${created.join(', ')}` : 'Belum ada sesi baru yang tutup');
 }
 
 // hanya jalan kalau file ini dieksekusi langsung (bukan di-import untuk tes)

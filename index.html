@@ -18,6 +18,7 @@
         <span class="brand-tag" data-i18n="brand.tag">Pemantau Emas Global</span>
       </a>
       <nav class="nav" aria-label="Menu">
+        <a href="#laporan" data-i18n="nav.reports">Laporan</a>
         <a href="#sesi" data-i18n="nav.sessions">Sesi</a>
         <a href="#berita" data-i18n="nav.news">Berita</a>
         <a href="#chat" data-i18n="nav.chat">Diskusi</a>
@@ -66,6 +67,14 @@
           <span><i class="key key-down"></i><span data-i18n="mood.down">Bearish</span></span>
         </div>
       </div>
+    </section>
+
+    <!-- ================= LAPORAN PASAR ================= -->
+    <section id="laporan" class="section" aria-labelledby="repTitle">
+      <h2 id="repTitle" data-i18n="rep.h2">Laporan Pasar</h2>
+      <p class="lead" data-i18n="rep.lead"></p>
+      <div class="report-list" id="reportList"></div>
+      <button class="btn btn-ghost" id="reportMore" type="button" hidden data-i18n="rep.more"></button>
     </section>
 
     <!-- ================= SESI ================= -->
@@ -143,8 +152,32 @@
 
     <!-- ================= GRAFIK ================= -->
     <section id="grafik" class="section" aria-labelledby="grafikTitle">
-      <h2 id="grafikTitle" data-i18n="chart.h2">Riwayat Harga</h2>
+      <h2 id="grafikTitle" data-i18n="chart.h2">Grafik Harga</h2>
       <div class="card">
+        <div class="card-head">
+          <h3 data-i18n="intra.title">Intraday · XAU/USD</h3>
+          <span class="fineprint" data-i18n="intra.unit"></span>
+        </div>
+        <div class="controls">
+          <div class="seg" role="group" id="intraSeg" data-i18n-attr="aria-label:chart.rangeAria">
+            <button type="button" data-days="1" aria-pressed="true" data-i18n="intra.r1">1D</button>
+            <button type="button" data-days="3" aria-pressed="false" data-i18n="intra.r3">3D</button>
+            <button type="button" data-days="5" aria-pressed="false" data-i18n="intra.r5">5D</button>
+          </div>
+        </div>
+        <p class="chart-title" id="intraTitle"></p>
+        <div class="chart chart-intra" id="intraChart"></div>
+        <p class="fineprint" data-i18n="intra.note"></p>
+        <details class="table-view">
+          <summary data-i18n="chart.table"></summary>
+          <div class="table-scroll"><table class="plain" id="intraTable"></table></div>
+        </details>
+      </div>
+
+      <div class="card">
+        <div class="card-head">
+          <h3 data-i18n="chart.dailyTitle">Harga Penutupan Harian</h3>
+        </div>
         <div class="controls">
           <div class="seg" role="group" id="rangeSeg" data-i18n-attr="aria-label:chart.rangeAria">
             <button type="button" data-range="30" aria-pressed="false" data-i18n="range.30">1M</button>

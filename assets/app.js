@@ -17,7 +17,7 @@ import {
   tradingDates,
   keyTimesWib,
 } from './sessions.js';
-import { renderLineChart } from './chart.js';
+import { renderLineChart, renderIntradayChart } from './chart.js';
 import { t, fmt, getLang, setLang, applyStatic } from './i18n.js';
 import { startLive } from './live.js';
 
@@ -60,15 +60,21 @@ const state = {
   newsShown: 12,
   range: 90,
   unit: 'idr',
+  reports: [],
+  reportsShown: 6,
+  liveTicks: [], // harga live selama halaman terbuka (tiap menit)
+  intraDays: 1,
 };
 
 async function loadRobotData() {
   const bust = `?v=${Math.floor(Date.now() / 60000)}`;
-  const [prices, daily, news] = await Promise.all([
+  const [prices, daily, news, reports] = await Promise.all([
     safe(fetchJSON('data/prices.json' + bust)),
     safe(fetchJSON('data/daily.json' + bust)),
     safe(fetchJSON('data/news.json' + bust)),
+    safe(fetchJSON('data/reports.json' + bust)),
   ]);
+  state.reports = (reports?.items || []).filter((r) => r && /^[0-9a-z-]+$/.test(r.id) && r.title);
   state.samples = (prices?.samples || [])
     .map((s) => ({ ms: Date.parse(s.t), usd: +s.usd, idr: s.idr ? +s.idr : null }))
     .filter((s) => isFinite(s.ms) && s.usd > 0)
@@ -81,7 +87,13 @@ async function loadRobotData() {
 async function loadLive() {
   try {
     const j = await fetchJSON('https://api.gold-api.com/price/XAU');
-    if (j?.price > 0) state.live = { usd: +j.price, ms: Date.parse(j.updatedAt) || Date.now(), source: 'gold-api.com' };
+    if (j?.price > 0) {
+      state.live = { usd: +j.price, ms: Date.parse(j.updatedAt) || Date.now(), source: 'gold-api.com' };
+      if (openSessionsAt(Date.now()).length) {
+        state.liveTicks.push({ ms: Date.now(), usd: state.live.usd });
+        if (state.liveTicks.length > 1500) state.liveTicks.shift();
+      }
+    }
   } catch (e) {
     console.warn('live price', e);
   }
@@ -551,7 +563,105 @@ function renderMood(news) {
   $('moodCount').textContent = `▲${up} · ■${flat} · ▼${down}`;
 }
 
-// ---------------- GRAFIK ----------------
+// ---------------- LAPORAN PASAR ----------------
+function renderReports() {
+  const list = $('reportList');
+  list.replaceChildren();
+  const lang = getLang();
+  if (!state.reports.length) {
+    list.append(make('p', 'empty', t('rep.empty')));
+    $('reportMore').hidden = true;
+    return;
+  }
+  state.reports.slice(0, state.reportsShown).forEach((r, i) => {
+    const a = make('a', `report-item${i === 0 ? ' featured' : ''}`);
+    a.href = `reports/${r.id}-${lang}.html`;
+    const meta = make('div', 'report-meta');
+    const endMs = Date.parse(r.end);
+    meta.append(
+      make('span', `code s-${r.session}`, r.code),
+      make('span', null, t('rep.meta', { session: t('rep.session', { name: r.name }), date: fmt.date(r.date), time: isFinite(endMs) ? fmt.time(endMs) : '' })),
+      make('span', `pill ${dir(r.pct)}`, `${arrow(r.pct)} ${fmt.pct(r.pct)}`),
+    );
+    a.append(meta, make('h3', 'report-title', r.title[lang] || r.title.en), make('p', 'report-lede', r.lede?.[lang] || ''));
+    list.append(a);
+  });
+  const more = $('reportMore');
+  more.hidden = state.reports.length <= state.reportsShown;
+  more.onclick = () => {
+    state.reportsShown += 12;
+    renderReports();
+  };
+}
+
+// ---------------- GRAFIK INTRADAY ----------------
+function intradaySeries() {
+  const pts = state.samples.map((p) => ({ ms: p.ms, value: p.usd }));
+  const lastRobot = pts.at(-1)?.ms ?? 0;
+  for (const tk of state.liveTicks) if (tk.ms > lastRobot) pts.push({ ms: tk.ms, value: tk.usd });
+  return pts;
+}
+
+function renderIntraday() {
+  const all = intradaySeries();
+  const box = $('intraChart');
+  const tb = $('intraTable');
+  tb.replaceChildren();
+  const rangeName = t(`intra.rangeName${state.intraDays}`);
+  const end = Math.max(all.at(-1)?.ms ?? 0, marketOpenNow() ? Date.now() : 0);
+  const from = end - state.intraDays * 24 * HOUR;
+  const pts = all.filter((p) => p.ms >= from);
+  if (pts.length < 2) {
+    box.replaceChildren(make('p', 'empty', t('intra.empty')));
+    $('intraTitle').textContent = '';
+    return;
+  }
+  const first = pts[0].value;
+  const last = pts.at(-1).value;
+  const pct = ((last - first) / first) * 100;
+  const vals = pts.map((p) => p.value);
+  $('intraTitle').textContent = t('intra.line', {
+    range: rangeName,
+    chg: `${arrow(pct)} ${fmt.pct(pct)}`,
+    high: fmt.usd(Math.max(...vals)),
+    low: fmt.usd(Math.min(...vals)),
+  });
+
+  // lajur sesi & awal hari (WIB) dalam rentang
+  const lanes = SESSIONS.map((s) => ({ id: s.id, code: s.code, segs: [] }));
+  const dayStarts = [];
+  for (let d = addDays(wibDate(from), -1); d <= wibDate(end); d = addDays(d, 1)) {
+    dayStarts.push(Date.parse(d + 'T00:00:00Z') - 7 * HOUR);
+    if (isWeekend(d)) continue;
+    sessionWindows(d).forEach((w, i) => lanes[i].segs.push([w.start, w.end]));
+  }
+  for (const p of pts) p.label = `${fmt.date(wibDate(p.ms))} ${fmt.time(p.ms)} WIB`;
+  renderIntradayChart(box, pts, {
+    from,
+    to: end,
+    lanes,
+    dayStarts,
+    formatValue: (v) => fmt.usd(v),
+    formatTick: (v) => fmt.num(v, 0),
+    formatTime: (ms) => fmt.time(ms),
+    formatDay: (ms) => fmt.date(wibDate(ms + HOUR)),
+    ariaLabel: t('intra.aria', { range: rangeName }),
+  });
+
+  const thead = make('thead');
+  const hr = make('tr');
+  hr.append(make('th', null, t('intra.time')), make('th', 'num', 'XAU/USD'));
+  thead.append(hr);
+  const body = make('tbody');
+  for (const p of state.samples.filter((x) => x.ms >= from).reverse()) {
+    const tr = make('tr');
+    tr.append(make('td', null, `${fmt.date(wibDate(p.ms))} ${fmt.time(p.ms)}`), make('td', 'num', fmt.usd(p.usd)));
+    body.append(tr);
+  }
+  tb.append(thead, body);
+}
+
+// ---------------- GRAFIK HARIAN ----------------
 function chartPoints() {
   const c = current();
   const cutoff = Date.now() - state.range * 24 * HOUR;
@@ -628,14 +738,26 @@ function setupChartControls() {
       renderChart();
     });
   }
-  let w = 0;
-  new ResizeObserver(() => {
-    const nw = $('chart').clientWidth;
-    if (Math.abs(nw - w) > 8) {
-      w = nw;
-      renderChart();
+  $('intraSeg').addEventListener('click', (ev) => {
+    const b = ev.target.closest('button');
+    if (!b) return;
+    state.intraDays = Number(b.dataset.days);
+    for (const x of $('intraSeg').querySelectorAll('button')) x.setAttribute('aria-pressed', String(x === b));
+    renderIntraday();
+  });
+  const widths = new Map();
+  const ro = new ResizeObserver((entries) => {
+    for (const e of entries) {
+      const nw = e.target.clientWidth;
+      if (Math.abs(nw - (widths.get(e.target.id) || 0)) > 8) {
+        widths.set(e.target.id, nw);
+        if (e.target.id === 'chart') renderChart();
+        else renderIntraday();
+      }
     }
-  }).observe($('chart'));
+  });
+  ro.observe($('chart'));
+  ro.observe($('intraChart'));
 }
 
 // ---------------- KADAR & KALKULATOR ----------------
@@ -772,12 +894,14 @@ function setupLang() {
   for (const b of document.querySelectorAll('[data-lang]')) b.addEventListener('click', () => setLang(b.dataset.lang));
   document.addEventListener('langchange', () => {
     state.newsShown = 12;
+    state.reportsShown = 6;
     renderAll();
   });
 }
 
 // ---------------- JALANKAN ----------------
 function renderPrices() {
+  renderIntraday();
   renderTicker();
   renderHero();
   renderSessionCards();
@@ -789,6 +913,7 @@ function renderPrices() {
 function renderAll() {
   renderClock();
   renderPrices();
+  renderReports();
   renderNews();
   renderChart();
   renderLearn();
@@ -827,6 +952,7 @@ async function main() {
 
   await loadRobotData();
   renderPrices();
+  renderReports();
   renderNews();
   renderChart();
 
@@ -842,6 +968,7 @@ async function main() {
   setInterval(async () => {
     await loadRobotData();
     renderPrices();
+    renderReports();
     renderNews();
     renderChart();
   }, 15 * 60e3);
