@@ -1,4 +1,4 @@
-# 🪙 Pantau Emas Dunia
+# 🪙 Gold24k — Pantau Emas Dunia
 
 Website buat ngulik emas dunia **tiap hari**, pakai bahasa simpel.
 
@@ -18,7 +18,7 @@ Website buat ngulik emas dunia **tiap hari**, pakai bahasa simpel.
 
 1. Di GitHub, buka **Settings → Pages**. Di bagian **Source**, pilih **GitHub Actions**.
 2. Buka tab **Actions**, pilih **"Update data emas & website"**, lalu klik **Run workflow**.
-3. Tunggu ±1 menit. Website kamu ada di: **https://rendelux.github.io/Nyonya/**
+3. Tunggu ±1 menit. Website kamu ada di: **https://rendelux.github.io/Gold24k/**
 
 Setelah itu robot jalan sendiri **tiap jam** (Senin–Jumat). Robotnya nyatet harga, ambil berita, lalu update website.
 
