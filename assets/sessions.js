@@ -1,5 +1,5 @@
 // =============================================================
-//  SESI PASAR EMAS 🕐
+//  SESI PASAR EMAS
 //  Emas diperdagangkan hampir 24 jam (Senin–Jumat).
 //  "Sesi" = kota mana yang lagi paling sibuk jualan/beli.
 //  Jam buka ditulis dalam jam LOKAL kota itu, lalu diubah ke WIB
@@ -11,50 +11,10 @@ export const DAY = 24 * HOUR;
 export const WIB_OFFSET = 7 * HOUR; // WIB = UTC+7, tidak pernah berubah
 
 export const SESSIONS = [
-  {
-    id: 'sydney',
-    name: 'Sydney',
-    flag: '🇦🇺',
-    region: 'Australia',
-    tz: 'Australia/Sydney',
-    open: 9,
-    close: 18,
-    mood: 'Paling sepi 😴',
-    note: 'Pasar baru "bangun". Harga biasanya gerak pelan.',
-  },
-  {
-    id: 'tokyo',
-    name: 'Tokyo',
-    flag: '🇯🇵',
-    region: 'Asia',
-    tz: 'Asia/Tokyo',
-    open: 9,
-    close: 18,
-    mood: 'Mulai rame 🙂',
-    note: 'Asia ikut main (Jepang, China, Singapura, India). China & India = pembeli emas fisik terbesar.',
-  },
-  {
-    id: 'london',
-    name: 'London',
-    flag: '🇬🇧',
-    region: 'Eropa',
-    tz: 'Europe/London',
-    open: 8,
-    close: 17,
-    mood: 'Rame banget 🔥',
-    note: 'Pusat emas dunia. Di sini diumumkan "harga patokan" emas (LBMA Gold Price) 2x sehari.',
-  },
-  {
-    id: 'newyork',
-    name: 'New York',
-    flag: '🇺🇸',
-    region: 'Amerika',
-    tz: 'America/New_York',
-    open: 8,
-    close: 17,
-    mood: 'Paling heboh 🚀',
-    note: 'Data ekonomi AS & keputusan The Fed keluar di jam ini. Harga sering loncat-loncat.',
-  },
+  { id: 'sydney', name: 'Sydney', code: 'SYD', tz: 'Australia/Sydney', open: 9, close: 18, liq: 'low' },
+  { id: 'tokyo', name: 'Tokyo', code: 'TYO', tz: 'Asia/Tokyo', open: 9, close: 18, liq: 'moderate' },
+  { id: 'london', name: 'London', code: 'LDN', tz: 'Europe/London', open: 8, close: 17, liq: 'high' },
+  { id: 'newyork', name: 'New York', code: 'NYC', tz: 'America/New_York', open: 8, close: 17, liq: 'veryHigh' },
 ];
 
 // selisih jam zona waktu (ms) pada waktu tertentu

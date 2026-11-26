@@ -26,8 +26,9 @@
   --s-newyork: #f2a600;
   --hot: rgba(220, 60, 61, 0.08);
   --shadow: 0 1px 2px rgba(31, 26, 16, 0.06), 0 4px 16px rgba(31, 26, 16, 0.05);
-  --radius: 16px;
-  --font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --radius: 6px;
+  --font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --mono: ui-monospace, "SF Mono", Menlo, Consolas, "Roboto Mono", monospace;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
@@ -365,3 +366,112 @@ th, td { padding: 8px 10px; text-align: left; white-space: nowrap; }
 .chat-row .btn { margin-top: 0; flex: none; }
 .chat-row .btn:disabled { opacity: 0.5; }
 @media (max-width: 400px) { .online-chip { padding: 4px 8px; } }
+
+/* =============================================================
+   GAYA PROFESIONAL (terminal keuangan)
+   ============================================================= */
+body { font-size: 15px; letter-spacing: -0.005em; }
+.card, .session, .news, .learn, .stat, .chat-list, .msg, .seg, .chip, .btn, .calc input, .calc select, .chat-form input { border-radius: 4px; }
+.seg button { border-radius: 3px; }
+.pill { border-radius: 3px; padding: 1px 6px; font-size: 0.85rem; font-variant-numeric: tabular-nums; }
+.hero::before { height: 3px; }
+
+/* top bar + brand */
+.topbar { background: color-mix(in srgb, var(--page) 94%, transparent); }
+.topbar-in { height: 52px; gap: 10px; }
+.brand { display: inline-flex; align-items: center; gap: 8px; }
+.brand-mark { display: inline-grid; place-items: center; width: 26px; height: 26px; border-radius: 4px; background: var(--gold-grad); color: #1b1404; font-weight: 800; font-size: 0.72rem; letter-spacing: 0; }
+.brand-name { font-weight: 800; letter-spacing: 0.08em; font-size: 0.95rem; }
+.brand-tag { font-size: 0.72rem; color: var(--ink-2); font-weight: 500; letter-spacing: 0.02em; padding-left: 8px; border-left: 1px solid var(--line); }
+@media (max-width: 1000px) { .brand-tag { display: none; } }
+@media (max-width: 640px) { .brand-name { display: none; } .brand span.brand-tag { display: none; } }
+.nav a { border-radius: 3px; font-size: 0.85rem; font-weight: 500; }
+.lang-seg { display: inline-flex; flex: none; border: 1px solid var(--line); border-radius: 4px; overflow: hidden; }
+.lang-seg button { border: 0; background: transparent; color: var(--ink-2); font: inherit; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.04em; padding: 6px 8px; cursor: pointer; }
+.lang-seg button[aria-pressed="true"] { background: var(--ink); color: var(--surface); }
+.lang-seg button:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.theme-btn { border-radius: 4px; width: 32px; height: 32px; color: var(--ink); font-size: 1rem; }
+.online-chip { border-radius: 3px; font-size: 0.75rem; }
+
+/* ticker */
+.ticker { border-top: 1px solid var(--line); background: var(--surface); }
+.ticker-in { display: flex; gap: 22px; overflow-x: auto; scrollbar-width: none; height: 32px; align-items: center; white-space: nowrap; }
+.ticker-in::-webkit-scrollbar { display: none; }
+.tick { display: inline-flex; gap: 6px; align-items: baseline; font-size: 0.78rem; font-variant-numeric: tabular-nums; }
+.tick-label { color: var(--ink-2); font-weight: 600; letter-spacing: 0.02em; }
+.tick-value { font-weight: 700; }
+.tick-chg { font-weight: 600; }
+.tick-chg.up, .chg-abs.up { color: var(--up); }
+.tick-chg.down, .chg-abs.down { color: var(--down); }
+.tick-chg.flat { color: var(--ink-2); }
+html { scroll-padding-top: 96px; }
+
+/* judul & label */
+.eyebrow { font-size: 0.75rem !important; font-weight: 700 !important; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-2); }
+.section > h2 { font-size: 1.2rem; font-weight: 750; letter-spacing: -0.01em; border-top: 2px solid var(--ink); padding-top: 10px; margin-bottom: 4px; }
+.card h3 { font-size: 0.92rem; font-weight: 700; }
+.lead { font-size: 0.92rem; }
+.hero-price { font-weight: 700; letter-spacing: -0.025em; }
+.hero-change { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px; }
+.chg-abs { font-weight: 600; font-variant-numeric: tabular-nums; }
+.stat-value { font-variant-numeric: tabular-nums; }
+
+/* ringkasan */
+.summary .eyebrow { margin-bottom: 10px; }
+.summary-list { gap: 6px; }
+.summary-list li { font-size: 0.95rem; }
+.summary-list .marker { flex: none; width: 1.2em; font-size: 0.7rem; line-height: 1.9; color: var(--ink-2); }
+.summary-list .brief-up .marker { color: var(--up); }
+.summary-list .brief-down .marker { color: var(--down); }
+.mood-bar { border-radius: 2px; height: 6px; }
+
+/* kode sesi */
+.code { display: inline-block; font-family: var(--mono); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.04em; padding: 1px 5px; border-radius: 2px; background: var(--surface-2); color: var(--ink); border-left: 3px solid var(--axis); margin-right: 4px; vertical-align: 1px; }
+.code.s-sydney { border-left-color: var(--s-sydney); }
+.code.s-tokyo { border-left-color: var(--s-tokyo); }
+.code.s-london { border-left-color: var(--s-london); }
+.code.s-newyork { border-left-color: var(--s-newyork); }
+.clock-name { font-size: 0.85rem; }
+.clock-track, .clock-bar, .clock-hot { border-radius: 2px; }
+.clock-hot span { text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.62rem; font-weight: 600; }
+.clock-now span { border-radius: 2px; }
+.session-title .code { margin-right: 6px; }
+.session::before { left: 0; right: 0; height: 2px; border-radius: 0; }
+.status { border-radius: 2px; font-size: 0.66rem; letter-spacing: 0.06em; }
+.session-note { border-top-style: solid; }
+.heat td { border-radius: 2px; }
+.heat tfoot td.best { color: var(--ink); font-weight: 700; }
+.heat thead th { white-space: nowrap; }
+
+/* FAQ */
+.faq summary { font-size: 0.95rem; }
+.faq-body { padding-left: 18px; margin: 10px 0 0; display: grid; gap: 6px; list-style: square; }
+.faq-body li { color: var(--ink-2); font-size: 0.92rem; }
+
+/* berita */
+.chip { border-radius: 3px; font-size: 0.8rem; }
+.news { border-radius: 4px; }
+.news-cat { text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.66rem; }
+.impact { border-radius: 2px; font-size: 0.66rem; letter-spacing: 0.04em; text-transform: uppercase; }
+.news-title { font-size: 0.98rem; }
+.lang-tag { display: inline-block; font-family: var(--mono); font-size: 0.62rem; font-weight: 700; padding: 0 4px; border: 1px solid var(--line); border-radius: 2px; color: var(--ink-2); }
+
+/* penggerak & kalender */
+.learn h3 { display: block; font-size: 0.95rem; }
+.rule { font-size: 0.82rem; }
+.cal-head { display: flex; flex-wrap: wrap; gap: 2px 8px; align-items: baseline; }
+.cal-head .muted { font-size: 0.85rem; }
+.cal-list li { border-left-width: 2px; }
+
+/* diskusi */
+.msg { border-radius: 4px; }
+.msg.mine { border-radius: 4px; }
+
+/* footer */
+.footer-brand { font-weight: 800; letter-spacing: 0.1em; color: var(--ink); margin-top: 14px !important; }
+
+@media (max-width: 640px) { .brand .brand-mark { display: inline-grid; } }
+.clock { padding-top: 22px; }
+.clock-legend { margin: 8px 0 0 calc(var(--lw) + var(--gap)); font-size: 0.72rem; color: var(--ink-2); }
+.hot-swatch { display: inline-block; width: 10px; height: 10px; background: var(--hot); border: 1px solid rgb(var(--down-rgb) / 0.35); border-radius: 2px; vertical-align: -1px; }
+@media (max-width: 420px) { .clock-city { display: none; } .clock { --lw: 76px; } }

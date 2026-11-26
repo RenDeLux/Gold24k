@@ -1,11 +1,12 @@
 // =============================================================
-//  LIVE: chat + "berapa orang lagi lihat" (pakai Firebase Realtime Database)
+//  LIVE: diskusi + jumlah pembaca online (Firebase Realtime Database)
 //  - Tiap pengunjung login anonim (tanpa daftar, tanpa data pribadi)
 //  - online/{uid}/{koneksi}  → dihapus otomatis saat tab ditutup
 //  - stats/total & stats/daily/{tanggal} → hitung kunjungan
-//  - chat/{id} → pesan (maks 200 huruf, tanpa link, jeda 5 detik)
+//  - chat/{id} → pesan (maks 200 huruf, tanpa tautan, jeda 5 detik)
 // =============================================================
 import { firebaseConfig } from './firebase-config.js';
+import { t, fmt } from './i18n.js';
 
 const SDK = 'https://www.gstatic.com/firebasejs/10.12.2';
 const MAX_MESSAGES = 60;
@@ -21,9 +22,6 @@ const make = (tag, cls, text) => {
   if (text != null) n.textContent = text;
   return n;
 };
-const nf = new Intl.NumberFormat('id-ID');
-const tf = new Intl.DateTimeFormat('id-ID', { timeZone: 'Asia/Jakarta', hour: '2-digit', minute: '2-digit' });
-const df = new Intl.DateTimeFormat('id-ID', { timeZone: 'Asia/Jakarta', day: 'numeric', month: 'short' });
 const wibDate = () => new Date(Date.now() + 7 * 3600e3).toISOString().slice(0, 10);
 
 function store(key, value) {
@@ -43,35 +41,43 @@ function onceThisSession(key) {
   return true;
 }
 
-function setStatus(text, kind = '') {
+// status disimpan sebagai kunci, supaya ikut berganti saat bahasa diganti
+let status = { key: 'chat.loading', kind: '', vars: null };
+function setStatus(key, kind = '', vars = null) {
+  status = { key, kind, vars };
   const s = $('chatStatus');
-  s.textContent = text;
+  s.textContent = t(key, vars);
   s.className = `chat-status ${kind}`;
 }
 
-function showOffline(reason) {
-  $('chatBox').classList.add('is-off');
-  $('chatForm').hidden = true;
-  setStatus(reason, 'off');
-  $('liveStats').classList.add('is-off');
-  $('onlineChip').hidden = true;
-}
-
-function renderCounts({ online, today, total }) {
-  if (online != null) {
-    $('onlineNum').textContent = nf.format(online);
-    $('onlineChipNum').textContent = nf.format(online);
+const counts = { online: null, today: null, total: null };
+function renderCounts(next) {
+  Object.assign(counts, next);
+  if (counts.online != null) {
+    $('onlineNum').textContent = fmt.num(counts.online);
+    $('onlineChipText').textContent = t('online.chip', { n: fmt.num(counts.online) });
     $('onlineChip').hidden = false;
   }
-  if (today != null) $('viewsToday').textContent = nf.format(today);
-  if (total != null) $('viewsTotal').textContent = nf.format(total);
+  if (counts.today != null) $('viewsToday').textContent = fmt.num(counts.today);
+  if (counts.total != null) $('viewsTotal').textContent = fmt.num(counts.total);
 }
+
+function showOffline(key) {
+  $('chatBox').classList.add('is-off');
+  $('chatForm').hidden = true;
+  $('liveStats').classList.add('is-off');
+  $('onlineChip').hidden = true;
+  setStatus(key, 'off');
+}
+
+const msgTime = (ms) => (typeof ms === 'number' ? `${fmt.dateTimeWib(ms)} ${fmt.time(ms)}` : '');
 
 function messageEl(id, m, myUid) {
   const li = make('li', `msg${m.uid === myUid ? ' mine' : ''}`);
   li.dataset.id = id;
+  li.dataset.t = String(m.t ?? '');
   const head = make('div', 'msg-head');
-  head.append(make('b', null, m.name), make('span', 'msg-time', typeof m.t === 'number' ? `${df.format(m.t)} ${tf.format(m.t)}` : ''));
+  head.append(make('b', null, m.name), make('span', 'msg-time', msgTime(m.t)));
   li.append(head, make('p', 'msg-text', m.text));
   return li;
 }
@@ -82,12 +88,25 @@ function scrollToBottom(force) {
   if (force || nearBottom) list.scrollTop = list.scrollHeight;
 }
 
+// saat bahasa diganti: perbarui status, angka, dan format jam pesan
+document.addEventListener('langchange', () => {
+  setStatus(status.key, status.kind, status.vars);
+  renderCounts({});
+  for (const li of document.querySelectorAll('#chatList .msg')) {
+    const ms = Number(li.dataset.t);
+    const el = li.querySelector('.msg-time');
+    if (el && ms) el.textContent = msgTime(ms);
+  }
+  const empty = document.querySelector('#chatList .chat-empty');
+  if (empty) empty.textContent = t('chat.empty');
+});
+
 export async function startLive() {
   if (!firebaseConfig || !firebaseConfig.databaseURL) {
-    showOffline('💬 Chat & penghitung pengunjung belum aktif. Pemilik web perlu menyambungkan Firebase dulu.');
+    showOffline('chat.off');
     return;
   }
-  setStatus('Menyambungkan…');
+  setStatus('chat.connecting');
   let app, authMod, dbMod;
   try {
     [app, authMod, dbMod] = await Promise.all([
@@ -97,7 +116,7 @@ export async function startLive() {
     ]);
   } catch (e) {
     console.warn(e);
-    showOffline('💬 Chat lagi nggak bisa dimuat. Coba refresh nanti ya.');
+    showOffline('chat.loadFail');
     return;
   }
   const { initializeApp } = app;
@@ -128,17 +147,17 @@ export async function startLive() {
     uid = (await signInAnonymously(auth)).user.uid;
   } catch (e) {
     console.warn(e);
-    showOffline('💬 Chat belum bisa login. Pemilik web: aktifkan "Anonymous" di Firebase Authentication.');
+    showOffline('chat.authFail');
     return;
   }
 
-  // ---- siapa yang lagi online ----
+  // ---- siapa yang sedang online ----
   onValue(ref(db, '.info/connected'), async (snap) => {
     if (snap.val() !== true) {
-      setStatus('Koneksi putus, nyambung lagi…', 'off');
+      setStatus('chat.reconnecting', 'off');
       return;
     }
-    setStatus('🟢 Tersambung', 'on');
+    setStatus('chat.connected', 'on');
     const me = push(ref(db, `online/${uid}`));
     try {
       await onDisconnect(me).remove();
@@ -159,10 +178,10 @@ export async function startLive() {
   onValue(ref(db, 'stats/total'), (s) => renderCounts({ total: s.val() || 0 }));
   onValue(ref(db, `stats/daily/${today}`), (s) => renderCounts({ today: s.val() || 0 }));
 
-  // ---- chat ----
+  // ---- pesan ----
   const list = $('chatList');
   list.replaceChildren();
-  const empty = make('li', 'chat-empty', 'Belum ada obrolan. Jadi yang pertama nyapa! 👋');
+  const empty = make('li', 'chat-empty', t('chat.empty'));
   list.append(empty);
   const q = query(ref(db, 'chat'), orderByChild('t'), limitToLast(MAX_MESSAGES));
   onChildAdded(q, (snap) => {
@@ -181,39 +200,39 @@ export async function startLive() {
   const textIn = $('chatText');
   const sendBtn = $('chatSend');
   form.hidden = false;
-  nameIn.value = store('gold24k-name') || `Tamu-${Math.floor(1000 + Math.random() * 9000)}`;
+  nameIn.value = store('gold24k-name') || `${t('chat.guest')}-${Math.floor(1000 + Math.random() * 9000)}`;
   nameIn.addEventListener('change', () => store('gold24k-name', nameIn.value.trim().slice(0, MAX_NAME)));
   let lastSent = 0;
 
   form.addEventListener('submit', async (ev) => {
     ev.preventDefault();
-    const name = nameIn.value.trim().slice(0, MAX_NAME) || 'Tamu';
+    const name = nameIn.value.trim().slice(0, MAX_NAME) || t('chat.guest');
     const text = textIn.value.trim().replace(/\s+/g, ' ').slice(0, MAX_TEXT);
     if (!text) return;
     if (LINK_RE.test(text)) {
-      setStatus('⚠️ Link nggak boleh dikirim di chat (biar aman dari penipuan).', 'warn');
+      setStatus('chat.noLinks', 'warn');
       return;
     }
     const wait = lastSent + COOLDOWN_MS - Date.now();
     if (wait > 0) {
-      setStatus(`⏳ Tunggu ${Math.ceil(wait / 1000)} detik lagi ya.`, 'warn');
+      setStatus('chat.wait', 'warn', { s: Math.ceil(wait / 1000) });
       return;
     }
     store('gold24k-name', name);
     sendBtn.disabled = true;
     const key = push(ref(db, 'chat')).key;
     try {
-      // pesan + catatan "terakhir kirim" disimpan bareng (buat cegah spam)
+      // pesan + catatan "terakhir kirim" disimpan bersamaan (pencegah spam)
       await update(ref(db), {
         [`chat/${key}`]: { uid, name, text, t: serverTimestamp() },
         [`lastPost/${uid}`]: serverTimestamp(),
       });
       lastSent = Date.now();
       textIn.value = '';
-      setStatus('🟢 Tersambung', 'on');
+      setStatus('chat.connected', 'on');
     } catch (e) {
       console.warn(e);
-      setStatus('⚠️ Pesan gagal terkirim. Mungkin terlalu cepat atau ada link. Coba lagi.', 'warn');
+      setStatus('chat.fail', 'warn');
     } finally {
       sendBtn.disabled = false;
       textIn.focus();

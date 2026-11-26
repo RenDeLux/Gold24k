@@ -12,6 +12,7 @@ Website buat ngulik emas dunia **tiap hari**, pakai bahasa simpel.
 - 📈 **Grafik** 30 hari / 90 hari / 1 tahun, plus grafik live per jam (TradingView).
 - 🧮 **Harga per karat** (24K–16K) + **kalkulator** (gram → Rupiah, Rupiah → gram).
 - 🗓️ **Jadwal data ekonomi** (NFP, CPI, The Fed) dalam jam WIB.
+- 🌐 **Dua bahasa (ID / EN)** dengan gaya bahasa media keuangan. Tombol di pojok kanan atas, atau link langsung `?lang=en`.
 - 💬 **Live chat** + 👀 **berapa orang lagi online** + jumlah kunjungan (perlu Firebase, lihat di bawah).
 - 🧸 **Kenapa emas naik/turun?**: contekan 12 penyebab.
 
@@ -65,6 +66,7 @@ Browser (index.html)
 | `assets/sessions.js` | Jam 4 sesi (otomatis ikut musim panas/dingin) |
 | `assets/chart.js` | Grafik garis (tanpa library) |
 | `assets/style.css` | Tampilan (ada mode terang & gelap) |
+| `assets/i18n.js` | Semua teks ID/EN + format angka & tanggal |
 | `assets/live.js` | Live chat + hitung pengunjung (Firebase) |
 | `assets/firebase-config.js` | Sambungan ke Firebase (diisi sekali) |
 | `firebase-rules.json` | Aturan keamanan chat (ditempel di Firebase) |
