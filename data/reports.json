@@ -1,4 +1,24 @@
 {
- "updated": "2026-11-26T06:15:14.773Z",
- "items": []
+ "updated": "2026-11-26T07:41:53.489Z",
+ "items": [
+  {
+   "id": "2026-11-26-sydney",
+   "date": "2026-11-26",
+   "session": "sydney",
+   "code": "SYD",
+   "name": "Sydney",
+   "end": "2026-11-26T07:00:00.000Z",
+   "pct": -0.132,
+   "close": 3569,
+   "title": {
+    "id": "Emas Turun Tipis di Sesi Sydney; Sorotan pada Tambang & Pasokan",
+    "en": "Gold Edges Lower in Sydney Session; Mining & Supply in Focus"
+   },
+   "lede": {
+    "id": "Harga emas spot turun 0,13% selama sesi Sydney, dari US$3.573,70 menjadi US$3.569,00 per troy ons antara pukul 05.00 dan 14.00 WIB.",
+    "en": "Spot gold fell 0.13% during the Sydney session, slipping from $3,573.70 to $3,569.00 an ounce between 05:00 and 14:00 WIB."
+   },
+   "generated": "2026-11-26T07:41:53.489Z"
+  }
+ ]
 }

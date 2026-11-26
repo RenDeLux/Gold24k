@@ -1,55 +1,532 @@
 {
- "updated": "2026-11-26T06:15:14.773Z",
+ "updated": "2026-11-26T07:41:53.489Z",
  "items": [
   {
-   "title": "Harga Minyak Dunia Menguat Usai Serangan Houthi di Arab Saudi",
-   "source": "www.suaralandak.co.id",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA3SVZZb01Lb2NxU0E3OFRIWGhZQms5cG5Tczcwb0VmWkk4VUZTa1Z1b1NkZzN6alZrRTVRNWlHa3k5by1ZZFpxTTUwX0dWcDExUnVoeHgxNHpwdG41MWZTMEdOOHZhUjg2a1Y0ZmtsQmN5c0Ut?oc=5",
-   "published": "2026-11-26T06:11:47.000Z",
+   "title": "Harga Emas Rebound, Inflasi AS Hambat Pemulihan",
+   "source": "XTB.com",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaE9fVzBmbnZkcGpWci03cjMzRGpoQkRhZnBvLXBZbEFOdVoyNEVoY285UkxJWEpSNENBdk40MlR4cHhXa2Zza3dXOGdwbUQ4WkNOQTRRcE9JYjNPNGFxZDAzbVZsR1pzbGxUWmdFdWsxMlhnOXF0MXc1RFhaLXVfNDdLN2dYc3Zmd0wzRi1lSHBNdzk2TWdHVkI4MTQ?oc=5",
+   "published": "2026-11-26T07:38:53.000Z",
+   "cat": "krisis",
+   "lang": "id",
+   "impact": 1
+  },
+  {
+   "title": "Harga Emas Antam Hari Ini Naik Tipis ke Rp 2,501 Juta per Gram, Buyback Ikut Menguat",
+   "source": "Info Ekonomi",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdm5qcGhSYXoxWEZqMTRIY0U2VFVGU1VQT1ZjYXNwaFRWd3QybmZxdnB0eDdyYkpSQWxZdFU3blJ6bS15Q2gtMkhjWmg2ZGU1S1BxQVBYMTQ0UWJGRGU4UFlPcVdOVDlUdUkzVHZqOWhEa2NtNkppNWQ1TWo3ZUtvYWlTRFVCOE4tQkZieWVsdFdJZnUtTXFwY0tMMWYtWk9pcUhzWTB0RUFxWlA1aElLUmdSaTU?oc=5",
+   "published": "2026-11-26T07:37:50.000Z",
+   "cat": "emas",
+   "lang": "id",
+   "impact": 1
+  },
+  {
+   "title": "Trump and Rutte: Russia Must Refrain from Escalating the War",
+   "source": "LIGA.net",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSHV3aHRWWlhMYmpwMng5b0E5cklKQ09TMHpyRGI1dllNOEpMSWhnWnpQOHMxcUozNFNkNnRCdmNOSWhXWGJSM2tTd0dYVUJTS25QR3p0bU56YXN1UHdRQWtYWTJYTV9zVzVTNzVHS3c1TWI0c05ja2I0dklJaExkVlI3bTJ4VGNyN0lpaWFFblNfRjFxbVdnV0VpRGV5NHfSAaQBQVVfeXFMTS1HVUVRNG9rQlhraWYzWnBJanM0a2FGaXl5S290ckU0VVhfOFBERGdBMkJRLXRnNmttUkZiRVZmYVNBQ2FLNHpTa0YtNHVmTzVVejhLa0phSllUams3dTBPMENJbWROQTgxczVFd3hHMGhOZ2RRN2drUkFnaE5USmM5Wk9yRjNzejc0elM5OXFUNUtlcHgySWJvTHJNN19WZjFFNlk?oc=5",
+   "published": "2026-11-26T07:35:41.000Z",
+   "cat": "perang",
+   "lang": "en",
+   "impact": 1
+  },
+  {
+   "title": "Euro Mempertahankan Penurunan Tipis karena Keyakinan Konsumen Jerman Gagal Mengangkat Sentimen",
+   "source": "www.fxstreet-id.com",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMnlEOGpOTkk5dkpibHNOR0l1Uk1DX0I2UGVMZ19vc2J2cklTTklrRlZSbXNpRnFveEIzNGtSYzFheElPeEdFY3JUZ0hqSTdSRlhhT21xUWV2anRDcGJ6WHpZejhoUUFNYzY2clhyaHRmTUVKYy1tOHkxelBpbVlyRjk2Zk4xQjRZS21WWkp3WEM0RTJiX05pWlRXY3lTT3gxcjNIRVhFRGlCMjZNWEMwaGI1ZEk3TGRlUTFERDZ4M1FjQkVzTGVvLW1uVV9FSUVnUHc1WEQtRQ?oc=5",
+   "published": "2026-11-26T07:32:48.000Z",
+   "cat": "fed",
+   "lang": "id",
+   "impact": 0
+  },
+  {
+   "title": "Brasil keberatan atas rencana AS terapkan tarif impor pesawat",
+   "source": "ANTARA News",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcHkyVUp4Vll5OTYzLWpVaDhMSE1vMlFzTUNpZ3lqVlY3LVdNdXdvTnFES1FIelM0YjBJQ0ZqNU5rNnZJME1KY2hUQW1ZSG9ySTdhTmV2RHNEbHpncnpreF9wb3F4cE5LejhZU2liMnVNcXo4eGUxUzRlSWdrWmk1OXBKdXMyRUtkdFJOVlpCWTRQWFdOeENNMjdUMnNWaTNtTV8yT1dB0gGoAUFVX3lxTE12cE53WVhZSEtKRFA0U043Y0h0RjNDTTRlbjFZTU9yMVJTSGxEMkhEYW8yd2JFbGx1YkhtUGhFMTl5VUd1X1g3cFktLVZhZmtwanRyWmZ4eWMzUmFLN1ZpT2ZBT1lGNXpoS0twLTRNUkp1cXp2TFZlSFJjNEdyYlJMRFQyZVhLTTcwOE9US195MW5rSWdNbXlqaEZ6cTF6UnFoVHhnbC04NQ?oc=5",
+   "published": "2026-11-26T07:32:14.000Z",
+   "cat": "tarif",
+   "lang": "id",
+   "impact": 1
+  },
+  {
+   "title": "Indonesia gold mine flood: 13 killed in flooded pits",
+   "source": "BBC",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaQkl0UXBneHNlcGtoQlJLdjM4T3VYQUxxbFJXWERXeWJHZHgzNWc2VXkzQzFwb3JxQ1JvN0pjVlB0MUlJNEtTc2xMX2dzd2J5SVlrOHhPemlGXzA?oc=5",
+   "published": "2026-11-26T07:31:24.000Z",
+   "cat": "pasokan",
+   "lang": "en",
+   "impact": 0
+  },
+  {
+   "title": "Pound to Dollar Forecast: GBP Retreats Towards 1.30 as US Inflation Accelerates",
+   "source": "CurrencyNews.co.uk",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTXByeTU2OFJZX1ZuV0NkTEtqSDc1RlJtSEx1RS1takJKUjBXcDVhTFJSbndNMTVVai0zSWdDMl8tWkRfR21ZOHBmdTdSZ2dXUWFRclV0VjRabnUweGVwd3hfOGNobGxralRBODlHbWtQb21ub25XYUNWbmJSNHRNNTN4NXd1ZlhYVlUteGlMY3IxY0JndHM5UEptT01hZV93eHJNbE8xc1l4a0hkTGlZUnZxSndsemF4SnV0bS14cEc3b0tYeE9iQW5WV2xuVWZ3cjFsaw?oc=5",
+   "published": "2026-11-26T07:31:02.000Z",
+   "cat": "fed",
+   "lang": "en",
+   "impact": 0
+  },
+  {
+   "title": "Your Thanksgiving Meal Costs More as US Food Inflation Returns",
+   "source": "Bloomberg.com",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ091d1V6STMzbmJEYnBWQnNNMDlueHo4ZC1MLVpaRktic0psNjJZaDZoWWlSSFdnaFZBcmV2X3pQZmFSSlBDdTc5YWtxT0FEMHdBNTBGajRSUVRmRzZ5ak16amhBSTBZNjFuSEJtbGpYYmFTMkx3TlVyRVFweEFEN2RMSW90V0sybmw1UGV5ZnlqazFnNzlHSTYxUTIzODJuWlFqR3dLS1BwRnhfUFVNZHlJQnJSdUE?oc=5",
+   "published": "2026-11-26T07:30:54.000Z",
+   "cat": "krisis",
+   "lang": "en",
+   "impact": 0
+  },
+  {
+   "title": "US Inflation at 3.8%: How Could It Impact Gold and Silver Prices in India?",
+   "source": "Trade Brains",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSHlveDM3Wi1jNHBZclRrM0hRMmxWRDJ2ZkNmNE4yRzZMQVFtRDFVTG41dlI3NHl4M0MyOWlzSHlJMFpxMDFmbU1JTDdVSGpjZ25zUDMxekJMRlloSUx4Qi1xMEFqVnlYTS0tOTVqYklPakpJN2FRZkJVNXNnMkJ4QTd5VkxvSE84eXNaQUNHTmRKTGVPSVhvUGUtWnBoZ25fbmNMa3pfbHB6N01CLWVyc05qOXd6YTVi?oc=5",
+   "published": "2026-11-26T07:30:37.000Z",
+   "cat": "fed",
+   "lang": "en",
+   "impact": 0
+  },
+  {
+   "title": "Asia rejects basis of new Trump tariffs as US gathers China ammunition",
+   "source": "Nikkei Asia",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWTdlU2lyQ1Q2c0lSWERfaE9nM3ZHUDlYaldoRGNJWERpNm5HTTNVNTJJRjBTOTRXcFNUV3MzR2RLSDZKR3ZsUnFFY1ZOMXYtUXRpbnZPc1VvTFRuSktXOUJlZWJOOVhYajBSbGt1bEtQT0dPWDFNLUIxVzN5NHNaSWVOUGJhZGdpS0RUQVphSm9JNjEwSDBaWk9HSlFlTDU4c0Z3WnZGdXU1bnYyZ1MxZmE5c3FfN3dfOEg5c3pSM0tWZnNh?oc=5",
+   "published": "2026-11-26T07:28:00.000Z",
+   "cat": "tarif",
+   "lang": "en",
+   "impact": 1
+  },
+  {
+   "title": "Analysis-Trump’s new tariffs aim to prise global trade from China’s grip",
+   "source": "SRN News",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbjlmX001NGlxQlpOV2ppRFdlekY0Tkg5aTlvYjI1TXVGS2FhMXlYRWJKVlg3NUFBWnZwcTJ5by0yYy13ZF95UEdTeFlDV0xWZmtOQVBiV2pZdmRUbFJtVU9rN29IeG5SWDhzYXhfVmk3bVI2c01mOTJ4R1BpbVJ5eDRGd2thODdSVm56SlNPT0ZKdEZfaVE?oc=5",
+   "published": "2026-11-26T07:27:55.000Z",
+   "cat": "tarif",
+   "lang": "en",
+   "impact": 1
+  },
+  {
+   "title": "Iran sebut Israel sedang berupaya tipu AS agar kembali serang",
+   "source": "ANTARA News Kepri",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxON2ZRR1k2VjlVdFFpQXNnejNOWmtvLVpxSnBQZzhWYmxMVjdFQlhoZVVNd00tYjgwelZsb2dGY1JrQmg0SEhLQmRvVW9jQkMxWk1GcWtSNWExLUhLQmE2M21Yc0FFbk9xREo1ZnVoY1dRODdKMWdsQTBGQUppLWp5cENxc0pQTWhyTmZvMXhDNFB2S2xrM0J3WFVHR0otV0Vwa2NZTmpWTQ?oc=5",
+   "published": "2026-11-26T07:25:03.000Z",
+   "cat": "perang",
+   "lang": "id",
+   "impact": 0
+  },
+  {
+   "title": "RBI Brings Home 60 Tonnes Of Gold, India Now Holds 84% Of Its Bullion Reserves Domestically",
+   "source": "Free Press Journal",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNY1RtbjVYZlNQT2ViN2VvQVJJUGYwQlpNWWV1Wm43dlJKR2hoYTdwdWpHYzVlWG1jYTZwbkdhdVU0a2ZDTFZZelp1TkM0YWFrM1dha0l2S0lTRTc0OTBRUWZxOEdCYXMwR09GTkplOFBlRUkzN0k5enp5UWt3aXdLY0hJbVVRZzVZWkoyWFlfNXBYbGEzY2gzNHAtYWhYM1owTWdWZFFlaTJDRE5RcWZsT0NDSVNjS2FWNlI3UzhTbUxtTlVrdXRKQVNB0gHPAUFVX3lxTE9TS0g5cUpNTnhBUUZVSC1Lbm90X0ROQnRqU2tSV0wtOUFxTmZJdXdpQ2VFcmFkVG40UUZhZWVJR3ZUSGgzeUdicEZWM2t6VElVbTY3QjJhZ2RFNzhYYXEzZWRvR010Z2E5ZUQ2ZERBcy16U2psQTdJbTRWU3VfejBheVEtR05VZVgzS1hlaTFEZTMzTkgtemV3S1N1RkdHMzJjRXdDWDE3bk5mM29ReUxIeW40MzBhVGtyTzFPcHdoWjg0TFFMRDlvXzNQQzVrSQ?oc=5",
+   "published": "2026-11-26T07:24:46.000Z",
+   "cat": "bank",
+   "lang": "en",
+   "impact": 0
+  },
+  {
+   "title": "Gold stabilizes after tumbling below $3,500",
+   "source": "Investify",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNFNWUk1GbnVIeFoxRHVkLTVrNjU1Ry1wWUN5TmhGVDQyOERkbzBhczRja05EV25pTjV2dC1IUGQzdWdaTlFQU05OVzFCQ1ZWeWp2N1c2OWYybG94dWhuMGltdWpaVWE4VnQzRHdqT21wWU56V3RETkVON2t6Um1keXUwalR6ckRxR3QxYzZR?oc=5",
+   "published": "2026-11-26T07:24:03.000Z",
+   "cat": "emas",
+   "lang": "en",
+   "impact": 0
+  },
+  {
+   "title": "Prakiraan Harga Perak: XAG/USD Bertahan di Tengah Penurunan Imbal Hasil Obligasi AS",
+   "source": "www.fxstreet-id.com",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUkNBUXhoekVhUGhMVnNEcDNFbC1lc3ItMWZaNUNnZVF5ZWUySExZLVhHYy13cnlHZWh3NmJyaEtGVDUzWDBzbHBtQ1FtcHR3Si1XTWNabE1hTjRCWWEwRVJobXFMS05rdkY4N1FCdElFWXVfTEhWbWpjY0k1dlliT3ItUUQwSXAtNUo3cUVjdWlna21pWHM2cWpxM2pQZ3RXcFpRZE50UU9aSG9FNTdveE94Yi1TRzJpMTZLVmlJa25xYXNVN3lqMg?oc=5",
+   "published": "2026-11-26T07:23:52.000Z",
+   "cat": "fed",
+   "lang": "id",
+   "impact": 0
+  },
+  {
+   "title": "Trump Targets China's Global Trade Dominance With New Tariffs, Raising Risk of Wider Trade Tensions",
+   "source": "Modern Diplomacy",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNXJNZDBjLWFnYmNhVTdfTElROVktT0ZZQTlPNTdHcGdURUxWYXRIc3dBWkptY0tMQmxVTkU0djE0R0dLRjdJSkVyT3lRcXp6cEpTRXRGWVh3aXFPTUZtQ2FUbjc5MGd1SmgwV2dvREIyUDNjWU5wYkZWdHdEd1ZqM0dSQmYxOVN4N2I0MDBWZm12dDhjcFRuMmZ4OFNtQ2FkSWZpZGdUWll1QmdXOFRTZWdXS01RdWR4WWhtN2ZNdjF2YlZrRFlWN1Z1dnNSNTJCSmc?oc=5",
+   "published": "2026-11-26T07:22:55.000Z",
+   "cat": "tarif",
+   "lang": "en",
+   "impact": 1
+  },
+  {
+   "title": "German Consumer Confidence Edges Up Despite Worries Over Economy, Inflation",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQkZQeXNYYnJjMkNPZ3pYSDY3dmpHV3pvbko0ZXB0aXVQcU5sQ0hyY08tQVRlVEd5cGxGV1lwNXMxSjZYNVF0S0JNZ2VCcWY0R3BUNWlJckMtUEVoNktQYzBZX3dFb2xwWWJXN3JFeVliQzBKUVVZbEttR01tUkZCMWJPOUh3NWdDU1gtN1UwREtGZFlDdG1HQlJCaERveE1rZGFQeHZTUjZQV1NjOGdPTg?oc=5",
+   "published": "2026-11-26T07:19:00.000Z",
+   "cat": "krisis",
+   "lang": "en",
+   "impact": 0
+  },
+  {
+   "title": "Norse Atlantic Batalkan Penerbangan di Tengah Krisis Keuangan",
+   "source": "cwibc.co.id",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE94ZmxnS1lPczFURDRpNFMzX1RLdnJwU0lqU0dIWTRmNlA1WWJjQ1ZKN20tMUxxeWUyVjR3bjBrMjRVU3luZDFpQWF1R3ZSQ1Y5b1ZFMHNtRFA3dldRa1Nn?oc=5",
+   "published": "2026-11-26T07:17:33.000Z",
+   "cat": "krisis",
+   "lang": "id",
+   "impact": 1
+  },
+  {
+   "title": "Iran Ogah Negosiasi dengan AS hingga Syarat Dipenuhi, Ingatkan Perang Meluas",
+   "source": "detikNews",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeDJBNm52Z0w4RnBpNzBJcGNKQXJGSFlUZVBRUHR5NlhXdVkzWEZNLXBNdFdGQmhsUmJSOWFCY3FGUmVVRG1SNTQzNFJ1eF82SXctV1ZFYVZ4X0lOZzBXZjB4czRGM3VBcHNwd09QbVZrMm5FUERHbDJkeExzOG1RcWhsdzFqTWh2UE42bFhrdXFkMkYwb0tmMDFham9hMzAzUE1jWC1DUXBvNUJBMWlVZzNXRzNHU1RHQjhKem5QMNIBxAFBVV95cUxORlBaazdUempuWUlBSVBHZlNOUFdkMVU5dF9pZEMtbjlYSzdZNlBwYTlZOGFJMmVOYW0xYy1xQkNqQ2NPRDZ5SElvSTJ4UmV1eGhLRGl3bjh2d2FFQURBQmpHRUhObjFmY3BIcHV0OVN5R3FVeU1jTGhmc3ZQR1RYTDZ0bnd6THpwLVB4QWU1Z0M4X1cwNTYxZG9RTnFQRlZRbS1PdE10SmY2ODNBSGowZUdaQktIN0ttTk9peGV0aHFubF9m?oc=5",
+   "published": "2026-11-26T07:16:54.000Z",
    "cat": "perang",
    "lang": "id",
    "impact": 1
   },
   {
-   "title": "Trump announces new tariffs",
-   "source": "Fruitnet",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdndQbjhaMXBPNU81c2VMTE1YTW1wX0c1QjVYYVNoQXRCZ1VCa253OVhSQmIyTzE5TUJqaWJCcVJCcENucFBFTFBWSVd3LW02emVLOHRHekNvcG4zNmhONHlMUDZkY1lsY0NrNmw3Y1JFZURaMzNIOEg5V0dodWxvd043UQ?oc=5",
-   "published": "2026-11-26T06:10:28.000Z",
+   "title": "'Unacceptable': Major economies push back against new US tariffs",
+   "source": "France 24",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSzlzNkVzNEdFVU9tanZOU0tVbWJxVW9oV2VueklTWlU5bDNSbFFLNkRzbEZlRGVJVnkzWjk5cGdLZzdmXy1PNmtHTHROU0VPY1ZSdk1QUmVZWVYzQ0xSWXhHUWxtVXd4M0xvSHRpNFNiNkdWMm9sRW16ZjktcEg5dnl6bWx1a0pKRlo2bXl4VE1yNTlqTVpnTFF6WVJhd2dWSlhXQVhMek55Nkk?oc=5",
+   "published": "2026-11-26T07:16:41.000Z",
    "cat": "tarif",
    "lang": "en",
    "impact": 1
   },
   {
-   "title": "Brasil Kecam Tarif Baru AS dan Ancam Tindakan Balasan",
+   "title": "RBI Moves 60 Tonnes Of Gold To India, Raises Domestic Storage Share To 84% In September 2026",
+   "source": "Kotak Neo",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORm12RWliVlpGTmkwaWJ6bW1mUWhJS3Y4X2h6TlRLYlRjTkhnWllDRnlTX1pHS1g1YzhvbnJXZ0pac2pOcXAzQldPNGU2SUJMTnlQZDdSdGtVTFFKU2QyZERXNGRfZ1BpVnRVMGxvWVlGcDFHdmpGYlNTY2RJZHBocmt3dkxaaTB6bTkzREp2TDJSQUp2QUNyYlFVbm4tbWYzTkNIaTJ3ZzM0NXNtR3EyY0RvS3FoX0hmZ3c1QjBpZ3dFdw?oc=5",
+   "published": "2026-11-26T07:16:19.000Z",
+   "cat": "bank",
+   "lang": "en",
+   "impact": 0
+  },
+  {
+   "title": "84% Of RBI's Gold Reserves Now In India: Where Is It Stored And Where Is The Rest?",
+   "source": "News18",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSENSaFg3dV96TnBSdE54VTY5YkRiRGpaRGNNVlJ0X2hMeW1QakFpc1ZzNXN0dlJsUW1OanFIa056OFV1WTlDd2lua202V1RPXzJkVk1UVGY1Wi1Tendwd3NUbkpjSVUtWFZMZEp2UDRwYnVZYkxRZFREVUxlRnAtODlCa1VqREVsclRLX1RVUWtNR1JYSVktUlc4MjZ2c2FRUnVGT0lGZDJMMTQ3am1NSHJqUTl2UU9lYWhJaEh0c3BDam1pQjZfZ2dBWmbSAdIBQVVfeXFMTnlCVGdZRDVmYy1NLWV0aWtheENGN0lRMHNSOVlYZkFlS21felZfUG1ndmZ5b0lncEhhSGNwWjZ6aG14RUtDUmQ1bDBZa3VaOWFtLURmU0VQb2dJU3ZIbDNjY0JRYzU1YjNtd281UmEycTZNZ09jZ0Zjc1BWMnREOWlXMXBVbTE3Qm9ibS12OUZjSmM0M1JMVG94cWZXUWRwc29TZ21aRVVLWHZ1SS0xaXpCZldQOE9uM1htZTB3VHJUXzh1Nkc2YXZVVzBrazdYTUdB?oc=5",
+   "published": "2026-11-26T07:15:43.000Z",
+   "cat": "bank",
+   "lang": "en",
+   "impact": 0
+  },
+  {
+   "title": "Gold prices fall, silver prices struggle to recover",
+   "source": "Laodong.vn",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaDBwVU9PNVEzQkNTZ0lCMUZJRXJOdUxyNDJJOElwaTFScHppeVVEVzd2WFYzUUZYVlhmUEV5cnNJaFd4Qkt1LTdLTUg5YTJUTk1vbWZDUldtd05McGt6Q1h5RUc3Q1hTYTQ1NEgtR1RkbUdPc21HZkVHVWtxV3dqV255b3JXcmNhZDRGRDM2TDlQbEtfYWlRLW9B?oc=5",
+   "published": "2026-11-26T07:14:38.000Z",
+   "cat": "emas",
+   "lang": "en",
+   "impact": -1
+  },
+  {
+   "title": "Yen Jepang: Risiko Inflasi Memperkuat Alasan BoJ untuk Menaikkan Suku Bunga – Danske Bank",
+   "source": "www.fxstreet-id.com",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcF80b3ZBTHM5WFE5bTg5Z0Q3RThxVDBMblc0bWllOFVHTVR6czJLNzEweTVJbFQwX002RXhxZ0FpYzlYYmdsUHp2R3dhejE2VlBaM0dBeXc1T1NwcktiZVIyeXJtWkNQQjhVRkNFcGFzR3FOa2lRSTJfWXBGeVBMZFM2U0VBbjloYTBNYVVZR0JueTlVYUZYV1pXUXVzM1pHWVZwc1JuV3YxSVZBRlFCSG0wRGkxNkxOYWh3b1czVjdRbkRHcWRmVW4tQno?oc=5",
+   "published": "2026-11-26T07:13:56.000Z",
+   "cat": "fed",
+   "lang": "id",
+   "impact": -1
+  },
+  {
+   "title": "Da Nang: The challenges of management and livelihoods after the closure of the Bong Mieu gold mine.",
+   "source": "Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUHFWZk10UFhESjBrWWZZNXpqMTFicTk4MjYtRnFuVXZ4cGJBdVBtRnpmdDZFQVhuVV9TLVpVS3F6UkNwLW5sMnltWGxKU0oyLXdfeGp5SG5OZVNGZTd0ZFZCSEZOLWpvUURVbENkQXRpTE1Ya2FOT1RncFBLbDdCb3pnWWlzOWg4WGFJQ2dsMmE0bFRVQzNjMjkzX0p0eU9v?oc=5",
+   "published": "2026-11-26T07:09:21.000Z",
+   "cat": "pasokan",
+   "lang": "en",
+   "impact": 0
+  },
+  {
+   "title": "Respons Kemenko Perekonomi soal RI Terancam Tarif AS 18 Persen",
+   "source": "CNN Indonesia",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeDU2QjJlbWZzT1MxVXgtRjNUMmdwTWRZeVRIZk9UTGF0RWdpUFk5NzU2czFBd2VYazB5VmpsbjJ3cG5lMzY1TV9yYUswSm5obW1lWHhOb2k5d1RSbVFvbXZfOG5wTlJzSWZqV3V5Y1JfQkJVc0UzZ2RFVTV5dmZFRVNpSENOR1NPZlVick1Ub2dfdTROR0FaVWFSWVAteWRYV2t1VFY2dnZUMzBDVmx3elNUNkZNd3JLREpndWtzMUlKUTDSAcgBQVVfeXFMTUlsd2tMUUZZZ1RFMVlHQkFoWFZ1RFdaa2lrdEtwcVhTOG5tVm1RZFBTVG1pSEpyMlI3cXpLSW9RYmp2TlRXRldrY3R6ZlBxZE1Jb0JOSFJwOTk2TXZwbDJrU2VnWjFvWk1Qd2ZUWF9rdmdpYkxnMUx5b0IteUFUVE83eVh1OS1FZTBEZGhmQ1NaMWxnNmZISVRsRVRMdlhUVmwwR0xkV3R5dmpkZ2RKY1d0RzMxMjcwZjJxMkI4MVpHVGQ4LWR0dzk?oc=5",
+   "published": "2026-11-26T07:05:19.000Z",
+   "cat": "tarif",
+   "lang": "id",
+   "impact": 1
+  },
+  {
+   "title": "Prakiraan Harga AUD/USD: Mempertahankan Kenaikan di Atas 0,6600, tetapi Tren yang Lebih Luas Tetap Bearish di Bawah SMA 100 Hari",
+   "source": "www.fxstreet-id.com",
+   "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPZjBldkVPRXJhYjBtazNPODRhTEQtRXVncjNtVFYxdTFmZmlHUjkxX3hLd0lQaGdFVHhrdTVKdTN6eDE3d2Y2UDJ5YmIwb216SjhmbVItYnVuYll1Ni1rUS13TGN2UUtQcVN2bFN2Ql9LZU81Mlpub0NVVmN5WWdrOUlmYXN6TGdqS2RDWm9fb2lNbnh0YWpGaDdvOUxsZG0ybExQcmNROHdFOFFORzl2MjhiOTdxT05WWVdOem5RWjFmOElONlYxYjEtT2VtY2t6bmF5RXRtazk3b3lMZUNwZ0R0SXlVdjZqd0xGWHk5YmY4NFhyRE14alRyMGZ4NmRMZmc?oc=5",
+   "published": "2026-11-26T07:05:00.000Z",
+   "cat": "fed",
+   "lang": "id",
+   "impact": 0
+  },
+  {
+   "title": "RBI brings back 60 tonnes of gold from overseas custodians",
+   "source": "IANS LIVE",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUzIzTnlQU2N4VURXbTFwd1pINFFSb1o3M3VfR2YtRlVWUnJoRnNBMmMzdERDTGRkdnNCbktwWXBvN0VfM3VPcDZVc2tGclM2dkQ4Sy1NWXBraFlITkJyWUQ5bWNmM0dDQ2dHb05fQWdfNTdhcm12WENRcDlLS2xnNnMyZ3BHYkdhZnY0eGR2UUtTTW1yMUxNaVl3?oc=5",
+   "published": "2026-11-26T07:04:00.000Z",
+   "cat": "bank",
+   "lang": "en",
+   "impact": 0
+  },
+  {
+   "title": "Asian trade partners of US hit back at Trump’s latest tariffs",
+   "source": "Financial Times",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOOXdLemg3R0M0SkVKVUhMZHdsQmN0X2t0Tk9lYWY4RzFuYzhWUFFxVHQ0WUxkMDhnQTB4dEhoZDJvQ0gzUmhmelROQmRlS2kxdUpXTkI0TkxFM0pVMElQWlE4RmY2UE1UZjQyLUNtdmVJT3k5OE1xOXJvaURWU1hjZmN5anY?oc=5",
+   "published": "2026-11-26T06:57:10.000Z",
+   "cat": "tarif",
+   "lang": "en",
+   "impact": 1
+  },
+  {
+   "title": "Gold Edges Lower as US Inflation Data Fuels Bets for Rate Hikes",
+   "source": "Bloomberg.com",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWk5iY21FejJMUDVfS2h4ekdoUnQ1RndSalFWS2pkZzJZY1AwSXRnY1otVEdsMUdRVWZJV0NKSUxEM3Boc2VlQXNMMWkweGxJSWVGaFJHcC1qWTk0WTdIbXR0Z3VNQ2N2R054YXZMa1I2eVk4RjU5T09FelF5ZC1KdGJRYnV5bFdvMjJoRzBpMjNoUDkzMDJiTmdvejdOMF85Vy1JZU16eEI1M3VzVlBNa0RyMjk?oc=5",
+   "published": "2026-11-26T06:56:00.000Z",
+   "cat": "fed",
+   "lang": "en",
+   "impact": -1
+  },
+  {
+   "title": "Kushner Warns Ukraine War May Escalate Over Miscalculation",
+   "source": "The Diplomatic Insight",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYlllVTVZTUE2QjFVQ1hXWEs0cFdlbHFxV1ljVWlvOHVzQThVTUJFM2ktTVJSTEQ4cEthSWxNRTQ0ZWlUcjdJV2FkOG9ZaENwcWJINk4zT19KdDdGejNYZWdxWHlGdm9fbktIckV6R1ptbUZLazdPUkc0cW42cjdSWi1ldXFwOGY4SWVmLUlKVjhSajROMl9F?oc=5",
+   "published": "2026-11-26T06:55:05.000Z",
+   "cat": "perang",
+   "lang": "en",
+   "impact": 1
+  },
+  {
+   "title": "Illegal gold mine accident kills 13 in Indonesia",
+   "source": "Minute Mirror",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVTR4QVM0UUhrSWwxcTJSYzZRNVc0V2owLXBMZG02a3FDZmpqMDY0SU5BOUg0dExPdlQzUnctZmZJVDlHR2FIQWdBMHRaa0VtZWxDLS03TzJRN1FVRHJPQkJzMUV2SkplekpZYTV3QVFHdEpjQzNkQXAyZlZ0RTZxTDg3M0Y1RV81N3hrQw?oc=5",
+   "published": "2026-11-26T06:54:50.000Z",
+   "cat": "pasokan",
+   "lang": "en",
+   "impact": 0
+  },
+  {
+   "title": "Kebijakan Tarif Baru Trump: Mengutamakan Kendali Kekuasaan di Tengah Penurunan Popularitas",
+   "source": "Radar Jogja",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQemRvQ1FhaUlobFdCdFZuVjZDaGgyRVJ5Y2tIVUJWTDcyYURVeXZnem1KalpOQ0VKUGNLM2xpdjlKZEdwUER6a3BQX3pLNXhoVEV5REs3WjgycUNub0Ywc1Z4a3o1SFp2X2lnSjRkRUZRQ2VOUFlja2t6OElUZ3dvaWVZN0tyalRnc1dXWG5qUkMwdGVPd0lvR0JnU2xUUnEyNkxsaDlXZDF0RFhpdmwxZnJnM2diaWc4YWRsdGZuZkZLTVhoaVZIYlNsY3otdi1Ta0hsNnhyVnVDS1J3cmfSAeMBQVVfeXFMUHF2RWJsMXdkaVd0blFaSWpBSFMyYktTVE81SlhESUZFbm05SFNzVk4xbHZSd2NvS0ZNeFZfY3VNelNLMV8wNnl4dlllclN6WFBaYTFKbFBHSFdvREN1VWREUF9NbFowWVlVZ1N3M0tGZjh1Uk1MSW13Rzl0QlYzQU1KclVjcXVSQVhwOXVVU0RaMlNvenRHdnVmRlo3cF9DNEh3Vi16UjFTRzNDNXhOUFpXZ0hhUFFhdUNya3V5ZjJYaVpNY0Z5R0dZeW5RRERCN3djUWdBaHRKUVhvdGhMQzl3OW8?oc=5",
+   "published": "2026-11-26T06:50:41.000Z",
+   "cat": "tarif",
+   "lang": "id",
+   "impact": 1
+  },
+  {
+   "title": "9 Dead, 17 Feared Trapped After Flood Hits Unauthorised Gold Mine In Indonesia",
+   "source": "NDTV",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMFdUUHVUU1lqdTZSUjQ0UmhCMWpaNkotUFVhNmhaaElPODk0bTVnVmQ5QUhwS3VEbFdzQ0tLS0l0MWZtckNYWmw2LVlIOGU2bzFOdWljMFBkYjJqZ2hVc1ZJQkxSdnptMXRxb3NZVXlUUF9sRDM1NjNCN2NXR1B3S0c1UWM1eEhpcUo3ZjdIcm93Ml92dUZHUUQwaTBybDc2MHVoZ0ZUN0loLVR1WUtEanF3TQ?oc=5",
+   "published": "2026-11-26T06:49:40.000Z",
+   "cat": "pasokan",
+   "lang": "en",
+   "impact": 0
+  },
+  {
+   "title": "Trump Tetap Andalkan Tarif Impor Usai Republik Kalah dalam Pemilu Paruh Waktu",
+   "source": "NARASI TODAY",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdEplaVVrb2VGTTZocC1fR3JabjltUC1acDF2V0NWZktrSDhxQWVJX3hvSFBpMmsySHVRNGtnNVF1MERhXzNBa21KWjF4ZVZUSkJidnVMRXZRU3l5c3BWNVVSRF9RLUpYQXRBdnI3Qmp0am5Yd3pBWGktVWlKWTRRZjRRcjJtWVpqQVFUTXBMV0h1N2JqYnRtYXdlYUZwU2lzdl82aVVGSm5hWGZ1Tk9qVHVETQ?oc=5",
+   "published": "2026-11-26T06:48:31.000Z",
+   "cat": "tarif",
+   "lang": "id",
+   "impact": 1
+  },
+  {
+   "title": "Trump Siapkan Tarif Impor Baru, RI Terancam Kena 18 Persen",
+   "source": "FORTUNE Indonesia",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcmRnNEVtemxTOWtfekt0SWpFc3E5SmxlbnJzTkEzdS0zOVhJenpTalRyTnNwSElNYkVVY1RaRWRrc3A5OW5PRzdvSDY2SjlWTkhvUmNlSzY3dXVsTC1XSThaQTFJZEc1QnFSRHBETkpheDg3M3pJQ1g1T2NpREtNQk90OVQyWnpBTVRYV3lJSWVqMmtSVGFUb3V5OEFKa3VMZF9xS3c5emJ2YklPLU0wNg?oc=5",
+   "published": "2026-11-26T06:48:23.000Z",
+   "cat": "tarif",
+   "lang": "id",
+   "impact": 1
+  },
+  {
+   "title": "Trump Usulkan Tarif Baru, Sejumlah Negara Asia Mengaku Kecewa",
+   "source": "IDN Times",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPazdwcmhLUWxaY3BZa1d3b2JQOFMwZmxyUDdPMnJlSnZyc3JwUFB1bzNsR21adU1ZMXlENENjUlA0UmpydTVGUU5rN1ZieVdxRXhmNkEyWW41ZlpOMlFSbjQ0bmZ1UWw2YzUzcFFnQWE1Unp5b0lOOXp5LUJNbk5ZMTd5U3B3VmNoXzNWTlE4RXNxVmhKaHN5cWs4dVpEUm1UNU5iN1FuM2dCR0xscjRwNXFn0gG3AUFVX3lxTE1vT0FadmptamZWVlVRNWVMSXNRS3NZcC1Jd1V0NklyeHNZSHpZTC1EcU5odTQ4Rkk1dVE1cjFVbjcwbi1aaU8tSnY1NTQxUHJCNnk2dEl1T2EwYkxDZTc0bmt0ZWhnajBTa0lzTzVRTVJIS2tWNjB1ZFR4RGNPeklBM3VteWFGTjBuSEV4ZG00NHVudzMxb3JlTW5zZDZaOUxtVGRDRl9PeEhqbXFtTjFaaTBYUzREOA?oc=5",
+   "published": "2026-11-26T06:46:05.000Z",
+   "cat": "tarif",
+   "lang": "id",
+   "impact": 1
+  },
+  {
+   "title": "Iran: Israel berupaya tipu AS agar kembali serang Teheran",
+   "source": "ANTARA News",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbzYyYk01dnhIVUFsdzI3VlZiWjJ1SnRhVFNjZFliWDJnZ3RGNFBSbEhTZ2d6RVl5d1lVOGFBdmxyeXFTRU5LZnljcWQyLUpLYS0tRHZBM1E3d211Mkk2ek5lVWZMNU9wOFlhejFwcUM1N3pIYzRDbGhHc2ZTWEpoZG5Na0pmcmlEa25zYWQwTm5TMjZJTlNGaHJLalN5OEXSAaIBQVVfeXFMTmNUVWM5TE8zMGlreEZ3YXFhR0s1QVN3eG1uTU1XLUVoMVd1b1VfbTUweHQ2V25UeTJhNzRSV3M2SnREZVU3MV9CRTc4b0tCeEJta1lvdW5zWHpIdFBkR0RXQnVKb3luMDdjeDI4eTRvZ25UcWp0SnhFcURkUFNUaUlzYTVQRDlUNUc4NE5KdVlkdGpNODVIRUdwSk1BbVE1SEZn?oc=5",
+   "published": "2026-11-26T06:42:12.000Z",
+   "cat": "perang",
+   "lang": "id",
+   "impact": 0
+  },
+  {
+   "title": "Prospek Kenaikan Suku Bunga Fed Tahan Rebound Emas Pasca PCE AS",
+   "source": "FXStreet",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRm9ybndUeXF1ZnRlTmVZV0FIZWlOZUtRR3FKTEUzMGZxblpTUUJoN3ZIZTZpYmx2ZEFvQk02SjB4YlFNMTBBbWYwRl9kYkdMRUZFZWkxUjdPd0pBbnNFYlhwM0J1cGJablBjU2RwQW5vTEZXaEZVWDdyZ2RsbE50U2FLNTJCaXN1a3dhS1l6WW9SbGM2Nk16T1UzNXJEUUZBNVZxODYwb1FKdWtua0xONmhvdw?oc=5",
+   "published": "2026-11-26T06:41:25.000Z",
+   "cat": "fed",
+   "lang": "id",
+   "impact": -1
+  },
+  {
+   "title": "Faktor Makro di Balik Tekanan Likuiditas US$1,4 Triliun saat S&P 500, Emas, dan Bitcoin Anjlok",
+   "source": "FXStreet",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPcEh5NDNIM1g2M0cwTmNDWlIxemM5bnUtN0dyWUxsRWVDMjZMMWcydy1TUXp6NkswNkpocFRZd2sxZVpEWDJ0YjJheTQ4MTdvN3poTm02NEFrSTNSTTAyOUNCT1RkX0k2eWE3UVlCNXg3WG9IOGI1WlBhOTZKaUlSaXlpbWZ6a3FESmZwd0lpa2htTzB6dUdmd3FTaFZfZjFnemJHMlNoM2Q4QUNSc3hFZFU4bXA1UDZaWGtfT1E0dEpVSUhpMzFUZVp1bnZUTnBVZm9pVDhzdw?oc=5",
+   "published": "2026-11-26T06:41:03.000Z",
+   "cat": "fed",
+   "lang": "id",
+   "impact": -1
+  },
+  {
+   "title": "Rystad: Tingkat Operasi Kilang Rusia Drop Tajam Jadi 2,7 Juta Bph",
    "source": "Bloomberg Technoz",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMkNDUGdLTkl6QUdZUUxoajIzM0ktTzJnNXVyQlIyLUxQWkZiU2U1TU11cXctbV9iSzV6SDNsTnZfbS1rNGIyVzlEcEdta1doNU1TMDNHeER3OFBhb1BQYzBqSW5VamxfWjlZMktNczdZVEJjMjc1LWV0TGd4Z0d5WXlDSldkdWFiZkNiRWVpcDBPSXd0SXVNeEhLaTUtdmEzbUg0T0d5d2E?oc=5",
-   "published": "2026-11-26T06:10:00.000Z",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOLXBia0pTSUV0NE9RRFJPMHlpOEtXMGdwVVRmTEhTaWw1d2pwT3hyejZhZWxCaGlQVTFrOU9BUllxZnhRY1hOTWlTeFBQSVNiY05FcUs0cUNBVE5rc0J3a0RkNjZsUWt4dFk0aVdmSl9tSnA1MG1jTGRVckJlV1dpWkVwZU84dG5JTWFIa1lIT3dyUTVvaHJLVlFCY2thNDlLTGdoWkNWc2lBQ2VUUG9kYXFrWHk0MXc?oc=5",
+   "published": "2026-11-26T06:40:00.000Z",
+   "cat": "perang",
+   "lang": "id",
+   "impact": 0
+  },
+  {
+   "title": "Trump Ancam Tarif Baru 18 Persen untuk RI, Pemerintah Siapkan Respons",
+   "source": "BeritaSatu.com",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVnlOUU8wQ1ZsaFhsMmZ3S1FmWnZSektXZElIdWJfSXM0eG1KdW9HOG5Ic2JUVzdYd3RER0RYcXpxSjlINy1fMmI1bncyTTJGWW92dWxuYzh0TjVDRnljVnBwWFV5QTFxUndfZU9jaTVXeWpMT0JxQlFySGR4SWFYSlB2QXBEdHllc1pacTZ2MVNQc09qSzFES1Jfa3RoWktJWWZ5cXZBWXhtRW02R3Z5eQ?oc=5",
+   "published": "2026-11-26T06:39:39.000Z",
    "cat": "tarif",
    "lang": "id",
    "impact": 1
   },
   {
-   "title": "Rupiah Tembus Rp18.400 Per Dolar AS, Risiko Domestik Tekan Pasar",
-   "source": "Orbitdigitaldaily",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZk1YbGxneXF0eTc3TG9jTXRqU1RhOFYzQUZvdTdkQWFDdDhvM2pEX2JhQnhxZ3dpMFpKbUU0OHpsUEd5X1RFTDlfWGd5dG5iU2YtdFhPa3E0X0luS3lCZ1ZoY0hnTERaUm90TkZwbmxBTEdJdjZqM3FLT3pDTC1vVm9DeS1McmNqaUxHaWdJRjg0ZlVIa0hBaTNR?oc=5",
-   "published": "2026-11-26T06:07:57.000Z",
-   "cat": "dolar",
+   "title": "Why Is The RBI Moving Massive Gold Reserves Back To Indian Vaults? Here’s Why",
+   "source": "Goodreturns",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPdEVMWTJZN25MR0ZFRUltWXdOeDhoOUEzM1N5MktVTFRqTmhJa0xQSEZ6a3NGWHNKTlc0emdScHJhWTJRU0RBSmk2RENSZm1BQjJsbHdRTHhtbWtwMUdaVXFlYkhmbWFtVmQ4ZV9pd0VkeUN6a3BaNllBYkdXTFhBUldMNldRR2NrcGUxSVNLMmFGck8xY0Y5akhfLXg1dl9RVENYOUZLUW9zZzdWQ09yRzNPY190TFdtZzJoZkNtSlZwSUhTMHdia285dFY3ZXBfN2FpVnV1MU1KdkFoNTJsZHRn?oc=5",
+   "published": "2026-11-26T06:38:56.000Z",
+   "cat": "bank",
+   "lang": "en",
+   "impact": 0
+  },
+  {
+   "title": "Perdana Menteri Cho serukan kewaspadaan terhadap serangan siber jelang pemilu",
+   "source": "Focus Taiwan",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE10dzdXRmRwVzZmUTh6bS05ZFVWaUxwZkN0LVZNM2NLZGYyWVY4WTFTN1BMd2pRX1dFUTRxUENoaXVKNXFuTlF1OEdSOEJvLUY4ZzJEbUNUTjJJVEQ0cmxYbDhFbjE?oc=5",
+   "published": "2026-11-26T06:38:00.000Z",
+   "cat": "perang",
    "lang": "id",
    "impact": 1
   },
   {
-   "title": "U.S. to hike tariffs on China, EU, Brazil and others over subsidized factories",
-   "source": "Santa Fe New Mexican",
-   "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQZVZqTnY1UE9TLWNyNGlUaHltb3pKX21WaU1SVkRSLWVTVzFKZWktNC0xaDNqdmtjam9WTzZRTUpQQlV5WnpSY0hQbWZiLU44V3pBRFFZUHpwUThlS2VlWjU5TFhOampna3RPNW91Z3VJMVBIaF9sQlB2aW1aZ3daLU16YnYzUHVlUkcyYnBSYUVNSDJpQ3VHdHhzZXJzSmNsN0xHem1nZnU5ZGg0aERyUlJiLXlib21MRGUtZnYxWlRZY211WUtPM2s3NUVtTHZBVzdQX3pkZWNwMzJLY2psX2VnbWp5OUZTaWpEZmVVNFJ5dllzNTJ3SW8zSUFxUjZILWhicml5S0xGU2tUazRqaTJMbGRGb0E?oc=5",
-   "published": "2026-11-26T06:06:00.000Z",
-   "cat": "tarif",
+   "title": "Siheung Taps a \"Solar Gold Mine\" Generating 16 Million kWh a Year from Parking Lots and Industrial Rooftops",
+   "source": "아시아경제",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBIMG9FVEFDcVEwbXkzWm5YdWlzNEhaZENpUmVLYzAwUFZfWE1ER2w4T1Vkc21CakVucV9xcnU5QWpySGxtQUdsdjBOMlk0T3pYdDI3TExPRXdXakVQZ3Bka0JWUDc5WGZsVGVWZHhZSDBjV0dwd3VyRQ?oc=5",
+   "published": "2026-11-26T06:37:57.000Z",
+   "cat": "pasokan",
+   "lang": "en",
+   "impact": 0
+  },
+  {
+   "title": "Commodity Prices Swing as Gold Rebounds 2.75%",
+   "source": "Gotrade",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNS0RUVDRfYzMtMnJOVVUtZm8yS2ZxMDNSRVZucWdSV3Ywbi1SdU9CQkV2LWVmMTdsY2NDdUNHbGsxSHBTcnhxaEpDaTBCUTdZelYzaWl6SkRlWWNUSVZpQklkakZKRnA2MHZDNkxHSHI2ZkZHQng0YTVmR1RyM00tdlJPSU1ubkZTSHRhMm1R?oc=5",
+   "published": "2026-11-26T06:36:00.000Z",
+   "cat": "emas",
    "lang": "en",
    "impact": 1
+  },
+  {
+   "title": "Emas Berusaha Keras untuk Pulih karena Inflasi Menjaga Risiko Kenaikan Suku Bunga Tetap Ada",
+   "source": "FXStreet",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQWnM5TzBudVh2X2dtUXJzN01wdUVjaUF3ME9qd1FtOUVTN1pEZzVpOXV6RjlsNS1XVTNxOGoxLUJGeU4xa0pIZzlzT19MQXBDTkhMM0ZxeDlSbllRWGd0b3VqS2hpVTdmb3hPNlgtS2RpaHBrczl0ZzB1Q3NiZ3FHaFM4OW54azJiYzJhaFRrS0MyajB0cXVMQXIwZ1U1Z21VR1BENnNDdHpucC1XRExybmxXamZJX2NMLS00Q241eVBMVkxRYjBPQ1hEOGlQcXpCV3F0YVZSbTE?oc=5",
+   "published": "2026-11-26T06:35:33.000Z",
+   "cat": "fed",
+   "lang": "id",
+   "impact": 0
+  },
+  {
+   "title": "Agenda Ekonomi Pekan Depan",
+   "source": "FXStreet",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUXo1OEg4Rmd3SmhhaXVIeWlXMF9KUG9OTm5JOXlBQXF0emptaENpemNpa29rejBURHFoWDg2M2JPVzRhTHRIcVNTdE1KeUg0N3FKUGZSLTRRVVVxMnIzbE5HSnFiY3p1QktxVUdQbjRpUlp4QXFDZVVTSUREczMyd09B?oc=5",
+   "published": "2026-11-26T06:33:42.000Z",
+   "cat": "fed",
+   "lang": "id",
+   "impact": 0
+  },
+  {
+   "title": "Trump, Rutte Warn Russia Against Escalating Ukraine War",
+   "source": "Daily Beirut",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONEpMcGlVbGV6cGZZRENtR2xuOXcyVVFTaUVUSzZ6dkU3cUNwQ2stcEdKU1d0aDRVMGFPYlAzSUFxLTBVR1NfWmN2SEJGbjBRYjY0YWkxWFpjeVhIUkZIZm0tcHV1aVBoeWNudUtPVHV2UEFfZmtpYjZJVkRQN1NyMk1iamVCMTV1ZGlrYktkY2RPQQ?oc=5",
+   "published": "2026-11-26T06:32:54.000Z",
+   "cat": "perang",
+   "lang": "en",
+   "impact": 1
+  },
+  {
+   "title": "Prakiraan Harga GBP/USD: Jeda Singkat setelah Penurunan Vertikal di Dekat 1,3000",
+   "source": "FXStreet",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOS21Da2ZfUmRUejg0N0V3M1pkdDByVTdiX0Y3TTlIcXBzZUpWQ2xnTE5SZDAzcC1pdkc2bVpPc05VdGdyMWhvNGpWbG5OTW10OXRDUXF2QUdMX18xSGJHenNaUzVrSVBjWEQtNE1xU093OFY1VkxRWXpLSWtJMnVyVUI1QkE0NzJpUnlyZUozZlJzR25kSUpCYTRzdWNuQ0RTY0JYUGxianFJc1I5REtwSDdlOGdHN0gtOFpzX1pxbzN6RkE?oc=5",
+   "published": "2026-11-26T06:31:48.000Z",
+   "cat": "fed",
+   "lang": "id",
+   "impact": 0
+  },
+  {
+   "title": "Kushner warns of massive escalation in Ukraine proxy war",
+   "source": "Daily Beirut",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcGJlcjZXdzRKUVFHY1ZuS0s4dHg3cXdjWFN3TWU0enVsU0VpdVFNWlpSNDdyM2FvYVR0a0pNX3VXeXFheXh3NDhicWdHOGxTSnVxR1FpajJFOEhfaTREZTlVMzdsT0lQRTZwTm1MZ0RzWWMtdlhmY250V3pXQklEUHBOdXNUbGo4azFlQ01hc1lBOUpD?oc=5",
+   "published": "2026-11-26T06:29:59.000Z",
+   "cat": "perang",
+   "lang": "en",
+   "impact": 1
+  },
+  {
+   "title": "Harga Emas Perhiasan Naik di Raja Emas HRTA dan Laku Emas",
+   "source": "Demokratis.co.id",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0wVDIyVldDbUphM0tSM3NSVTBGd09XbVJYYm5KV1luS2QxaVdrQk5lN291dVVINjZlSVlHbThYSkN6UmNCY0gtU1J5N0pFU21TaG8xN2U2Nm1vb3J0dlRiWFgxNGFJOHRxajFF?oc=5",
+   "published": "2026-11-26T06:26:59.000Z",
+   "cat": "emas",
+   "lang": "id",
+   "impact": 1
+  },
+  {
+   "title": "Kelompok Houthi menyerang pelabuhan-pelabuhan strategis Arab Saudi, memper escalating konflik.",
+   "source": "Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVTdGaUQtaS14NGVjNnFzVlFLVWpGWmpmeWJ1QmFwZmhRWHdsdzFDdXozenN2Y25xWGdKWXlvYXNLWWZBZjkyOTEwREFWdzlfaDBXcHA5QUFNSzMzLWF1MzdRZFpXWTJuckVPeUJpUEd1bjJvU2o5aEQ1aDFWemR6S3FoTHZKc2ZObFJCdDdmZktRUVNFWE1RVHBnZnk?oc=5",
+   "published": "2026-11-26T06:26:57.000Z",
+   "cat": "perang",
+   "lang": "id",
+   "impact": 1
+  },
+  {
+   "title": "Konflik Ukraina pada 26 November: Rusia menyelesaikan \"masalah pelik\" di dekat Kupyansk",
+   "source": "Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNckVOM2ltYV84aDhXbldKc2I4Q0wwNkZlai02Z1huRy0wMnQ0T0lZa3Q2Y2JjVmJUYndmcUY4bXlpVUJlVHUyMlRiVjFObUFUMURncWZoNUNqZmZTbnM0S0R2VjhFcVZ5ZHUtNkxGcWQ4SEZld3YxUnRwOHdhT3d2RnJ2YUFGaFpoeEFuRHNmY1I?oc=5",
+   "published": "2026-11-26T06:26:57.000Z",
+   "cat": "perang",
+   "lang": "id",
+   "impact": 1
+  },
+  {
+   "title": "Pembicaraan perdamaian Ukraina-Rusia bisa berlangsung sebelum Natal.",
+   "source": "Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSlMzN0lLNGw4T2M3Nzk5MS1janZpMU5fcTdqeERsQVU2aFpGMWlCV2UwdzBUZzJmcGhUbUs5NVFscUE2UmdPdy05SktHd1IzbjA1bWNPTUxYT2FEREFuNldZSENQb2xoTGlCSC1Qa3A3WHRsNEt6M2RyeFJoNS11bmY1YmEzam8?oc=5",
+   "published": "2026-11-26T06:26:57.000Z",
+   "cat": "perang",
+   "lang": "id",
+   "impact": -1
+  },
+  {
+   "title": "Indonesia gold mine flood kills 13, leaves 13 missing",
+   "source": "Sharjah24",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1rd2JKSWlBa0NVSXRLclRzNlBVOUpTM0RQZTlXU2NfdExHbWdSV05randITjNiREt6ZFF6NERiOHVndk5jZ19XNVJuU1RCakx4aUZsamd4WXBWU250?oc=5",
+   "published": "2026-11-26T06:26:46.000Z",
+   "cat": "pasokan",
+   "lang": "en",
+   "impact": 0
+  },
+  {
+   "title": "Wall Street Tertekan Inflasi AS dan Guncangan Saham AI",
+   "source": "SuaraGarut.ID",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5zMHRaRFplSWk0X3ZfYkNZTW90eFM4RFlzUG02dUE3aEplRkZkc1FXcTlLS1RkZy0wQ09xSW9mYUJmd1RpU0M5T0tVSFFodFdRd0NoNko4M2RxaDE1QXlv?oc=5",
+   "published": "2026-11-26T06:19:46.000Z",
+   "cat": "krisis",
+   "lang": "id",
+   "impact": 0
+  },
+  {
+   "title": "Gold Rate Today in India, 26 Nov 2026 - Live 18K, 22K & 24K Gold Prices",
+   "source": "Kotak Neo",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9oS1doakpSUWg2blRCZGtNeWp5UXFadUo5cVZtTzd5bzBsdHNnUHlsTG9KVEN5UGVMaENmNVNDSGxrVmVLaHgtYWRPeEE?oc=5",
+   "published": "2026-11-26T06:07:02.000Z",
+   "cat": "emas",
+   "lang": "en",
+   "impact": 0
   },
   {
    "title": "Gold price prediction: Will gold fall to Rs 1.10 lakh per 10 grams? Check outlook on November 26, 2026",
    "source": "The Times of India",
-   "url": "https://news.google.com/rss/articles/CBMiigNBVV95cUxQUmJmS0VTQXZDZGE2d00wckhsaUZXcUdsTFFOd016dEU4VldFOTJ6dUlIQ2ktS29uNG1HZHhTSXVnaUhzS3lMV2RCdnFhV1g4UUEtYno0OWRHRE9KV0RvM3NqRnVlT1kxSVdIVDRmM1ZycERNR2ZELVFINVZMZk9vZ2ZNaDVkX2JNQ2J0a1VKMFdQRm9PdEFVMGF2ejBqOHR2bExxS2JLdHA5bkNmazRxekNVanRtdEZUak93X3JoSkJ5VmhLUEd0bzdWVVplSG4wOXNKenBRVEl4eXlkYTBic2x2a3JRczhoN3lJRDY1SFhkZkxvRzk2TktvTEFMc2lucVcwZ0FwOTBWZ2UwZ0djeGEwY01qZ2NRMGJsMGtOaFdkb0J4RmpwNGFSVl9kQWJPXzJwR01hN2hQYVJwWkt1Y3Z3SVplXzUzWm84U2JpQnNWZ25KbU5xU3BJeUpYczBDRExPZWVJaWhWMFVGeGY5aVZrcmQxNUx3NVEzQzZMSWlzYUtsYlNhaTR30gG_AkFVX3lxTFBYVXRNWW9EczFQaTNoYjJBZlFiNTRaeWNDR2s5WGVmcWg2aE82bU90ZnM1SUxlWDhPWU53c3JZNmxBYnQ4azFOWW9JaTVaelZ2TFQ1TzNfYTNNMWhLNGFmN2FoVkNaNHJRbEJKVnZWSWFnWnYwSkZpWU1ScFFnWHpwMEFlU082U01lTDY5WnhrN0s3bDVCMDJYY2oxNER4Z3h2NXpDYzBsakJYTll4SWpGZjVKempYMkRjaG85R3ozbG5zQVNNeUVkYy12eFNWMnY3UVFzLU9mV0g5aU5WaTlqalRkbGJFcHJ1X2JjVVZsYV96YnN6V25MQkJJVnNRRHhDRUJfOURWcHJXTXBNblI5NDlpN19rWjFjRWtuak1JOHU0VHl5UjZKRE1zY0h2VzBuOHVZcjUxSHNnOVpCdDg?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOOEs4QTNzc2QwU1hxT1RnTnVYY29QaHU5S3V5alFwaDhhT19VRHAwZjJpMkxsTXJnNFFhaHpOZjJiemYxVFhRcGRRT2NBMVA2TXVQVy1iMGZYZmQwdGhuN2sta1hjSk5aazFac2xPYzVpWWdKdkxqbTNTQWpZcXR2b1Z5TlZuZ3ZwdGxTNHlrOXpibTgtMmJ4VzNXdHg5aTNscW9YR2ZVYnFzVlpMR2xKellNSTZpRGY2RDRsblJiUHNpZEc4c0hhQ1FBdlVXbXdyRWFhTThmUHVBd1p0ZDh4VmwyeXRJNmlqMTBrZXhOVDR4akZYeUg4dFQzdmtVci1abDQ3TlpHS1QyVWN2V2QtSHVoNVBLZlhhQUhtSmxzN2E4SGR6UkQ4c1JFcmVuak5Vd1VHTXNKRWx1d9IBvwJBVV95cUxQWFV0TVlvRHMxUGkzaGIyQWZRYjU0WnljQ0drOVhlZnFoNmhPNm1PdGZzNUlMZVg4T1lOd3NyWTZsQWJ0OGsxTllvSWk1WnpWdkxUNU8zX2EzTTFoSzRhZjdhaFZDWjRyUWxCSlZ2VklhZ1p2MEpGaVlNUnBRZ1h6cDBBZVNPNlNNZUw2OVp4azdLN2w1QjAyWGNqMTREeGd4djV6Q2MwbGpCWE5ZeElqRmY1SnpqWDJEY2hvOUd6M2xuc0FTTXlFZGMtdnhTVjJ2N1FRcy1PZldIOWlOVmk5ampUZGxiRXBydV9iY1VWbGFfemJzelduTEJCSVZzUUR4Q0VCXzlEVnByV01wTW5SOTQ5aTdfa1oxY0VrbmpNSTh1NFR5eVI2SkRNc2NIdlcwbjh1WXI1MUhzZzlaQnQ4?oc=5",
    "published": "2026-11-26T06:06:00.000Z",
    "cat": "emas",
    "lang": "en",
@@ -74,24 +551,6 @@
    "impact": 0
   },
   {
-   "title": "Your Thanksgiving Meal Costs More as US Food Inflation Returns",
-   "source": "Bloomberg.com",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ091d1V6STMzbmJEYnBWQnNNMDlueHo4ZC1MLVpaRktic0psNjJZaDZoWWlSSFdnaFZBcmV2X3pQZmFSSlBDdTc5YWtxT0FEMHdBNTBGajRSUVRmRzZ5ak16amhBSTBZNjFuSEJtbGpYYmFTMkx3TlVyRVFweEFEN2RMSW90V0sybmw1UGV5ZnlqazFnNzlHSTYxUTIzODJuWlFqR3dLS1BwRnhfUFVNZHlJQnJSdUE?oc=5",
-   "published": "2026-11-26T06:00:54.000Z",
-   "cat": "krisis",
-   "lang": "en",
-   "impact": 0
-  },
-  {
-   "title": "Rupiah Tembus ATL Baru Rp18.400 per Dolar AS",
-   "source": "Cryptowave",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSWJjZVdjRlc0Rk4zeDROX1M0aklsajBHVk5rSy1Mdmd0VmxwMmpsQUVFdEdJeTJ5LWtLLW9UaDBJNHBqNkhkRGJSOHpxSlNPVHE3VVVUMkFuUm1SajFHeHFRdmNLYlBsX2ZFR1VPZWluM2d1N3dwWENETklKSUpuS3JMWHc?oc=5",
-   "published": "2026-11-26T06:00:38.000Z",
-   "cat": "dolar",
-   "lang": "id",
-   "impact": 0
-  },
-  {
    "title": "Death toll from Indonesia gold mine collapse rises to 13",
    "source": "Anadolu Ajansı",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZnJMWDg1a2xjSHdZU2dGeG5NekhpNEFnbUFMbjAwUDNtU01FaWg3Y2JYN0lidjZqbWdTMXQ2MHFwOTk0OVJjdGpVeWl0WXl6Q1hPcHJOdjVaUjZGVVA2UDhydmMwMXJ1QmVJbEVOeXZockd5S3pIbXk5QWpTYkJfTjk3VkMyU2pUdTBKaHV6ckowRjFSaFVmR1lGa1ZZdzhVSE1JWQ?oc=5",
@@ -101,22 +560,13 @@
    "impact": 1
   },
   {
-   "title": "Rupiah Nyaris Rp18.400/US$, Ini 3 Biang Kerok Pelemahannya",
+   "title": "REI Bongkar Deret Masalah Bermunculan, Program 3 Juta Rumah Terancam?",
    "source": "CNBC Indonesia",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRDUwVmNMTldLcmx6eDJGQmhoLWx5S1BQQl9KenZ5RE1na05xeE51N1FtV1hNUzdwRVBKQ05wWVZHeHhwUlFfSG9tWXNDVXhEU2g0anpqVDd0SUp4OFA3RmxXXzREblpOckVCS3pleUxXR0dNTnlubnNiN1dTeEdTN3h5T0JvNGk2OEk1UVRxbC1aZjRjWEVuclg5a1RJTnFlcHF6bFpaS0pyRkZsRVFKaFdGOUVmd9IBuwFBVV95cUxOcVVPWlNiUU5yUFlLaHpRRGZHY3FPYVZ6REZJeFVyUTBwTXNMZzZXUEZOVUFOMDFLQVJOWnIxb0xpdVEwZnNDN3F0UEo1UDM1T25XeFk4bkh4TVNDWHMzN1haVGNacVlDdXgtWkdfN25sem41dzRNMDlKaktDRHhVYXlTVUFJNzRzczJ1OE5VOWx0MmdBMTQ3MjBUanJfd0x2ZXg2dFMydndCS1BlQm1yNHFkY1BRdGdwdTdR?oc=5",
-   "published": "2026-11-26T05:59:57.000Z",
-   "cat": "dolar",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOT2JSeGtrby04ZnpnQThVenEzaEp5aGdJTzgwcjBDNlVlalFuUUltbGVjbkVGRzZjVG9NaHlBLTNlbWc2NlktMFJoWXlqVGNYb0Juem1QZTZnTWc2WDhHcTRYLTFYNUdVOV8wRnBCajlpeks1T3NJSTdEUi1HdWdjOUdKUU9YVWZJV2NqeEhfYmtxUzNCWjBsYXBjNG83VmJGVnhLTWN5NlUtMDFpaW4zOFYwVzVGSWZ1X2lySHVnQ040TlhvYUxqbEdB0gHKAUFVX3lxTE5PYlJ4a2tvLThmemdBOFV6cTNoSnloZ0lPODByMEM2VWVqUW5RSW1sZWNuRUZHNmNUb01oeUEtM2VtZzY2WS0wUmhZeWpUY1hvQm56bVBlNmdNZzZYOEdxNFgtMVg1R1U5XzBGcEJqOWl6SzVPc0lJN0RSLUd1Z2M5R0pRT1hVZklXY2p4SF9ia3FTM0JaMGxhcGM0bzdWYkZWeEtNY3k2VS0wMWlpbjM4VjBXNUZJZnVfaXJIdWdDTjROWG9hTGpsR0E?oc=5",
+   "published": "2026-11-26T06:00:00.000Z",
+   "cat": "krisis",
    "lang": "id",
    "impact": 0
-  },
-  {
-   "title": "Tamura, BoJ: Harus Terus Menaikkan Suku Bunga, Selama Inflasi yang Mendasari Berada di Sekitar 2%",
-   "source": "www.fxstreet-id.com",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNRTVlSWkzbmlwVFZRT0tkMTlSTEw5Q2dFVlA3SUQ4LWtUb242eWZWSXF2bTBMSkNGNTBZZDkwQmpIVGxzNEJWc05RU0l6TDVoQ3NXYTN1ekFzVXZlMUZNaHgyUVFnS09VbVVDTXQ5QnJmWURwdGVpcFVIa0x6RFJyNzhSbzl5cDY1Q2dnLVdBdGdOdGMyNm4xVkJHQ1I4S0JhOUI2YlFGdWk0TU1pdkx4SGt1NmJ5Smstalk3MjV0ZHdNY3pVRzI4LVMyOU5RSDhKaDR2T3Nn?oc=5",
-   "published": "2026-11-26T05:59:54.000Z",
-   "cat": "fed",
-   "lang": "id",
-   "impact": -1
   },
   {
    "title": "Segini Harga Emas Perhiasan dan Antam Hari Ini",
@@ -137,16 +587,7 @@
    "impact": 0
   },
   {
-   "title": "Rupiah menembus Rp18.400 per dolar AS, risiko domestik tekan pasar",
-   "source": "ANTARA News",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ245Z25nM1BoQjFTbDNSanZVLS1EVGNybkNxSnpmTFVPMHRGQ0hRanF2TkUxOHAzWmVtc0FtcXJ0YjZ0S0d3WnotZjlNVHdrSHYtLWtYOFZqVG5hR1FFb2IzOGE1SnJJLTFaalozUFg2NHUzV25SWjIwMmhZdVBzdXd3aXVoUHdnd0dHUnRYRTJWbkhxc1N4VHBOOGRmcUNKbFd0ZHgzdWxDZ9IBrAFBVV95cUxQX0d3c0lYeWlSUUdnSVFsVjhmajRuQkd6WGQyZlRIdnljdG1LZi1pUWsyc2hTa3VCaVR3U0pnOGZ0eHVoRFdHeXJaVGk0LWRkVWJIeVJXaVNfT3lvVHhhUE1lOXRacVA3SC1PSFdVaS1lbWJTU1BKbi1VSXVNLTRUMkltX2tlT05kSndveVo3ZEh5YzV4blpocDlacmpkZkNOYmlObnlNWDF3bDhy?oc=5",
-   "published": "2026-11-26T05:59:19.000Z",
-   "cat": "dolar",
-   "lang": "id",
-   "impact": 0
-  },
-  {
-   "title": "RBI Gold Reserves: Domestic Holdings Reach 740 Tonnes in September",
+   "title": "RBI Shifts 60 Tonnes of Gold to India, Domestic Holdings Reach 740 Tonnes",
    "source": "Dainik Jagran MP CG",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUEVzZjB2RFQ0V1BhaEpiOXcwbXRvdHMxaW1WS1ZseUEyY19Xc2NSRFpBeUMtYm5uNXFuMjN1dm8yNVdaekR1bFN1UmhCa0N3TS1yQ1BxOTVoOVlUWU0zejZYeFRVMnhFdThub2xFazVCczl6TFN3cmF6cVNLZUt6Z0NyMkdmU2k3V2R2dl9XSWItTk9GdWdGRDZlR0RBNXg5T2lRYnVoN3Z3Yko2SVlxNm43QjByZw?oc=5",
    "published": "2026-11-26T05:58:01.000Z",
@@ -173,60 +614,6 @@
    "impact": 1
   },
   {
-   "title": "Dolar AS Gencet Rupiah ke Rp 18.373",
-   "source": "detikFinance",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQzZ0ZlgwdDNlRkJWS29DVlN4Z0xlNG5FVWF1by1oZnA2czM1eXNkSTV1VGRsWmxwSEdXcEJ0TUdYTENCY0pBVW16aXV6VE80SXpRQnBDZDZKV1k1ODhGYWhNNHlPOTVZNXVCMUVDbVh3UmY1RjVMUmlDWEluV0xoY2UwU0c0OWtqQjRSMzMtbUPSAZYBQVVfeXFMT2Q0U3ZXb3hHTTRpT2tMU18xRHp6UXp2VVpYM0VCSDFlalZSVlNGYmNyRFdsR2FtQVY1VVRDQ0pJQzhDbnlBVHFqMWNTWkZVZ2Y3RU9EUDJyVmNzSm5vQnNESW5fR0ZBX3FzSkE0bVV4N0hqTVpEUXVjZHVubjRjMUpqV3hVMEpXdUNKYlhrWVZwYkdyNWxR?oc=5",
-   "published": "2026-11-26T05:55:10.000Z",
-   "cat": "dolar",
-   "lang": "id",
-   "impact": 0
-  },
-  {
-   "title": "Rupiah Jebol Hampir ke Level Rp18.400/US$, BI Buka Suara",
-   "source": "Bloomberg Technoz",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOanhVRzFmU195bmZuYWFzTElTWi00ZGpMdTNaSFR5REFUTFhXeFVqckNpZkUyd1VNcnVUTTlsbWJXVVR6UUJwMHdsUk1rSHZpMTBub2phdFZVMjl6dE5aMlU3MDdKMzhPQm9VTkNHTVlCaDFKbkdXSER0cTVONnJXNDAxVERlNG90QlRRVGFEY21kZFFnOWFWMEtiRTVfWWo3Wk4tZ290ZmFZUQ?oc=5",
-   "published": "2026-11-26T05:55:00.000Z",
-   "cat": "dolar",
-   "lang": "id",
-   "impact": 0
-  },
-  {
-   "title": "Rupiah Nyaris Rp18.400/US$, BI Intervensi Lewat NDF-DNDF - Market",
-   "source": "Bloomberg Technoz",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUUZLekJ5Um9XNTdxTHQxV0dRdVd2ZVNUeHNNZFlfWkgxODNKUHZNYmxBQXVKZG1FRjJ0ZmVoX0ZFOGJxbE5lN2NjMGt2cGdqa3dwZVIySHZWVGFoSXJ4blZRemZGSF81ZVNDcFhMWTRXS3RKakM0VDkyc0M3QnM5NHV3WmpSOVB4cmViU1dQNVhSaG1rWlVGOHNkWVJ6R2pia2ZZM0tCNTNDZw?oc=5",
-   "published": "2026-11-26T05:55:00.000Z",
-   "cat": "dolar",
-   "lang": "id",
-   "impact": 0
-  },
-  {
-   "title": "Rupiah Terpuruk ke Rp 18.401 Per Dolar AS, BI Ungkap Penyebabnya",
-   "source": "kontan.co.id",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZTh1SUt1VGFkdFFTcDJfRDJELXlQT0RCc09paHhVU1FBWTF3VzV1b0ZGeHJhUnBvUFFVNXZrR2tiZU4yRjdkdFpENDVMOVY3TzlCMWVlWG9PYlhRNUV4d3MxQV9VQjIxaDBGUTIzNUMzV21EVWNLNFJrZk5Wc09yb0JGNXlDbzZUZ2Y0TE81VERlb25Wc01WN0FsSkM5d9IBlwFBVV95cUxOR25SeFFTMVhkWS1KSE5iMGxXeXFRQVRVUDBoVTZZUkVsU08yZmxKYnNGUHg1bTJCU0NpYVk0WmF5ektOYXBTUVZ0SF8zTnI1WVh2cHhfYWY0cUFUeGoyd0FNMnBHTnhGRmt4STRCTXNvZ25CR0VCYjBrZGk4OGkyVmhLTXM4eFlLUnRyWWtDU0prdC1uVUE0?oc=5",
-   "published": "2026-11-26T05:54:43.000Z",
-   "cat": "dolar",
-   "lang": "id",
-   "impact": 0
-  },
-  {
-   "title": "Trump Usulkan Tarif Baru 18 Persen untuk Indonesia",
-   "source": "MetroTVNews.com",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSmpveUpZZ09wSmF5S3pUeGNKdDhZNjNjd1NfdTBWN2s0MWZOazFtdW1ZTFpzZUxsU0FvblI5Ymw5NjhQOFVsYXZVWXVEV2dfVHhjay0yNlhRSEJXdkNsbmJiUTNjZDF6MDBCOGE2RnNtWGNlbWZvVFRZUU5ELWJiUVVvSFlXc0ZWTkRXWmdmLUp0ZjNFeXZB?oc=5",
-   "published": "2026-11-26T05:54:40.000Z",
-   "cat": "tarif",
-   "lang": "id",
-   "impact": 1
-  },
-  {
-   "title": "Yen Jepang Mempertahankan Kenaikan karena Pengambil Kebijakan BoJ Mengisyaratkan Kemungkinan Kenaikan Suku Bunga dengan Laju yang Lebih Cepat",
-   "source": "www.fxstreet-id.com",
-   "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQOHdGS0J1UDJxeE9leDdPRTZYZEFMekZ2U01JUTBTT0tUVEdvbDVPQS1pc1hHYjNvc255U1RLOHQ4SFVxb0N4UGlWbWpyR0tQQjUxZU1GN3R6LXZ1YnhyMUo2cWlTT3dyaHhQQzVKUmNvYmxadzBMNlh2b1N1UlJfY1BmcURBN0g2ZFVsU0JlaXRhY3drWWUwazVXZWV2Wk43a3ZZSWRuN1R3Nndza203bEFsSGxQRUdmWnpJazhpQ0F5ZHZuSVZQUHhNa2Q3RWZBZFM0WldnaGtlR0Y3dkdxb3ZOMGp6VERUenBKUVIwaWVnWDR3emlMcDhPekdVNll0TXpjSEJoWlJ4eV9XWGVENDFOUldTQQ?oc=5",
-   "published": "2026-11-26T05:52:52.000Z",
-   "cat": "fed",
-   "lang": "id",
-   "impact": -1
-  },
-  {
    "title": "13 Workers Feared Dead in West Java Illegal Gold Mine Collapse",
    "source": "Ratopati",
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcHcwVm9kUnJlYThOT2R1MG1kVWd5YVdralktdTBhTUxhemF2ejViVjVVMldWV0FHdGZJV2s3MDZRdGJKQlFmcjBGWFE2Y01Iam5PbE5ocjlpZ2J3YTE2UE9sS1FidjhtU0FCdEdGVzlSLWJjLTlLNmxveWxMalo2N1QxcVBZcS1FZEVJWVJ6d2JSTVM5aGRja0xiYXM2REJmenpmS2Y1LVd0Y2Njc0pN?oc=5",
@@ -236,147 +623,12 @@
    "impact": 0
   },
   {
-   "title": "Dolar Dekati Rp18.400, BI Buka Suara Soal Kondisi Rupiah",
-   "source": "CNBC Indonesia",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNlVYM055b2x3ZkdhR1UzRVJQRnJoeDRGaGx1X0dWOGM1R3FTV1hyQUpseVp4VFFoOTg2dkgzREhRMTVFMURJbVU4ZTU4bHZDTF9xbVVHUk1aYWZKdzg4Y2QxTWxSalBNNlJGQ21BMG1zeHJCYi1KSVE1SkFla1JteHcyVGVGTW1RMTBzMzRTVnI3U2dTZF9YbWJUSnluM2hJU3NvektxanV3TnlZVExOWDVIODdGSGvSAbwBQVVfeXFMTi1KMF85ejBTQV9KVjdXZ2JpUG5PVkV1VVVRczFVa0RHb2pvOGJhUGxUV1FXMFNTNXc2dzlmd2ZuOGRMOXdQTkNTT2t3WmtyeVBTZklVZlQ3a3Eyal9uZ2Q4MjE0cjZrd0Y0WDlCN3BPTDNMdm9QYV9JdVMzQ05zU2tHOERmdzRJVkZvLW1MSXZseExLWlh2eFo4bE5EakNFa3MteEktZEl6cGVKeTduZWgtcTdPRHhUeDR5OTI?oc=5",
-   "published": "2026-11-26T05:51:14.000Z",
-   "cat": "dolar",
-   "lang": "id",
-   "impact": 0
-  },
-  {
-   "title": "Terancam Tarif Baru Trump, RI Justru Bidik Peluang Relokasi Industri Global",
-   "source": "Warta Ekonomi",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbmNUNUlzN1gwSWVWclRvVU1qMjBEeWRQdUtGc1lPaVpUS2NwRVB3WEFaeV80OV9aT2VVRVpic2k2MWlwNjVMRmZjZUt2MHpRbVljbVY5V2xOMVJneVdkMUQyaDZYQ2dEWUwta0Y3M3lHZUkyZ2cyU2c2dTdaN0NoOWNoZ0VNdHZlYWtiRUZpNXByVnhEdExuNUFZM1NwX3BZV2x5ZDMwcU5fOHZfVVBFTW9B0gG3AUFVX3lxTE1yU21sVEtjMURNVi15a2ZWTzNMV0hqWUR5bV93alJoLTFtVUV5UGdxdC1wRjV2a21VZlpxVWx0ZWVFNmRURG5oQTNpZVBjeXNIQnhKT2tnN21ucjJpbk5nbFVtSUR4UzlHc0dXQjRHYjZ2eVUxTXlGcHlnclRrcFgydFhpc0djOWhqRWlNSFlkUkhtX3MtakNJdnJzOVhnR0Z2djJDbmh5V1AzYzF2WEp6MlBSTDFDQQ?oc=5",
-   "published": "2026-11-26T05:51:00.000Z",
-   "cat": "tarif",
-   "lang": "id",
-   "impact": 1
-  },
-  {
-   "title": "RI Kembali Terancam Tarif Trump, Pemerintah Akan Negosiasi dengan AS",
-   "source": "Kompas.id",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVG84MjNneTIxYnpiSzVsQkExeS10ajU5NnFUZU5zVWEzdW50U2M5am8yM0dtQ1dvVXdQSkpPMzk3V3hvdmtHWFFhQXpmdmpZZ2NzUURPaWgwZmNFSFZsbWhXenFkSzlkQlpsTEVValpGd09lbFVCU2QwMXZXbS1rUGtvakp3TFZpYTBUZ0psRHhhM3FWRDc0Qmg4Q09Jdw?oc=5",
-   "published": "2026-11-26T05:50:31.000Z",
-   "cat": "tarif",
-   "lang": "id",
-   "impact": 1
-  },
-  {
-   "title": "Indonesia Faces Another Threat from Trump Tariffs, Government to Negotiate with US",
-   "source": "Kompas.id",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZ1ZzeTdBM2I2amo3ajk1YXF3U0h3YVBLdjFJVE9NbS0xalJEOEhRQXp5S0hlRGlERkJWWkJkMGlzMDRuRlZpX19fck81Nmo0bDJadDNqaEUtYk9PUENDZmZoUS0tZEtKTkUzME5WbUNsNEVpdGJMMTkwZHdLUHBZalR2Q2xqYTR5TEQ5VmpJdXFQT09HSG1KTmp0aHFVSXhaeXc?oc=5",
-   "published": "2026-11-26T05:50:31.000Z",
-   "cat": "tarif",
-   "lang": "id",
-   "impact": 1
-  },
-  {
-   "title": "Gold prices slipped 2% below support level before bouncing back — Here's why the precious metal remains under pressure",
-   "source": "Livemint",
-   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOUWZPYkFBNTYxTUZELXRVZ3RvbkdFQVFWY0xrTTByVnFFb2JCM0xlMWVLSm0zYlhOd0h2OFZtdHVweTFTUmpSTFZMN2xGWEg5Qzk2eDhvbjc4Y0NrdUktdDgzSDZzVGcyMVFDRGU4MVJQcEw5LXowNE1YN1FwUG1vdmhwdUtUVVNoRWtRbnF5OHoteDl1bkFCYjQxNVdvU0tXRVdIaDZrWGRpNHhJbGkyUHAzVHhqS1VxdjNaa0RqcTNZbktQS1Z6dFlDUlM3a2xVR0xHOVBxZ0VrQnhkVGdQSUhiMk9LRGUzOWdrYWhVRDZxejdZalR3TzBzMG5pQdIBgwJBVV95cUxPLUVXeHR0aVdMUXQtTkJmTGdzRklWVXgxNUExSi04bXFCdHdobGNtUXM3S1VESEVyV3NsTWpaaWNNajRhWldBanBfVGNGNFd0Y29OaFV6clpKNzVUMDFRRFVWVTBxWjNGemZWdEd3aWtKWTNJRXhpdFZRajZ6bG9Za1ZjUmFoTGxEMmNVbWJzaXo5X05WUGJtcHgzZy05cGV6U1pkOXhMNDNiYTRiWWY4dWhEcmMzdUktM1JyRGJ6SnFZUDRLUDgzQk9uNzZBRnFwTU5oZ0oyMEo3c1RfTmRlT01xNkZha3dkM19tQ09GQWZBZXpBV0RoVER3R2EyYmdQWk9z?oc=5",
-   "published": "2026-11-26T05:49:43.000Z",
-   "cat": "fed",
-   "lang": "en",
-   "impact": -1
-  },
-  {
    "title": "13 bodies found at illegal gold mine in Indonesia",
    "source": "Operativ Məlumat Mərkəzi",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMHZ6WjNTMENoMmJPWW1JeTh6ckFYUVZwOW4yRkI5OThuajczWWllM1J4ZGFUNmxkbUtXYUhDcl95M05yaU0zZ25KV2x4cnBDVUJxcmR0UHFuSDg4dUhvLTNiNTNscVpZMUF1TkhoaVB2UkE1YUZHRXlfcU9jVEpEUzVLdDJIQlpoYjZZcmN3?oc=5",
    "published": "2026-11-26T05:49:38.000Z",
    "cat": "pasokan",
    "lang": "en",
-   "impact": 0
-  },
-  {
-   "title": "Harga Emas Antam 5 Gram Hari Ini, Kamis 26 November 2026",
-   "source": "Pintu",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUUl4Zm10NjVIVmFfVVZWU1RnYUhkaTlUUWNrM3ZicmxpVTNmbkNPcHMtdm5HVExXMUZWeXdXdmNKa1UtZ2g0X0NlbFJzWlBrQUlvaHN2UzFFZzBZYVkyQWlnQlRYdllNTllXX2t1cTUtZElhU01JazYwT081b3hiQ0kzUXE?oc=5",
-   "published": "2026-11-26T05:49:33.000Z",
-   "cat": "emas",
-   "lang": "id",
-   "impact": 0
-  },
-  {
-   "title": "Harga Emas LM Antam CertiCard Hari Ini, Kamis 26 November 2026",
-   "source": "Pintu",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQkE0c0tuTEd4SUxOVlNaS1ZFaVBnOTNZeVJNdHdTcU9CSGc3UmF2b0tjVFhTNWk0ZHZCQWRHd3lnQkJ1VEx6Q3VoSEdveXVjR19PelB5SUZ0STMwTURXQWVrdExBRTBMSW5lZ1VKMmtQbVFQQXgwckphQnpXb2xIZWNDa1VRSExwUXZPbm5B?oc=5",
-   "published": "2026-11-26T05:49:31.000Z",
-   "cat": "emas",
-   "lang": "id",
-   "impact": 0
-  },
-  {
-   "title": "Rupiah Terus Melemah Terhadap Dolar AS, Tembus Rp18.400 Hari Ini",
-   "source": "Tirto.id",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdjh2WjRTS241cUdCb1A0REZvTXNldnU3alVudnFCNm92VE81UEhFdFlGaW1QYlVWcXJOVEdNMHdhdEhFdlZpQzZXMC03aFRCUWxSNVJSU0JiejQtNFIxbkE3LTdPcUhtRVkzNUU5dk9WZHROQ2JRNGNKMjdWdmY4Tmp6dmRyci14UjJjZQ?oc=5",
-   "published": "2026-11-26T05:49:00.000Z",
-   "cat": "dolar",
-   "lang": "id",
-   "impact": 1
-  },
-  {
-   "title": "Bagaimana Ukraina Serang Kapal Rusia di Libya dari Jarak 1.600 Km?",
-   "source": "Kompas.com",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQy1kbXNjcUU0VmRUTjBNTnJEeWZqWldDYUQ3c01wQWhHVU9oRE9VUEloNVlSUmtIT3g1UXlkT3FWXzB1cnNZU3JpdEd2RU1qLXRZVXVWRUVHSjlUZlAzeU1TUXNNUUpWd3RJd0JCWDZiemlOYWNnai0xYXk3Mm1zdmYzT0k0TFJVMnhCQlBYaUNTNjU4ZmttbG12TkpJanREelZUQWpEdXhhNEdQX0xubkYxSC1VVmVJRW9nZA?oc=5",
-   "published": "2026-11-26T05:48:00.000Z",
-   "cat": "perang",
-   "lang": "id",
-   "impact": 0
-  },
-  {
-   "title": "Dolar Kanada tergelincir dari level tertinggi dua minggu versus USD saat minyak dan taruhan The Fed berbenturan",
-   "source": "www.fxstreet-id.com",
-   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQQmJGT1NYYldmVThRamtaSEZUSDJObFkyM18zRXFkTW5Mdk10V3lEMllJZWw1SGtCc18zWEdKaF9MaDN4LWJLSFdYQ3FnN2lZYnNzLUVVT0RGaFBrUEkzUTlPV1V0OVhNTjJLNE9uVTRTUEpXSmhLSmZWRHlQby04VF9BWW1VcUtENFhVdGZFMVVqUzBIMWRobUNuNks4Tk9ISVIxUjhjNlFuUzN1THBTOXlGMGVXa2thWEdrYUFVZkp0UlBFaGNFQkRZSzlKN0lYYU1neHRqQWRCQ2ZzTmVHa0laTC1IT0dQN3E3UlhCczU?oc=5",
-   "published": "2026-11-26T05:47:23.000Z",
-   "cat": "fed",
-   "lang": "id",
-   "impact": 0
-  },
-  {
-   "title": "OPINI: Section 301: Jurus Berkelit Washington Setelah Tarif Resiprokal Gugur",
-   "source": "Bisnis.com - Ekonomi",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQeEhSclVKQWFMUEVSU0NBQW0zSXVWWmhZUy1NTVlsUkhic3lxc3VCU2t0WjA1ejBMeFBoSldsMm5CaTc3a0g5VnZ1aVZlUXN0YzRPb3p6MTZ2c2RINkpsclhSXzFqd2hzcWpXTEpIZF82Y0xPdEFfSVNvR2VPNUhONXRUMWQ5TkloMFIwel9QNnVBeS1LZ1lfU1ZzSTVZQmxFd1RTVWpybHcwZGh6cWR0VW5OLVlRMW5jcmlhR0JGTS1SeWs?oc=5",
-   "published": "2026-11-26T05:45:03.000Z",
-   "cat": "tarif",
-   "lang": "id",
-   "impact": 1
-  },
-  {
-   "title": "Trump Usul Tarif Baru untuk 14 Negara Mitra Dagang, Indonesia Kena 18% - kumparan.com",
-   "source": "kumparan",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNTZmeFFYeWx0aHlpVmhhQVcxZnZBanoyTW8wU3pCRFNuSXJkMHpqSk5vX1RJX09xOFlBTVlLSHlLN1BPLWNwZkZNZ0lJQXhoNnRNVmFFbUJmd0ZNLWJmVjRFbUxIM1NNdllhbndxVWY3a1ZRMEhadHB6TUFxVEY3ZlFka3VfZklBeVg2X0N4ZENqNzJVOTVWVzlpX1JwZDQ4LVppc1VRZ2VQbXRFWGxjYjBQTTdlaDTSAb8BQVVfeXFMTUlKbTU1RmkxYloyRWoyV3RtaElOSGN1Rm4zTlozWmoxdGMwckZDT3IyT0N4bVNreC1Id29nMjFhV3VxUEhEQXRQMHA0MHJxMHdwTm8xeHpIVFhLTEJJcHhrX29XWl96TC1vVzVKTGdES0FOVmdyRVlBN0ZTZHVxX1FXNGQ4RjhpMGRNWEFxa1NueW9zR3hQYTZZT1JWWXFKbHVPazNFUTdLZlNKaEJNMll4bV8wUTNPZ0x2SFVnRVk?oc=5",
-   "published": "2026-11-26T05:44:00.000Z",
-   "cat": "tarif",
-   "lang": "id",
-   "impact": 1
-  },
-  {
-   "title": "Tarif AS untuk RI Diusulkan Maksimal 18%, Ini Rinciannya",
-   "source": "Bareksa.com",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUFZ3dzFXX3pCU0RFWmUyNnlFdTJhN1hIS0pzd3prZVMxVENXeXB0WHJ1XzFFRjd0RlRGV1ZBcVpuOGhYeEl0UkZKLWtTTVVMdDJtemh0SEgyWFZiVEZfSXlkMkljeW1QWmMxZ3YxR3hPUWtfbkRlU0toa2lod2VyaTRXWWdPMFhDSFBrWGplam52eG5HZUhEQzdLaTJyWm9LcnpFVA?oc=5",
-   "published": "2026-11-26T05:43:52.000Z",
-   "cat": "tarif",
-   "lang": "id",
-   "impact": 1
-  },
-  {
-   "title": "Harga Emas Antam 26 November 2026 Naik Rp 2.000",
-   "source": "cwibc.co.id",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5aZy1qSTl0V1dhUlJTY0t2M3poYnphMXFOOEpIekV5Z214MVRhWVhNNzk5OUZlU0VDUkpROGlZUm15Nzhhc0ttc040c05nVHZMWl92TG5QbkdGb1UyX00tRENvOA?oc=5",
-   "published": "2026-11-26T05:42:57.000Z",
-   "cat": "emas",
-   "lang": "id",
-   "impact": 1
-  },
-  {
-   "title": "Reksa Dana Dolar AS Tawarkan Alternatif Diversifikasi Investasi",
-   "source": "infotoday.id",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ubU5YcURqRERsNDlWQ2tRcUhPb2RnWllwaFgxRnJ0Vm1tY0VPWlpiaXljSUhRa1NXaUp0b3V1blhrTm82bk5VY2RSTkhidy1FdU9vS3JxbVcxQ3Z5OWVBU05VN3U1dTR1dE1GaVNxY21IRllt?oc=5",
-   "published": "2026-11-26T05:42:48.000Z",
-   "cat": "dolar",
-   "lang": "id",
    "impact": 0
   },
   {
@@ -398,24 +650,6 @@
    "impact": 0
   },
   {
-   "title": "Harga Emas Antam Hari Ini 26 November 2026 Naik Tipis, Cek Rinciannya",
-   "source": "Kompas.com",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNW45dU43Y1J5d1g1dmlaR05oYlJGVzR5Q3dWS1JGbGtzOFU0Sm1LZUVESUdpcnQ0VDBjQldlNTdIT2kyQTU1RlV5bFFiSmFwaWpla2hQQW1wd3NfM1FhSHRkd1ZNZTRRRkJqcXR6Y2RZZkdwcTc2ZEd1NS1Jdlp5TGNCZW9EemhWREdBWnZRY2FKX2dQdEFPY3NMZk5ZenRZLTFqTHZ2UzI3MndnX1FMWFhyTGpVMmNwNXYw?oc=5",
-   "published": "2026-11-26T05:39:00.000Z",
-   "cat": "emas",
-   "lang": "id",
-   "impact": 1
-  },
-  {
-   "title": "Rupiah Terus Melemah-Bisa Rp22.000/US$, Pengusaha Segera Lakukan Ini",
-   "source": "CNBC Indonesia",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNlNvcGJlZ3hUVEZhQXRKQUIzZF9pR1VjS1dqd1VteTBuNkc4WE56Um1DanNRMkN4Z1lRamRKNWxEaVItZ01EM1JFTFgwc2ZKRUdHeG05VEJYMmpZVC0wSk94SEpJWXFtdEZJVXA4U0FjWUprem8yOXAwREFkakhLSDlTZ2hDQmtMVXdLRjhPUHQ0OF82RkpweGtIRDVlTE1lanFEa2JaRGV6M25ZVXBLU2ZKRFAtUURNQnJ0Z2EtMV81bDDSAcgBQVVfeXFMT3o0S3ZLSWthSFB1b2t4Njl3WnFpNnhVRjRCNW5zLVpVdTJiREE5TVZOMERvVi1hX3dTS2NTSHhJdFVSbGtCcWk2ZHJSZ1oxbXpCLW52N2hFTmw5dGE3XzR1OTB0ZGxTdFlQU00zbDlIQTRCQ3owcVFGRV9Fblk5Nm5uTlBpOFpHY0k0RnpvRHdCTUF4RnpHQzQ5aG9HTEpiZEkxbnhmMXdtZW9TWW5xREw2azN4RjRuanRBdEloS1JOQjUzSUtvd1Q?oc=5",
-   "published": "2026-11-26T05:37:49.000Z",
-   "cat": "dolar",
-   "lang": "id",
-   "impact": 1
-  },
-  {
    "title": "Turkish gold mine restarts following 2024 disaster",
    "source": "Mining.com.au",
    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBxUXdTeGRkaW9qeW1NT2VkaGZqM21RREl2S2otTThCYjZJNHlncWpYUklZcnpyS0d6NTYzUzlreGtjWXdNSnFOWGdRMk9vWTRxejdhSDc5bHBzY1V1X0FfSDF0cDZ2SHVvNEhOMVkwc19jU1VtTTFMcnVYc1Nsdw?oc=5",
@@ -434,42 +668,6 @@
    "impact": 0
   },
   {
-   "title": "Serangan Israel Tewaskan Enam Warga Palestina di Gaza",
-   "source": "bsinews.id",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSzI0bTE3WTFHRDU1cTB0SEgydER5RTY1bWxTTUREWnd1Rm0wd2V5NXdOTUJRcHdOeGxmU01aZGFSc2lMU21IVFlmS2pWNThGU3pDbXlGOTRaVkpqb0NLWko1X0hzMkFsOU9uVE91emdjeFl5azMyQTluXzVCT3ltb191UHhZZC0xRTd3?oc=5",
-   "published": "2026-11-26T05:31:45.000Z",
-   "cat": "perang",
-   "lang": "id",
-   "impact": 1
-  },
-  {
-   "title": "Japan protests new U.S. tariff rate, allegation of excess capacity",
-   "source": "The Japan Times",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQ0RVOG4yd0piQWQ1bFl0QllLYVdoUjh2b3UxbFIwUXFsaElFbEd2OTdYejh6TEtiLUNOZTZuTHlGdVp1cVpxaENGN1BDRUF6dE52b0JybEdvOXNPc2dZdWJ5aTdzdWt1ZVo2ZTlCWGdwQzJCZmpxNjVNZ3ltOE1qbW9xcVFqVkNYdm4xT0xOWTFyRDQ?oc=5",
-   "published": "2026-11-26T05:28:00.000Z",
-   "cat": "tarif",
-   "lang": "en",
-   "impact": 1
-  },
-  {
-   "title": "Drone Israel Gempur Kamp Pengungsi Gaza, 6 Orang Tewas",
-   "source": "detikNews",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMDdFYWV2bXNtX2tpLVlwRDhaS2kzUmozOExOUmRRRHM2QVZmV3Y2TFVwN0tOdU4xdVlWSS1tNWFpdV9kdmJXX3JHSVl5b25SWVZwWTlRVDNXQ2lsNElTNVZrS2xFTk0zV193YkZXc3lKX2QtN3dGd2w1WFMtQTJhMmZya3V1emY3a2d1QXBXUlg0Njl3QlNMbzRObm5MR3E2TmfSAacBQVVfeXFMTlJGQ3hyU2RudktCNjFTZEJGRWVlQ0ozOVdreGppV09sZ3R4OUxlLUFVS0pfalhrSExKZ3JJaVRjVkVlM1JXX2YxcS1yaFNWMW1BY1dhWWlFbGhjQ2l0cHdaX0pjci1Db3ZnSFlVNDcxLVhsWlp6ZktJM3RTX2RhcXNwcXVUVWNXXzYxa3Q2b3pWTEM2dmQ1aDk2RzlJb0xmemJKNVJmdG8?oc=5",
-   "published": "2026-11-26T05:25:47.000Z",
-   "cat": "perang",
-   "lang": "id",
-   "impact": 0
-  },
-  {
-   "title": "Gold price rises by Rs 1,400 per tola, silver gains Rs 35",
-   "source": "OnlineKhabar English News",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBkN1hCeXVsX3E1MEhaMWJodDhMdEJsOFplVUZMakh6dEZkZDR6TEFnT1NSbU1ldTFOQVR4V1lwTFBHdlNCYXlKSnNjdm56TEtFVF8yWmJka3lwalc5V2kyRjk1OFZXRXoyZEpWbmlWTUx0RUlGS0E?oc=5",
-   "published": "2026-11-26T05:24:56.000Z",
-   "cat": "emas",
-   "lang": "en",
-   "impact": 1
-  },
-  {
    "title": "Harga Emas di Indonesia: Harga pada 26 November",
    "source": "FXStreet",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQX2VVbTUzS180R0lCYW96dk1VbjFJU2FZODd4NW8wX2t0YURWV1g1SWJiN3BkLTBoYXlkcjFVS3pESk5OS3B3QVZLc2FVcWdMblBCSEE1Z1pKN2QtakVUVnJ2Wm96dkM2OUJMcklVME9NRnMxTTV6SFRiLVJUT0ZTMVRURlJ0cEdBRDRhcEZ4R1BzcERWSVpnLXEzY25VUUxFY0ZwVFBaVEdBRG8?oc=5",
@@ -477,87 +675,6 @@
    "cat": "bank",
    "lang": "id",
    "impact": 0
-  },
-  {
-   "title": "Gold price falls to a one-year low after US inflation data / Investors anticipate further interest rate hikes",
-   "source": "Informat.ro",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcUVjYzVzZXRDY1hjLVIxejBwZUl5c243WkxFMktlM0Y2clRRb3BPZWViWlBsaUhic2hvdEZKSE9kMUdianR2Y1hMamlncTRVYTBVYndwZmtDUzBIeTJnTXo3YWlJNHhPcFA1Z2gwQjMwM2hYOXE5Q0d6VXh0TGFEM2VFaWt2RGRaVThQQjFxNHhlbUlYdUZTVHBTY2NNcE0?oc=5",
-   "published": "2026-11-26T05:21:00.000Z",
-   "cat": "emas",
-   "lang": "en",
-   "impact": -1
-  },
-  {
-   "title": "Perbandingan Usulan Tarif Baru Trump di 14 Negara: RI 18%, Cina 20%",
-   "source": "Bisnis.com - Ekonomi",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd0FZekRpZDZCMVJrWGx1SDRYdS10RXhvaXRQOTA1UldydFN4Q0djcHJtekJibE5rV1FtWTlMVnVqSW85SHhvQ0tvR21iVjhEazJDWEg0N1pzRTZMRENfZVNXQllJbW1WM2JQNnJaTXlrS0Z3VUlOTkdQRkdwenBhT3JMWmxNUUdyLTliSnBpU1hQZkFXYW5nWEJtcHJnXy1veG5RWDdpZWs0UWFWZGxDN1RFdXh3dw?oc=5",
-   "published": "2026-11-26T05:18:37.000Z",
-   "cat": "tarif",
-   "lang": "id",
-   "impact": 1
-  },
-  {
-   "title": "Pertempuran Sengit di Yaman Picu Pengungsian 360.000 Warga dan Krisis Kemanusiaan",
-   "source": "Pikiran Rakyat Koran",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWTNGWm1PZHlHSmlBenhOYlRvRC1DZnBkbk13SGtvRmNrZzZKdV9uTGRhdWlXS2dYT3UxT0N5SnlSS1dCWDhuSUU2SmZsaFdNZmFfbWdJVUZrWDB3aExLNGo5Z3lxWUdWX192S3g0YVpkRERvQXpEVUVJNVZ1WDJRRldiaHRkSnc5bGJiOGZNbXFuaThmXzBmTGF1X05NXzVpQXBDcFN2eVd4ZHBNb1JTVUp2M2czNWtzbVQtUDljalpDdGlxcjV4eEwzQ1Z0QQ?oc=5",
-   "published": "2026-11-26T05:17:46.000Z",
-   "cat": "perang",
-   "lang": "id",
-   "impact": 1
-  },
-  {
-   "title": "Indonesia mine flood: 13 dead, 13 more feared trapped underground",
-   "source": "Euronews.com",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbFh6TURmb2MwNUIxWjQtbkUxU3JFd2czMUx5eWdTOE1uaUNmcFlZN3JYNTRlU0cxWlJnRTl2T0xiR2hRNGtEMEdDRUF1RWlIZGhsTjZyUUI0MDNBX2plUlRwYWRSbC0xMjMxUllka053d2JuSjZPUHhEMjZiMG5TZnA1ei1ZdC1VbmM3aXpfc09tWDZPT2x4Z1VkR3J2YVhNb0ljVXVZc25zYzcyekNRNFBZWlU?oc=5",
-   "published": "2026-11-26T05:14:01.000Z",
-   "cat": "pasokan",
-   "lang": "en",
-   "impact": 0
-  },
-  {
-   "title": "Houthi Gempur Riyadh dan Pelabuhan Saudi, Konflik Yaman Meluas",
-   "source": "Limapagi",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTSGM3Vk1XMkY1c2VHS3JzVVhqYjc4aEJaWkhXV3dxWXV1ZGpFMHVPOWZTZjNwaTJuSU4yd0dzb3YteFRQakljeVRlYmQ0MjlHSTVORmlfTkJxU19wMWUzZW5SbGFDWmZjVG1xUQ?oc=5",
-   "published": "2026-11-26T05:13:14.000Z",
-   "cat": "perang",
-   "lang": "id",
-   "impact": 1
-  },
-  {
-   "title": "13 workers killed after flash floods hit illegal gold mine in Indonesia",
-   "source": "Pajhwok Afghan News",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZ0lJOGlpVEp0WmVFelQxSW1SUEVZX3VuTmdIS0ZHNXZabjRHYUZ5VEVKalZJQ012X2lIcVJaTkVieGFRUE1JSmVwQ2RPcWlwZmxMTHltYUxhQndUNkJUcndZaGdSTzExNUtNb3AxZGJWMXhXN3lCSlZGRlNGUnp2aEdwU0hUQlIteUJGOVNjU0tiMFgzRE03eFYwOE5TQ2JmSjFOUUt3?oc=5",
-   "published": "2026-11-26T05:11:25.000Z",
-   "cat": "pasokan",
-   "lang": "en",
-   "impact": 0
-  },
-  {
-   "title": "Seberapa besar penderitaan yang akan dialami Ukraina jika Rusia memblokade pelabuhan-pelabuhan di Laut Hitam?",
-   "source": "Vietnam.vn",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNURCQ3prdEtwS3VLd0ZkN3pJcmNNck9VekNuTmZZa0VTOWdRdzVJZXZhdEF5YjdYcjNiTUJFdHVwdE03QlV1YlFBa0F3TmE3YXp6bnA4dTBoUFllQ0pPQ2Vjc09NdklDREV0RXNnVmhSVmZ3X2dtdGVUZU9wUDRvc1FnMi1pVVYwaFJhYWpLcE5iM2czbFE?oc=5",
-   "published": "2026-11-26T05:11:09.000Z",
-   "cat": "perang",
-   "lang": "id",
-   "impact": 0
-  },
-  {
-   "title": "Mengapa Warga India Masih Direkrut Rusia untuk Berperang di Ukraina?",
-   "source": "DW.com",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVjNuRzFoamxuQmUwSXFrb2Z2YXotMmZpVHBoRzFNdzB2NmlWaW41RzlKdjl1ZW0yWGpyZ1pyV2FSbGNhblpUVHQtcFZ2OFJYVllqdTA3XzJLNEh2dTZjRkNueVoydzB0V0t0SlRJd0lOTHpSMHBnZ200RThoTnVtalRGQWJVTnF3czh3Sm9OcUU5dXpGMWxOMkNKZVVBQ0VWQ2M3NtIBpAFBVV95cUxNR3c0T0hzWnVVaWg0UTJqRTNFSU1xa0dEdURaNWNNczlZMVhOSXQwRkhPQ1NEVDN0X2JSUDVmT0lTNHBwMlA4bzFad2VWa2NYZ2ZDQ1VaRmpKMTVnMmZxZHU1NDRCZmplVU1jeEJ2Tk50azFteTV2ODE1YzlwZ0xRaU1vblVLb0VGUDkzeDBIdG1SblFkN2tKQXJYeDVMMl9nT2gtQQ?oc=5",
-   "published": "2026-11-26T05:08:43.000Z",
-   "cat": "perang",
-   "lang": "id",
-   "impact": 1
-  },
-  {
-   "title": "Harga Emas Dunia Pulih Terbatas, Dibayangi Inflasi dan Suku Bunga AS",
-   "source": "SWA.co.id",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMkRGM0NCYV84YWdiWEk2Qm55X0V4M2h1NVVLNDFGSVJzRFNVZ0JyOW9rY1M5TnBHeGNGMDU1RWk5R1BtRWdkU3IxSU1Na256SUIzUi1ScG83ajh0RFpvbGVUTV93V256Ykt1ZU9IdjczM01pLUhMTE80QXRnUTdFV0V4MGJKMm44aFdZV0ZOTzRGaXNsaHU1TllJT0RQUQ?oc=5",
-   "published": "2026-11-26T05:06:00.000Z",
-   "cat": "fed",
-   "lang": "id",
-   "impact": 1
   },
   {
    "title": "India brings back 60 tonnes of gold in H1 FY27",
@@ -569,33 +686,6 @@
    "impact": 0
   },
   {
-   "title": "Ekonomi AS Tumbuh 4,3 Persen pada Kuartal Ketiga 2026",
-   "source": "Peradaban.id",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBzancyUmY2aU5iY0RCS180dHUwZ0l3OEQyamRnUGs5VTU2YV9oMU5CQldXWlY1RnF3WnZDeEVsQWdMWW0tMXByUUhqbzVDLUl5aVhPWkE0WFpsQk9jRWZjOGNMcw?oc=5",
-   "published": "2026-11-26T05:00:41.000Z",
-   "cat": "fed",
-   "lang": "id",
-   "impact": 0
-  },
-  {
-   "title": "Dokumen Rahasia USAID Bocor, Dana 50 Miliar Dolar Dipakai Biden untuk Menangkan Narasi Perang Ukraina, Libatkan YouTube hingga Google dan Bing",
-   "source": "AFU.id",
-   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPSzVJbjBQQ3dRY1RMZGJZbmlqSEVCUzF2SnhYY21DX1N2VENvQUtuRVRDMGpyekZScHFHZ21VU2p4N2Q2d215Z1FHcHgzVGxpQzBuV2liN09TYUVTODNXeEhxalJRQU11TXo1OG1VTDZNa0tWb09xa3lLSTJqVFNIMTlqdTBWWjFxV2VZamdNV0FHbjBoLUVyNkFvOTljX1BaMC1RQXdENTlYR2JmMm1VRUZvd2xXSWlvUTVGT0JPWG45bXhGWm1NRTBsR3BDTUZ1cU9sQm1iUmxHRDFzc2VlX053d2hvTnhUNk9PUDN6MF9ZYmpNUXpTeHhJNjBjdw?oc=5",
-   "published": "2026-11-26T04:58:48.000Z",
-   "cat": "perang",
-   "lang": "id",
-   "impact": 1
-  },
-  {
-   "title": "Emas Berusaha Keras Melanjutkan Pantulan dari Level Terendah 15 Bulan karena Taruhan Kenaikan Suku Bunga The Fed, Kenaikan USD Membatasi Penguatan",
-   "source": "www.fxstreet-id.com",
-   "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPUG53ZHlVbzZrMjFEZFJET1ViUWJBYkhXR3p4M2NJZmh4dTh4NDBPTDhPNFQ4ZldRa0dKNEZ5YXM1eVNPUV9zV1l0dnlsd0xGTnZ1ai1VTVRnR1F6WHNqdDVxOW04dDMxX3lWVEc5d245SHhOUHdCT2xWRzRYMFpDNlBoeU5oa3BRUzYxWXN6WVlmSTJOcUdVdk9PVkpudmsyY094N3RSSzR0TjhQWjFFMVByTkc2TXl3V0FyR3NQMmFoNVA1aGtWWG51bjA1Y2RwYTJhMzIyVmg0clMyYjU3OGpsMnYzS094dHY4YmJBNEFEZWJFRzJUVHQ4R3hvTWxUMTFQX01abnlyUTZ1RnBrYS1yT0ZINEU1MEI0?oc=5",
-   "published": "2026-11-26T04:51:22.000Z",
-   "cat": "fed",
-   "lang": "id",
-   "impact": -1
-  },
-  {
    "title": "European countries continue to post record-high inflation rates",
    "source": "Yeni Safak English",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRjVseGJnMV9aZ0RyOGxUY1B2Z3l2RENKaUxDT2NtRGNGZ2c4VWVhMnlfU180S2pXTVVoODh6dUg4eHJhZm9nMTRvSUNKNUR3WnpSdjdvZmZHaFMxaVNvbUNpQnphNG1leFZ0Z3FxRzdiWnNjYXFrdjlOSFJYekYxZm13T0ZUWGM0Sl9CUG9kZTM0endUWUhiNF9QVUM4clNnNDNvdVhpVQ?oc=5",
@@ -605,31 +695,13 @@
    "impact": 0
   },
   {
-   "title": "Indonesia gold mine flooding leaves 3 dead, others trapped",
-   "source": "qz.com",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRi1CLXdfbGxpWnNGeGlyNDBKQnNLZkVJVmRGUDAwams1MW5sMzZLV3pHSldrekZNaW14S2NOUHlrdUIzdmd2Z3hzOTBPajlsM290X1pLTXFDenM5bC00TVhVdXhlaUdON09wZlNyNEEwX1NmVjc4RUlvVG1tTl9YaTln?oc=5",
-   "published": "2026-11-26T04:47:53.000Z",
-   "cat": "pasokan",
-   "lang": "en",
-   "impact": 0
-  },
-  {
-   "title": "Gold steadies after hitting over one-year low; Fed outlook in focus",
-   "source": "CNBC",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNS2RGZHQ2cnNGQUVwT25tM2lrZFZkUDMwdXpSWWpkSmljWFpFZGh1dWl3WUwwZ2Ricy1hd2lsSVRRazdmeW1OdXFycllzcmJ2NWxQdEQtMmZRN2pBUjJaTFMtZXlJOHVXNHBDWmdzc09jQmk5YnhQQU0wUmx4cEtVOFl3SVTSAYoBQVVfeXFMTjVWQXJNNzhKbnh3SkxiV1VhbGtUQ1BrYTJfMnJ3Qnl4WVkxMjMwQVAxSHhtSkRWZ2E5TEpIZV96Vm9jRjhKQUV2ZVd2WHd4dmlMTzlxVW9UQWJQSWl4dlNUbFR5VGl5V0EwMURrSndKS3MyOVpwNGdGVzd3eno4TVpBb2tZY0xmNDBR?oc=5",
+   "title": "Bank of Korea Hikes Rate as AI Boom Powers Growth, Inflation",
+   "source": "Bloomberg.com",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTTAzSnF0UXZLcGIzQnV0VXoxU2x5UF9Vb1JqNGtuVENiTGg0Z1FMNno4dTZRcVNFR1BHUE81QTg4QWpZOXdxbnhUb2RDT0VWbTBBM1dVVUUwTUh5M20zNHp0SmNkS0hMYUZBazZ2c09pNWdvMTdQa0NCRWNpZDdZRGFXME8zcnU1akZOWmNxcVZhOS1LS0pkdnpiaHdBa20yWVVtcWJfNlBwU0VGeGtXNHV3?oc=5",
    "published": "2026-11-26T04:45:00.000Z",
-   "cat": "fed",
+   "cat": "krisis",
    "lang": "en",
-   "impact": 0
-  },
-  {
-   "title": "Indonesia Gold Mine Flood: 9 Miners Dead, 17 Still Missing in West Java",
-   "source": "Gujarat Samachar",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSnJENWh5TnRqdWZERVF3bXBwb2JWSWVUTHVwSVl4ZEtnZWlNemJickZWNVliTmxNVm81NFU2WXd1RGtVbFNpMzRfc3Rqd2RqVlhaUzhpTkRFTUZxZDBRWVAzREllNlhZeFRPSDFtRG83N2pLdXdJUU1sWWVGWi1qTkpONDY3bG1LdXgwbUpPVjhVQ3o2ZmFfMTNZamZ0YjhWMVJXQUV5dFk0Wk42R3VncEU1NFY2ZXB1ZFI2NE82YXhsN2oyLTNmY1NjVXRjVmRybUE?oc=5",
-   "published": "2026-11-26T04:41:47.000Z",
-   "cat": "pasokan",
-   "lang": "en",
-   "impact": 0
+   "impact": -1
   },
   {
    "title": "Harga Emas India Hari Ini: Emas Naik, menurut Data FXStreet",
@@ -641,75 +713,12 @@
    "impact": 1
   },
   {
-   "title": "Oil Price Today: Brent Crude Nears $95 a Barrel as US-Israel-Iran War Escalation, Saudi Refinery Attack and Hormuz Tensions Fuel Supply Fears",
-   "source": "The Sunday Guardian",
-   "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPN2NPTVFRSDVORjQzdGQ3OEJycThWcUI4MnVub25MOWJjNkoxUm9Ka3NaQ0t3eEhwUGV2ZndNY1d0a2dma2NOOWprb2ZXWm5yekxVdFJYNlRSdlA3UWsxWWZ2d204MW9rTzNWbFdCYzY1dWUxeVNpeXh0WkhzUTRNOWUyTkxqYmxlV0ZhVHJDaWI3ZlczWk1BZkgxUi1CY1F6eW5LaVVMR0Yxc294WC14Q3lYUzg5QjhCc3VmV25wdVR1bjJ5U2NXQmtUUmROUTAzUkdUN0VXbl9GdEJiTW1scTZRWE8xRjdqT0pQX0Z0aFJXUmhUYlBhOTd3bkVVMkFwRXhqSHpQZDBOSWFVNy1pddIBlgJBVV95cUxQdnNvcFpaOGRMMGlKVDBGZHM3WGJZbEdoUGdwZzRIbXh3X3NQY1NJdGVxWHVBSmdMVHJ1NTQtQVRGSFlTZGZ3c3VzQThGMklyZ2VKNjBoMklyd0x0MW9OcHJYbXplbElLSjBFM0c3WDNwMi1ONWl5Tk1nNjNaZFU5RFhXRy1rWVZYTkstQ2RzeVJENmhNcXoySERfY2czNHJreDNOZUtfTHZ3VlA1RGo4WkM5WmdKQ3RNMjRVcVRhS2lLaExmNkRWM0otRlpxVzNOOU96R1J5NlFfbjMxU0UxS0tlNWdocUVMTDhWeTJBVnBKOHhRZzl3TFVIUU0zQ1Qzek1BUnhkQWgwd2I1ekxaVC10ZTVsQQ?oc=5",
-   "published": "2026-11-26T04:35:06.000Z",
-   "cat": "perang",
-   "lang": "en",
-   "impact": 1
-  },
-  {
-   "title": "13 killed in Indonesia gold mine flooding, rescue ops on for 13 others trapped",
-   "source": "India Today",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbW1kdjU4cHVLTlUzWE9OZVR6SC0zVEZfYnhyWENqeVhuTXljS295dk84TmZGRUNtQjdxUjVvdkRuLWt0Y2Q4b3Y0TzNWdmM0Y29QNnB3ZHBwMGZRSWNURlJoY1VMTUFzSWtfSUx3T1BXV2tGVV9Gd0RBMW10b0hTSE1JN1pjWG5KTXZ6WndFc0F3RTBHcWJpX0dyX3JEZFlSaExzMHZFR3ppX1Z5NTBWcGZZM19mTHkwcl930gHAAUFVX3lxTE5KVHJ0a0RDZ1YyeGFLa1ZQWkwxWTBCQ0F6MzZWOXprUW5VUmFLUUMtMlE0RkkxRFhlWEJlQjZEVzdpTy1JbHIxME5YUEhUaTJobG5Kbk5BZkE2QU15ZE9UMFFnVGM0enhhYUxDY0NURndZcGhpbjZ0RmdJN3BFdjNjcWxoaFNEWTh3S0NyOW9EUmpXN0tST0N6TjM1QkcycXdMelNlaXpKeFB0SFlPVmI1SmIzVFE3NlZnMW5WbEhheg?oc=5",
-   "published": "2026-11-26T04:33:42.000Z",
-   "cat": "pasokan",
-   "lang": "en",
-   "impact": 0
-  },
-  {
-   "title": "Indonesia gold mine flooding kills 13, leaves 13 missing",
-   "source": "Daily Times Of Bangladesh",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAtc0w1QUlHNDR3cUJwaXoxVjZNaWRVTUctLWpmaXlQZHgwZ0dlWjJiVkJaaENPaEd6YUpOMldqVktjSFVTTFlCS25ZU2xmRHJBLXdsbkMwa1JIekZKYVhqWTVfb3JpNzlqd1YtUWNoeVhuVm1zWWtlbDQtOVl2UQ?oc=5",
-   "published": "2026-11-26T04:32:29.000Z",
-   "cat": "pasokan",
-   "lang": "en",
-   "impact": 0
-  },
-  {
-   "title": "Tarif Impor AS Picu Peluang Kenaikan Suku Bunga The Fed",
-   "source": "cwibc.co.id",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5nT09kT2g2VDYzN1E1N2lVSVlfTWplSEVfMnBfeWJYbkdLTDFScnpyZ2stY05GLUFDcjdCc285LWdCYjlJVXRrWF9Fdm10UDVHYjdxZHF3alZZM2VPUGc?oc=5",
-   "published": "2026-11-26T04:32:05.000Z",
-   "cat": "fed",
-   "lang": "id",
-   "impact": 0
-  },
-  {
-   "title": "Mayoritas Pemilih AS Desak Pemerintah Segera Akhiri Perang Melawan Iran",
-   "source": "Pikiran Rakyat Koran",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNE1kUklENTdseDR3cWRuUDgyVk8xeHNvRW9yc2Y4aWhVVHdXSEpBSTFXbjJodXJ5bS1wdVdlLXFKN1JsUFM5ck9JRmw4OV94WlBwczcwMDBVSWo1VUZvSGZmYVVlOVZSNVBEMlp2UkY5WGxtaTktenNSRHlaaTBGeklIS3l3d01zbktuOENoWjRBLXdYaXh1OGExQUxpaGZfYkpkSnplR0FybnFzakhRdXVSSnFRMzhtc2JpTEJYMXdXdw?oc=5",
-   "published": "2026-11-26T04:27:34.000Z",
-   "cat": "perang",
-   "lang": "id",
-   "impact": 1
-  },
-  {
-   "title": "Prakiraan Harga Emas: XAU/USD Kesulitan di Bawah US$3.600 di Tengah Perdagangan Ringan Hari Thanksgiving",
-   "source": "FXStreet",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPZjF4Uk8ySWZOTVRlTEllUHdrbXJCdkJaNG5NemxWXzRzWUlTWjdVekRHMTVJTjdOeDlnQWF1RTAzRHlHY25tZzV6Tll1NElmRE5pQi11dUJrazlJc3UyV01NWjV3RlNkRVk0MV9ROENEaGFCYVkzcUJBQXJIUmhqWXdtVWJQOXFhTEtrcnJkdEduTGFuRkVJZkZpTjJBZDJCa0x0TXZoallxamFrUzRXeUt4UWs0ZGVZWFBjX1ZVbjAxMTNYLWgxUndiY2ZQQnJELVkzUmxLVTVFdnc1V0JEQ25tOTZUZw?oc=5",
-   "published": "2026-11-26T04:26:44.000Z",
-   "cat": "fed",
-   "lang": "id",
-   "impact": 0
-  },
-  {
    "title": "RBI brings back 60 tonnes of gold in six months, domestic holdings rise to 84%",
    "source": "Moneycontrol.com",
    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWE92RVhfZTBCeVhLaG1lcml1UV9qWGV1VXpWUTd1ZzRnUFdQOTN0SkZHbWdoSDh1eVB0ZTFhMF8wZGdaX0t5QXRWMmUyTnduZ2ZHa1JDOTFHcENJeEt0UWViRDRQcG9OUUxubmtIUi04aUs0UDd2aWpFdlNveDB5Y2F5ak9fUHJEUnR1cC1LcGpDV0FXU3pKbDF4UjJMYk9ZSHZKNk1LVFpZM01XcERJOUJpam1mNFhFZFFOM1JlSXhpa0R0NXB6Q0tkS0h3UGtqdk15WWtB0gHbAUFVX3lxTE9TNnBSVkFwV2xva1FkSEt5N0cwRW51M0lQS1VCLXpsMUJJTDFELU9kTllYVzlkYVUxRkJFWlkzbHpkUE1wcGh0QjV1UU9HdzU2bkpraTZzNlc2MkhmS3drRl9kU29Pb1ZsZGxTZW9Bal92RmNwSmVQTHNuWjFZSEwxV1VVQnRST1ZuQVVIRUJpaDEtS2cyOGdWYjNXeWszZ2txbXliN0lRTFNjWHZuYUozZVQ1R1pEVm9MbFdmaFFMX0E2c1gzY1ZlRHZXNmdjUzBzNURoTzZsclJOVQ?oc=5",
    "published": "2026-11-26T04:26:28.000Z",
    "cat": "bank",
    "lang": "en",
-   "impact": 0
-  },
-  {
-   "title": "Inflasi AS Naik ke 3,8 Persen pada Oktober 2026",
-   "source": "Demokratis.co.id",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5mcGpMOHZ4NXZfamF2cU9PbURMMG4wMmstR19EeGhLVEctYW10N2xOY19qOTkxNUtwV1ZRVkVjS1UxLXRfMW9KM3AwemE0ckZ1UXZxXzdDY2tUSkVWZllteUJnOThoeFNpMElYQXRTUjkxRjloOFVQWUVxTQ?oc=5",
-   "published": "2026-11-26T04:23:24.000Z",
-   "cat": "fed",
-   "lang": "id",
    "impact": 0
   },
   {
@@ -740,129 +749,12 @@
    "impact": 0
   },
   {
-   "title": "Sikap MSCI dan Inflasi AS Tekan Rupiah, Dolar Tembus Rp18.338",
-   "source": "rmollampung.id",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObWRvU0ZMX1RicjZsZXNPdUcyNFp1ZXpqR1JWbzNwTmVBTU12Z1dkQUVFeXZUT3h2SVctcnNOdldXdTRCTmktUlUtNVJYNWdKVldTeng2c2ZYQ2VfcU9CZXE1LXBqeldMODFra3ZsbVRUbnAzT29wWU5uRjdQb0VkcjQzOVNNdUFCdnc?oc=5",
-   "published": "2026-11-26T04:18:31.000Z",
-   "cat": "krisis",
-   "lang": "id",
-   "impact": 1
-  },
-  {
-   "title": "Inflasi semakin meningkat, mendorong The Fed untuk menaikkan suku bunga secara lebih agresif.",
-   "source": "Vietnam.vn",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUGZJVDhNdHVhc1pEZ1dDNGdLUzZmR1FNdkxxaXhZcUQyN1VXZGVFb1lET2w1SHljTjgtSUFmNkw0am9VVDAzRVp0ZlJHWnkydVZkMWc4SUt0emltV3RQeUZRNUYxcGdOV0ZCdF9aUkZxR1RwVE9WeGtTUWhIVGVjSlh5alR1Qld4ay05WWJR?oc=5",
-   "published": "2026-11-26T04:15:01.000Z",
-   "cat": "fed",
-   "lang": "id",
-   "impact": -1
-  },
-  {
-   "title": "Trump Pede AS Banyak Duit untuk Lanjut Perang Iran sampai Tahun Depan",
-   "source": "detikNews",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUVJIMXlhUnNnV3lkR1B6NzM4NHVRcE8xTzlKbFFtQThQU29PaEdWamoxM2YzMDBFUnFMQTFNQmhKWG5aOG5PdU1SenBTV205QndjT2NBRTBudGhKS0J5bjdxT1YxcDdOcDdLNlFaZWtOLVlXSnRXQTg2cWpCbUNiUkxYT3VDTHBrYlg2Y3ZkR1ZKUkZ2OENWYXlpWV9PV2hkcmNTOHZxM0pNTGhZa2FWNl93NWlkM3PSAbwBQVVfeXFMUHU1SXVjMTNST2RzdmhSQ05OSWJUd0VDZ1c3dUxtWnQ0UzkxZk1fNUpzMUJsNUpPQXZ2ZlcwaHdZckFYOUo5WjVNUjBiTnpQUzFKQ1VzS3M3Z1hCcjlqWXFCcmdRX0gwYlFzSUlINTlQdHJuQlNyS2ZvbHZhaXJuOWhrRnBNVTV2MjB4WEVSS0JxSDB6d1JTR3Z5ZmYzdzd1dmJ4X2NaRlc5aWJYZWszVG1sRG94b2hVeWRUcmE?oc=5",
-   "published": "2026-11-26T04:05:22.000Z",
-   "cat": "perang",
-   "lang": "id",
-   "impact": 1
-  },
-  {
-   "title": "Tekanan Bisnis Dorong Prancis Mendekati Ancaman Resesi",
-   "source": "ChatNews.id",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5IQlRNcy1CTE5UbTgya0h3T3hxZXlVYVhodmJZYTc2eDlBVTUzMy1OaDBGZ3B5MDJwa014UHlIZ0ctaWRqLVBhLVhvdlhuaGJWbUpzbDNicjdSbmxxYlhZ?oc=5",
-   "published": "2026-11-26T04:02:33.000Z",
-   "cat": "krisis",
-   "lang": "id",
-   "impact": 1
-  },
-  {
-   "title": "\"Raksasa\" Ekonomi Eropa Benar-Benar Terancam Resesi, Semua Suram",
-   "source": "CNBC Indonesia",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUk41M2dsUm9MeGRUV2VmbUpucVdOXzNadHVTcjhDYU4zbHNBZUFhdG4yZzFkNmVTNzhvVlFKbHhhQUJNU1VENW5DeU80b2lGOTJna3I2YUtfd0ROVThnbTZRUW1sSHREQTJVc0ZrellUT1Y4R0hIMFFVVkFsdzMxQWt4X3Ayak4tQkJRaUlCZXpaTFJnQUt5cEo4eHZxV1RjZlJhUTA2dXY5eVlWX3oyZkpUTWNpeVFhbVp4X9IBwgFBVV95cUxPV0did3BwTW50aS1pQjdxamdPUlBHSXlIdTZEdUxYb0h6a2lqRXB5NXAycHFpZDRZY0hxLUEtTGhla1dDOVI3anR2THNlY1FoM25xWTJwVFBob0VQQnk2UEpUVTRMUkZhZ040eWpHZzd0dWpNU0RrMnJIc0NRN3hHY0lXSzdNOU5ncFFHc2J3T0tUcVJVX1JwcERWTEN2N0Rzb0JadlVlNzZlTHl0RjJsWG1ETHZmU000WnRBb0RVRk5tZw?oc=5",
-   "published": "2026-11-26T04:00:00.000Z",
-   "cat": "krisis",
-   "lang": "id",
-   "impact": 1
-  },
-  {
-   "title": "Bitcoin Bertahan US$59.528 pada 25 November Saat Inflasi AS Naik",
-   "source": "Limapagi",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8wbm14U1lGVFdreEFJeWlJM2hyV2hqZ293T2dGYnZsZFpHOXBPeHBXeGlGeTVTalBSYWVKbnZ5RmpkTEVhaHExOFZCSW1RaGhtdEU1cFJDWE5COTdDSWNDRzB3?oc=5",
-   "published": "2026-11-26T03:53:33.000Z",
-   "cat": "krisis",
-   "lang": "id",
-   "impact": 0
-  },
-  {
-   "title": "This is what a recession feels like.",
-   "source": "Mamamia",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CMVJiT3ZBSERfLUl0ZjVXZUdrdjZZQXo2RWdzWHFFcTgwQzhlMDZVZFVWV3JhN29wVlZFN0pqLXpzZ3F6MTBpeUwtc0tSM3o1YlNraVRsUjlLSjJiTk8xYW5OVXZObFU?oc=5",
-   "published": "2026-11-26T03:47:16.000Z",
-   "cat": "krisis",
-   "lang": "en",
-   "impact": 1
-  },
-  {
    "title": "Sinergi Fiskal-Moneter di Tengah Tekanan Rupiah; Menata Ulang Kebijakan Ekspor Emas dan Meluruskan Konsep Hilirisasi Metalurgi",
    "source": "Majalah TAMBANG",
    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPQVNOcHhhS2F1TVI0akFHRXdZTzNtSDhRN0U0cnBIaTJpTHZTS0Nma0JtVFlqZEF6R1FEVjh5bkVHRXJvdUw1OUhRNklES09MTnl3S2lma2ZiVFhxVWJzS0xpcHpxSGlHYlhrMXV6WkZwWXNCRFJRMW5lN2J0QWkwbGFzZ3NFLThxYnpTXzlKUmJuck5jZW9QaUU3SlQ1QU4wOXhYbEZvYUdXSG5FcGlWRVdHdktTajBQMEVmV014TDZfNDdhQnJnMFZwRmRid20xSnJLeTMtVEE5WmJQTzBLV0pJWFdjQW8?oc=5",
    "published": "2026-11-26T03:45:46.000Z",
    "cat": "bank",
    "lang": "id",
-   "impact": 0
-  },
-  {
-   "title": "Ancaman Resesi Global, Ekonomi Prancis dan Chile Tertekan",
-   "source": "jurnas.com",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWVd2Y1dTRms5YlVJUzhPaXV0TzdOdElWT3pRcm16bEQtanhhUDVLTG9GejhYWTZOUXlvY3R0c193MDlrUEpfMkdMMWg4U0NDbXo5aURaRlZueDRYUWdRZEZaenpYb0dsSWZPS1R5TkhyRlI0WGo3Wk9fSVo5UmdPQm1EY0VEVzJMUldiZGMtZDdPQTBJOXE1M0Q0bkI?oc=5",
-   "published": "2026-11-26T03:44:00.000Z",
-   "cat": "krisis",
-   "lang": "id",
-   "impact": 1
-  },
-  {
-   "title": "RBI continues to bring back gold to India as it repatriates 60 tonnes more of yellow metal, India now hou",
-   "source": "The Times of India",
-   "url": "https://news.google.com/rss/articles/CBMixANBVV95cUxPZDJtc2V4ZGp3UWlXczJDc2NkWC1QNDhQZk1IVi1SNEpYekp2NDM4amVEQ05kMEE3ZUM4YVZlVnM1NlZJbFRCQ0hGaTkxTkU2X0JLMVlONzh0LXlRZjdPeDJxTW12eU1FRzRpSUIwT3pYMU81WUdqT1JwZ0JoUkdaa3BpSnNPS0lMSmUtWnNBWG9KMDRoLVBYVDdGR1NBdkV0WXpsTlZMTllmQlFCRi0zREE5LXR3MmhlWF9MVTBBdHFJUlJ1M0NZQmpxQ2stN2lCS1ZkS2U4NDZCcmhkSlBHYy0wWUU5WHhNYllVUUlSNTRaYkFGVWs5YURVWlFud1JMYzBpRDJjRHpYRnluSXNwSTlILWdxNjE1WW1LUHhOcUhyb2xzek5qV3AtTHhjdTB0NExZbmtRWEI5aVFKUTNGZWlFdUtjWFVHUU5pQndVejN1RTNtWDNaQ3Ixc2M4UWdnb1lFT2ptSDlpMVE0T1BkalVoM0ZBQk00eUc5eHduNW5ORG9KazM1NklHYjhhV1J2VTFQQVA0QzBVWDlhT1gwMTJzUE0wMW9TYzhfZ25XZHZ6QnR4WFd2VnNSMGZXSTZEV2ZvT9IBygNBVV95cUxPTHUwc3llajdvMGM4TXpYWlZJRHVvamM1M3BxRFZHWEtWTm9sX1BaZkZVSGgtUTRxczAwdjY5ZTRNRm82LUxpOXhrVHlEMkI3UU41ZlNBeno0MmEwdkxUOVowamplODBER3BDVHp3eGs5WW91T0pqNDhmc3hvYktxcHlGaGcwRnVGOGhJN3BmbDRiSDB6bGI5VmQwV2ZTZ09XN3pseUdXOVRPdi1veVRaRERRLTVUVEIydUcyRC1pNGpGQUl2VzZTNHVBMG41YzNQaVZ1VXd2aTV4UEMyOGpxWVk5aGpTX3dTZ0Jjei0yWWU2eE5kYjVna0R5S0VyaUFEOFNzM3ZtWlNCcG5BUXlCZ05hRUpDMWlYWnJhczFabzByWTJFZF9RM0V3TmZXRmtjWjc2TmJqam55aWk4YUZTR0Z5Tlo1Um9rZUg0cTRCWHAzVDU5NzM4eUtfSHJmSloyUW10OGFDei16QWZvODJmRUVLdFE1S2F4eXVQTmhKV0QwSmtsVFhJd3dmdUw1VWc0aEk0MkktekV4MENQY0kzNDV6OWpLUHhuRlY3VG5sUDdYV0F3Y2l4bGIybGUyZGhkOGJsLUF0U2sydw?oc=5",
-   "published": "2026-11-26T03:31:00.000Z",
-   "cat": "bank",
-   "lang": "en",
-   "impact": 0
-  },
-  {
-   "title": "Harga Emas Dunia Anjlok 14% Lalu Rebound, Deutsche Bank Ramal USD 8.000 per Ons 2031",
-   "source": "Inforiau",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcTFfLVEycTRhbkxqVUxqMGFVVFBEU2ZNN25kTkJKRV82Mi1nd2ZvRXNKVTZxeTF0SXpQeUhBV0dWakwwNERTaE94YXdJSXVfVnZmTHNRbk5mNnFTUGk2ODUwcUpqUC14TUUyWGk5MVpCWXkxZ1J4aGc4c3ozTmRLcTFIbjhiZVpOczBmUG94S1p5UXY0MGxvNmllNi1xWHFLVlAzLXBWS3pzUF8yTTZuTTVR?oc=5",
-   "published": "2026-11-26T03:11:58.000Z",
-   "cat": "bank",
-   "lang": "id",
-   "impact": 0
-  },
-  {
-   "title": "Santilli says Argentina's gold reserves are 'perfectly safe'",
-   "source": "Buenos Aires Times",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMDR3Z2VuSjZsSjVxbWJFX3lRMXZnZTMzaWgtempjQ0FsOVYtRHR3SDN5ZTlGVjFRV0h1bU5rZldrTWNBUXFfRzlNQzRQaGNFM1JwYnpOWWpiNkNTTTBkNGZ1Ynpaekdvd0Z4eVd3ZkVsaWlCOVZxcno4dFpCLTNsZldITmxwN1p2blV6UnBDa0VQc19HUzJfV08xNFRBeXQ0TllWTEx30gGmAUFVX3lxTE0wNHdnZW5KNmxKNXFtYkVfeVExdmdlMzNpaC16amNDQWw5Vi1EdHdIM3llOUZWMVFXSHVtTmtmV2tNY0FRcV9HOU1DNFBoY0UzUnBiek5ZamI2Q1NNMGQ0ZnVielp6R293Rnh5V3dmRWxpaUI5VnFyejh0WkItM2xmV0hObHA3WnZuVXpScENrRVBzX0dTMl9XTzE0VEF5dDROWVZMTHc?oc=5",
-   "published": "2026-11-26T02:32:59.000Z",
-   "cat": "bank",
-   "lang": "en",
-   "impact": 0
-  },
-  {
-   "title": "Taking a Lesson from Russia, RBI Steps Up Gold Repatriation; 84% of Gold Reserves Now Held in India",
-   "source": "The 420.in",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSVR3Y2t6YmpHV3Ita3JXNzQwb1F4ZjFJUk9DZTAwMUVuMVVPaG9jdHYzV0VNaVZxNjVtb0xMSTEwWFJSOWtnS1lWRm11aEVNam41X013cnM2bm9iNUtpS1RfRGJtTWhTd28xc19aankwOGY3Q2ZVNUdWYzhaVUM4cEpmVm9tSlpMWlpMcmp3Ylozb0xQU3IxZEVnOWpOeGxUWkpWMU1lc2dpbTUxQS13a21UOGIzdw?oc=5",
-   "published": "2026-11-26T02:20:36.000Z",
-   "cat": "bank",
-   "lang": "en",
-   "impact": 0
-  },
-  {
-   "title": "RBI's gold holdings stand at 880.5 tonnes: What it means for forex reserves and the economy",
-   "source": "Zee Business",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOa21sVWdQV19ZcXlLT09BM2hiN0cwck1pUDVadkg5NEZFLWRMY2I4WXpTb3k5WVRIS3NuRjJqSE54NWgyWll6dnBmTnJZV2V2Uk9WRG9GQVVKaEJ3RWVoRFlmZWtWYl93XzJNNXVFNC02UkdKOW03VkF4dlBlM1JMQ0VyMG93R0xBcDMxMEpHODBscUN6RUx4NjAxbWV6aE5idVpmaWxVV20xTEVmWUFrX3pCemx3TzBjMGk3ekdUT2p5RWhGRnhmVF9yajQyUGFyTWZLWQ?oc=5",
-   "published": "2026-11-26T02:20:09.000Z",
-   "cat": "bank",
-   "lang": "en",
    "impact": 0
   }
  ]
