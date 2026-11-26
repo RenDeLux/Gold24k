@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T06:14:34.369Z",
+ "updated": "2026-11-26T06:15:14.773Z",
  "items": [
   {
    "title": "Harga Minyak Dunia Menguat Usai Serangan Houthi di Arab Saudi",
@@ -35,6 +35,15 @@
    "published": "2026-11-26T06:07:57.000Z",
    "cat": "dolar",
    "lang": "id",
+   "impact": 1
+  },
+  {
+   "title": "U.S. to hike tariffs on China, EU, Brazil and others over subsidized factories",
+   "source": "Santa Fe New Mexican",
+   "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQZVZqTnY1UE9TLWNyNGlUaHltb3pKX21WaU1SVkRSLWVTVzFKZWktNC0xaDNqdmtjam9WTzZRTUpQQlV5WnpSY0hQbWZiLU44V3pBRFFZUHpwUThlS2VlWjU5TFhOampna3RPNW91Z3VJMVBIaF9sQlB2aW1aZ3daLU16YnYzUHVlUkcyYnBSYUVNSDJpQ3VHdHhzZXJzSmNsN0xHem1nZnU5ZGg0aERyUlJiLXlib21MRGUtZnYxWlRZY211WUtPM2s3NUVtTHZBVzdQX3pkZWNwMzJLY2psX2VnbWp5OUZTaWpEZmVVNFJ5dllzNTJ3SW8zSUFxUjZILWhicml5S0xGU2tUazRqaTJMbGRGb0E?oc=5",
+   "published": "2026-11-26T06:06:00.000Z",
+   "cat": "tarif",
+   "lang": "en",
    "impact": 1
   },
   {
@@ -182,7 +191,7 @@
    "impact": 0
   },
   {
-   "title": "Rupiah Nyaris Rp18.400/US$, BI Intervensi Lewat NDF-DNDF",
+   "title": "Rupiah Nyaris Rp18.400/US$, BI Intervensi Lewat NDF-DNDF - Market",
    "source": "Bloomberg Technoz",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUUZLekJ5Um9XNTdxTHQxV0dRdVd2ZVNUeHNNZFlfWkgxODNKUHZNYmxBQXVKZG1FRjJ0ZmVoX0ZFOGJxbE5lN2NjMGt2cGdqa3dwZVIySHZWVGFoSXJ4blZRemZGSF81ZVNDcFhMWTRXS3RKakM0VDkyc0M3QnM5NHV3WmpSOVB4cmViU1dQNVhSaG1rWlVGOHNkWVJ6R2pia2ZZM0tCNTNDZw?oc=5",
    "published": "2026-11-26T05:55:00.000Z",
@@ -314,15 +323,6 @@
    "published": "2026-11-26T05:48:00.000Z",
    "cat": "perang",
    "lang": "id",
-   "impact": 0
-  },
-  {
-   "title": "'Rural India facing acute economic distress': Congress targets Centre over rising inflation",
-   "source": "The Hawk",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQS042UHlWVmI5b3I0NmVoVHdyY0JLNzRtaFZDdm41ZDFPZHpRT2FVcUNuaGFaSlg2ZjhQUkdrc3dpaFoxdGVoRjlYakJqaExQY096aXY2MWsyZkJrcXdYUkFkbmJRSUJ1Ymp5V0JLVmEwbnJIT2l3Sm0zMjdLeTlrMjQ5ZVRLelh6Vmt1WnZlVmRacFpkU21kQ3ozTjNGOVoyN1RDdi1IRVNobkdJc0xKSE1mMTc4UFBiVFB4VmluYw?oc=5",
-   "published": "2026-11-26T05:47:55.000Z",
-   "cat": "krisis",
-   "lang": "en",
    "impact": 0
   },
   {
@@ -542,15 +542,6 @@
    "impact": 0
   },
   {
-   "title": "Reaksi dari berbagai negara terhadap tarif baru Presiden Trump.",
-   "source": "Vietnam.vn",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYkl2VGlVSFg0cTN1TEJEeUtvSEZqZjI4ZkxJcHlrNnNVaWdpMFd4ZFEtZGhzcGVhUVJXeThvVzY2Q3FRa3hVNGF2YjZsbS14dHdkd1BTOHFhT3JOX2ZnOXQ0bEo1dzIwZUt3eHlWV0xJQXJFWUlJMUIzdDhiVTI2U054NVRrc3BQN0psSTh3?oc=5",
-   "published": "2026-11-26T05:11:06.000Z",
-   "cat": "tarif",
-   "lang": "id",
-   "impact": 1
-  },
-  {
    "title": "Mengapa Warga India Masih Direkrut Rusia untuk Berperang di Ukraina?",
    "source": "DW.com",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVjNuRzFoamxuQmUwSXFrb2Z2YXotMmZpVHBoRzFNdzB2NmlWaW41RzlKdjl1ZW0yWGpyZ1pyV2FSbGNhblpUVHQtcFZ2OFJYVllqdTA3XzJLNEh2dTZjRkNueVoydzB0V0t0SlRJd0lOTHpSMHBnZ200RThoTnVtalRGQWJVTnF3czh3Sm9OcUU5dXpGMWxOMkNKZVVBQ0VWQ2M3NtIBpAFBVV95cUxNR3c0T0hzWnVVaWg0UTJqRTNFSU1xa0dEdURaNWNNczlZMVhOSXQwRkhPQ1NEVDN0X2JSUDVmT0lTNHBwMlA4bzFad2VWa2NYZ2ZDQ1VaRmpKMTVnMmZxZHU1NDRCZmplVU1jeEJ2Tk50azFteTV2ODE1YzlwZ0xRaU1vblVLb0VGUDkzeDBIdG1SblFkN2tKQXJYeDVMMl9nT2gtQQ?oc=5",
@@ -641,13 +632,13 @@
    "impact": 0
   },
   {
-   "title": "Harga Emas di India: Harga pada 26 November",
+   "title": "Harga Emas India Hari Ini: Emas Naik, menurut Data FXStreet",
    "source": "www.fxstreet-id.com",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdkxvaXpYWTB1aDREd1NkeG41Tm5nejVJV2F2YVNlTmk0cmkta2RsZ0Z2OHd0aUFuaDFvUWpaZ29fUDhGZmZhYmhtRUlKdzdVMGNQX1lieW00V3g0cjZURFl0Nk5sSk93Tkl2T0ZVR1hRU2dpWWJ1Mk16TDVFSzBzNzhGWXJZS1lmbUxYQjRCWmVKTk1wd0loVUlkZ2taVlFFY2FubTdB?oc=5",
    "published": "2026-11-26T04:35:18.000Z",
    "cat": "bank",
    "lang": "id",
-   "impact": 0
+   "impact": 1
   },
   {
    "title": "Oil Price Today: Brent Crude Nears $95 a Barrel as US-Israel-Iran War Escalation, Saudi Refinery Attack and Hormuz Tensions Fuel Supply Fears",
@@ -729,6 +720,15 @@
    "cat": "krisis",
    "lang": "id",
    "impact": 0
+  },
+  {
+   "title": "Kripto 25 November 2026: Bitcoin Jebol US$58.000, Inflasi AS dan Tarif Jadi Tekanan",
+   "source": "Periskop.id",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcE9HMElVVHdNeHBpOV9mX2g5VG12U2JTRk9DTkpVcnBxa1l3RWdzOTRxUzZHdEVEQUpmM1YzcnpxVE5oYVc0UVU1bUsxMFVpLTJFOUtEQVZpRUs3MzM0MjdTMGV0cDFnRk1aVEVsN1dzeVJnWkI2UVE1eFNQU3pzLWhvRnNCNVlHaTFDRXNQYnktc2pnQ3I1ZDg5Vzg1bU5CN3dLZ3B6N2JZTjlvcmRfN0JvM2Rjdw?oc=5",
+   "published": "2026-11-26T04:20:39.000Z",
+   "cat": "krisis",
+   "lang": "id",
+   "impact": 1
   },
   {
    "title": "Inflasi AS Sentuh 3,8%, Ekspektasi Kenaikan Bunga The Fed Menguat",
