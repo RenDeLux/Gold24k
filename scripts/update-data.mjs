@@ -129,11 +129,11 @@ const NEWS_QUERIES = [
   { cat: 'tarif', lang: 'en', q: 'Trump tariffs' },
   { cat: 'tarif', lang: 'id', q: 'tarif Trump' },
   { cat: 'perang', lang: 'en', q: '(war OR missile OR airstrike OR invasion) escalation' },
-  { cat: 'perang', lang: 'id', q: 'perang OR "serangan rudal" OR "konflik militer"' },
+  { cat: 'perang', lang: 'id', q: '(perang OR serangan OR rudal) (Iran OR Israel OR Rusia OR Ukraina OR Gaza OR Houthi OR Taiwan OR militer)' },
   { cat: 'fed', lang: 'en', q: '"Federal Reserve" interest rates' },
   { cat: 'fed', lang: 'id', q: '"The Fed" suku bunga' },
   { cat: 'krisis', lang: 'en', q: '(recession OR inflation OR "financial crisis" OR "debt crisis") economy' },
-  { cat: 'krisis', lang: 'id', q: 'resesi OR inflasi OR "krisis ekonomi"' },
+  { cat: 'krisis', lang: 'id', q: 'resesi OR "krisis ekonomi" OR "krisis keuangan" OR "inflasi AS"' },
   { cat: 'bank', lang: 'en', q: '"central bank" gold reserves' },
   { cat: 'bank', lang: 'id', q: '"bank sentral" "cadangan emas"' },
   { cat: 'pasokan', lang: 'en', q: '"gold mine" OR "gold supply" OR "gold shortage"' },
@@ -184,33 +184,45 @@ export function parseRss(xml) {
 }
 
 // Tebakan sederhana: berita ini cenderung bikin emas naik (+1) / turun (-1) / netral (0)
+// Catatan: "rupiah melemah" dihitung ▲ karena harga emas dalam Rupiah ikut naik.
 const UP = [
+  // en: takut, perang, krisis, bunga turun, dolar lemah
   /\bwars?\b/, /missile/, /airstrike/, /invasion/, /(?<!de-)escalat/, /\bconflict/, /tension/, /sanction/,
   /tariff/, /trade war/, /\bcrisis/, /recession/, /\bdefault/, /shutdown/, /rate cuts?\b/, /cuts? (interest )?rates/,
   /dovish/, /weak(er)? dollar/, /dollar (falls|fell|slides|slips|weakens|drops|sinks)/, /safe[- ]haven/,
   /(buy|buying|bought|purchas\w*|adds?|added) .{0,25}gold/, /record high/, /all-time high/, /shortage/,
-  /uncertaint/, /turmoil/, /stocks? (tumble|plunge|crash)/, /inflation (rises|jumps|surges|accelerat|heats)/,
-  /yields? (fall|fell|drop|slide|slip)/, /gold (rises|rose|jumps|climbs|gains|rallies|surges|soars|hits record)/,
+  /uncertaint/, /turmoil/, /stocks? (tumble|plunge|crash)/, /yields? (fall|fell|drop|slide|slip)/, /sliding yields/,
+  /(gold|bullion|xau).{0,30}\b(rise|rises|rose|jump|jumps|climb|climbs|gain|gains|rall(y|ies)|surge|surges|soar|soars|recover|recovers|rebound|rebounds|record)/,
+  // id
   /perang/, /rudal/, /serangan/, /invasi/, /konflik/, /ketegangan/, /sanksi/, /tarif/, /krisis/, /resesi/,
   /gagal bayar/, /(pangkas|penurunan|turunkan|potong|memangkas) suku bunga/, /suku bunga turun/,
-  /dolar (as )?(melemah|turun|loyo)/, /aset aman/, /borong emas/, /(beli|tambah|menambah) (cadangan )?emas/,
-  /rekor/, /tertinggi/, /langka/, /ketidakpastian/, /gejolak/, /inflasi (naik|melonjak|tinggi)/,
-  /emas (naik|melonjak|menguat|meroket|terbang|cetak rekor)/,
+  /dola?r (as )?.{0,15}(melemah|lemah|loyo)/, /aset aman/, /borong emas/, /(beli|tambah|menambah) (cadangan )?emas/,
+  /ketidakpastian/, /gejolak/, /imbal hasil.{0,15}(turun|menurun)/,
+  /rupiah.{0,25}(melemah|anjlok|tertekan|terlemah|jeblok|ambruk|tembus rp)/,
+  /emas.{0,60}(naik|melonjak|menguat|meroket|terbang|rekor|pulih|bangkit|rebound|tertinggi)/,
 ];
 const DOWN = [
-  /rate hikes?/, /(raise|raises|raising|hike|hikes) (interest )?rates/, /hawkish/, /strong(er)? dollar/,
-  /dollar (rises|rose|gains|jumps|strengthens|rallies|firms)/, /yields? (rise|rose|climb|jump|surge)/,
-  /cease-?fire/, /truce/, /peace (deal|talks|agreement|plan)/, /trade (deal|agreement|truce|pact)/,
-  /tariffs? (pause|cut|relief|delay|exemption|rollback)/, /profit[- ]taking/,
-  /gold (falls|fell|drops|slides|slips|tumbles|retreats|declines|eases)/, /easing tensions/, /de-escalat/, /risk[- ]on/,
-  /kenaikan suku bunga/, /suku bunga naik/, /(naikkan|kerek|menaikkan) suku bunga/, /dolar (as )?(menguat|perkasa|naik)/,
-  /imbal hasil naik/, /gencatan senjata/, /\bdamai\b/, /perdamaian/, /kesepakatan dagang/,
-  /(penundaan|penangguhan|tunda) tarif/, /ambil untung/, /emas (turun|anjlok|melemah|merosot|ambles|terkoreksi)/,
-  /meredanya ketegangan/,
+  // en: bunga naik, dolar kuat, damai, ambil untung, emas turun
+  /rate hikes?/, /\bhike (bets?|probability|odds)/, /(raise|raises|raising|hike|hikes|lift|lifts) (its |the )?(key |base |benchmark |interest )?rates?\b/,
+  /hawkish/, /strong(er)? dollar/, /dollar (rises|rose|gains|jumps|strengthens|rallies|firms)/,
+  /yields? (rise|rose|climb|jump|surge)/, /cease-?fire/, /truce/, /peace (deal|talks|agreement|plan)/,
+  /trade (deal|agreement|truce|pact)/, /tariffs? (pause|cut|relief|delay|exemption|rollback)/, /profit[- ]taking/,
+  /easing tensions/, /de-escalat/, /risk[- ]on/, /sell-?off/, /bad news for.{0,25}gold/,
+  /(gold|bullion|xau).{0,30}\b(fall|falls|fell|drop|drops|slide|slides|slip|slips|tumble|tumbles|retreat|retreats|decline|declines|ease|eases|sink|sinks|plunge|plunges|slump|slumps|loss|losses|decrease|lowest)/,
+  /sharp (decrease|drop|fall|decline)/,
+  // id
+  /kenaikan suku bunga/, /suku bunga naik/, /(naikkan|kerek|menaikkan|mengerek) suku bunga/,
+  /dola?r (as )?.{0,15}(menguat|perkasa|kuat)/, /imbal hasil.{0,15}(naik|meningkat|melonjak)/,
+  /gencatan senjata/, /\bdamai\b/, /perdamaian/, /kesepakatan dagang/, /(penundaan|penangguhan|tunda) tarif/,
+  /ambil untung/, /emas.{0,60}(turun|menurun|anjlok|melemah|merosot|ambles|terkoreksi|jatuh|longsor|ambruk|terendah)/,
+  /meredanya ketegangan/, /ketegangan (mereda|menurun)/,
 ];
+// frasa "ketegangan mereda" jangan sampai dihitung sebagai "ketegangan" (▲)
+const CALMING = /(easing|ease|eases|cool(ing|s)?|calm(ing|s)?|de-?escalat\w*)\s+(\w+\s+)?tensions?|meredanya ketegangan|ketegangan (mereda|menurun)/g;
+
 export function guessImpact(title) {
   const t = title.toLowerCase();
-  const up = UP.filter((r) => r.test(t)).length;
+  const up = UP.filter((r) => r.test(t.replace(CALMING, ' '))).length;
   const down = DOWN.filter((r) => r.test(t)).length;
   return up > down ? 1 : down > up ? -1 : 0;
 }
