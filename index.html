@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pantau Emas Dunia</title>
+  <meta name="description" content="Harga emas 24 karat dunia per sesi (Sydney, Tokyo, London, New York), berita yang menggerakkan emas, dan penjelasan simpel.">
+  <meta name="theme-color" content="#14110b">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%AA%99%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-in">
+      <a class="brand" href="#">🪙 <span>Pantau Emas Dunia</span></a>
+      <nav class="nav" aria-label="Menu">
+        <a href="#sesi">Sesi</a>
+        <a href="#berita">Berita</a>
+        <a href="#grafik">Grafik</a>
+        <a href="#kalkulator">Kalkulator</a>
+        <a href="#belajar">Belajar</a>
+      </nav>
+      <button class="theme-btn" id="themeBtn" type="button" aria-label="Ganti tema terang/gelap">🌓</button>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- ================= HARGA UTAMA ================= -->
+    <section class="hero card" aria-labelledby="hargaTitle">
+      <div class="hero-head">
+        <h1 id="hargaTitle">Harga emas murni (24K) dunia</h1>
+        <span class="live" id="liveBadge"><span class="live-dot"></span><span id="liveText">memuat…</span></span>
+      </div>
+      <p class="hero-price"><span id="heroIdr">Rp –</span><small>/gram</small></p>
+      <p class="hero-change" id="heroChange">&nbsp;</p>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-label">Per troy ons (31,1 g)</span><span class="stat-value" id="statOz">–</span></div>
+        <div class="stat"><span class="stat-label">Per gram (dolar)</span><span class="stat-value" id="statGramUsd">–</span></div>
+        <div class="stat"><span class="stat-label">Kurs 1 dolar AS</span><span class="stat-value" id="statFx">–</span></div>
+      </div>
+      <p class="fineprint" id="heroSource">Harga bahan emas murni dunia (spot). Harga di toko/Antam biasanya lebih mahal karena ada ongkos cetak, pajak &amp; untung penjual.</p>
+    </section>
+
+    <!-- ================= RINGKASAN ================= -->
+    <section class="card summary" aria-labelledby="ringkasTitle">
+      <h2 id="ringkasTitle">🍼 Ringkasan hari ini (bahasa simpel)</h2>
+      <ul class="summary-list" id="summaryList"><li>Lagi ngumpulin data…</li></ul>
+      <div class="mood" id="moodBox" hidden>
+        <div class="mood-head"><span>Mood berita 24 jam terakhir</span><span class="mood-count" id="moodCount"></span></div>
+        <div class="mood-bar" id="moodBar" role="img"></div>
+        <div class="mood-legend">
+          <span><i class="key key-up"></i>▲ dorong emas naik</span>
+          <span><i class="key key-flat"></i>• netral</span>
+          <span><i class="key key-down"></i>▼ tekan emas turun</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SESI ================= -->
+    <section id="sesi" class="section" aria-labelledby="sesiTitle">
+      <h2 id="sesiTitle">🕐 Sesi pasar emas</h2>
+      <p class="lead" id="nowText">Menghitung jam…</p>
+
+      <div class="card">
+        <div class="clock" id="clock" aria-label="Jam buka 4 sesi dalam WIB"></div>
+        <p class="fineprint" id="keyTimes"></p>
+      </div>
+
+      <div class="card">
+        <div class="card-head">
+          <h3 id="sessionDayTitle">Harga per sesi</h3>
+          <span class="fineprint">dicatat robot tiap jam · USD per troy ons</span>
+        </div>
+        <div class="session-cards" id="sessionCards"></div>
+      </div>
+
+      <div class="card">
+        <div class="card-head">
+          <h3>Riwayat 7 hari: sesi mana yang paling bikin emas gerak?</h3>
+        </div>
+        <div class="table-scroll">
+          <table class="heat" id="heatTable"></table>
+        </div>
+        <p class="fineprint">Angka = naik/turun harga selama sesi itu. ▲ hijau = naik, ▼ merah = turun. Makin pekat = gerak makin besar.</p>
+      </div>
+
+      <details class="card faq" open>
+        <summary>🤔 Bener nggak sih sesi itu ngaruh ke harga emas?</summary>
+        <div class="faq-body">
+          <p><b>Bener, tapi begini cara mikirnya:</b></p>
+          <ul>
+            <li>🌍 Emas cuma punya <b>1 harga</b> di seluruh dunia. Harganya jalan terus hampir 24 jam (Senin–Jumat).</li>
+            <li>🏪 "Sesi" itu kayak <b>giliran jaga toko</b>. Pagi yang jaga Sydney &amp; Tokyo, sore London, malam New York.</li>
+            <li>😴 Sesi Asia (pagi–siang WIB) biasanya <b>sepi</b> → harga gerak pelan.</li>
+            <li>🔥 Sesi London + New York (sore–malam WIB) itu <b>paling rame</b> → harga paling sering loncat. Apalagi jam 19.30–20.30 WIB pas data ekonomi Amerika keluar.</li>
+            <li>💡 Jadi: sesi nggak <i>bikin</i> emas naik/turun. Yang bikin naik/turun itu <b>berita</b>. Sesi cuma nentuin <b>kapan</b> beritanya "kerasa" paling kencang.</li>
+          </ul>
+        </div>
+      </details>
+    </section>
+
+    <!-- ================= BERITA ================= -->
+    <section id="berita" class="section" aria-labelledby="beritaTitle">
+      <h2 id="beritaTitle">📰 Berita yang bisa gerakin emas</h2>
+      <p class="lead">Dikumpulin robot tiap jam dari Google News (Indonesia &amp; Inggris). Label ▲/▼ itu <b>tebakan otomatis</b> dari judul, bukan kepastian.</p>
+      <div class="chips" id="newsChips" role="tablist" aria-label="Filter kategori berita"></div>
+      <div class="news-list" id="newsList"></div>
+      <button class="btn btn-ghost" id="newsMore" type="button" hidden>Tampilkan lebih banyak</button>
+      <p class="fineprint" id="newsUpdated"></p>
+    </section>
+
+    <!-- ================= GRAFIK ================= -->
+    <section id="grafik" class="section" aria-labelledby="grafikTitle">
+      <h2 id="grafikTitle">📈 Grafik harga emas</h2>
+      <div class="card">
+        <div class="controls">
+          <div class="seg" role="group" aria-label="Rentang waktu" id="rangeSeg">
+            <button type="button" data-range="30" aria-pressed="false">30 hari</button>
+            <button type="button" data-range="90" aria-pressed="true">90 hari</button>
+            <button type="button" data-range="365" aria-pressed="false">1 tahun</button>
+          </div>
+          <div class="seg" role="group" aria-label="Satuan" id="unitSeg">
+            <button type="button" data-unit="idr" aria-pressed="true">Rp/gram</button>
+            <button type="button" data-unit="usd" aria-pressed="false">US$/ons</button>
+          </div>
+        </div>
+        <p class="chart-title" id="chartTitle"></p>
+        <div class="chart" id="chart"></div>
+        <p class="fineprint">Harga penutupan harian. Sentuh/geser grafik buat lihat angka per hari.</p>
+        <details class="table-view">
+          <summary>Lihat sebagai tabel</summary>
+          <div class="table-scroll"><table class="plain" id="chartTable"></table></div>
+        </details>
+      </div>
+
+      <div class="card">
+        <div class="card-head">
+          <h3>Grafik live per jam (TradingView)</h3>
+        </div>
+        <p class="fineprint">Grafik dari pihak ketiga. Bisa lihat lilin (candle) per jam, kelihatan jelas kapan sesi London/New York bikin harga loncat.</p>
+        <div id="tvChart" class="embed"></div>
+        <button class="btn" id="tvChartBtn" type="button">Tampilkan grafik live</button>
+      </div>
+    </section>
+
+    <!-- ================= KALKULATOR ================= -->
+    <section id="kalkulator" class="section" aria-labelledby="kalkTitle">
+      <h2 id="kalkTitle">🧮 Harga per karat &amp; kalkulator</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Harga bahan emas per gram</h3>
+          <div class="table-scroll"><table class="plain" id="karatTable"></table></div>
+          <p class="fineprint">Karat = kadar emasnya. 24K = hampir 100% emas. 18K = 75% emas, sisanya logam lain. Ini harga bahan saja (belum ongkos bikin perhiasan).</p>
+        </div>
+        <div class="card">
+          <h3>Hitung sendiri</h3>
+          <form class="calc" id="calcForm" onsubmit="return false">
+            <label>Berat (gram)
+              <input type="number" id="calcGram" min="0" step="0.1" value="10" inputmode="decimal">
+            </label>
+            <label>Kadar
+              <select id="calcKarat"></select>
+            </label>
+          </form>
+          <p class="calc-result"><span class="fineprint">Nilai bahan emasnya</span><strong id="calcOut">–</strong></p>
+          <hr>
+          <form class="calc" onsubmit="return false">
+            <label>Punya uang (Rp)
+              <input type="number" id="calcMoney" min="0" step="100000" value="5000000" inputmode="numeric">
+            </label>
+          </form>
+          <p class="calc-result"><span class="fineprint">Dapat emas 24K kira-kira</span><strong id="calcMoneyOut">–</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= KALENDER ================= -->
+    <section id="kalender" class="section" aria-labelledby="kalenderTitle">
+      <h2 id="kalenderTitle">🗓️ Jadwal data ekonomi penting</h2>
+      <div class="card">
+        <p>Emas sering "loncat" pas data ini keluar (jam WIB):</p>
+        <ul class="cal-list" id="calList"></ul>
+        <div id="tvCal" class="embed"></div>
+        <button class="btn" id="tvCalBtn" type="button">Tampilkan kalender ekonomi minggu ini</button>
+      </div>
+    </section>
+
+    <!-- ================= BELAJAR ================= -->
+    <section id="belajar" class="section" aria-labelledby="belajarTitle">
+      <h2 id="belajarTitle">🧸 Kenapa emas naik atau turun?</h2>
+      <p class="lead">Rumus gampangnya: <b>orang takut → beli emas → emas naik</b>. <b>Orang tenang / dolar kuat → emas turun</b>.</p>
+      <div class="learn-grid" id="learnGrid"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p><b>Sumber data:</b> harga live dari gold-api.com, kurs dari open.er-api.com, riwayat harian dari currency-api, berita dari Google News, grafik live &amp; kalender dari TradingView.</p>
+      <p>⚠️ Ini buat belajar &amp; pantau saja, <b>bukan saran investasi</b>. Harga bisa telat beberapa menit.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="assets/app.js"></script>
+</body>
+</html>

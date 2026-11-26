@@ -1,0 +1,76 @@
+# Robot emas 🤖: tiap jam catat harga + berita, lalu terbitkan website ke GitHub Pages.
+name: Update data emas & website
+
+on:
+  schedule:
+    - cron: '7 * * * 1-5'    # Senin–Jumat: tiap jam (menit ke-7, jam UTC)
+    - cron: '7 21-23 * * 0'  # Minggu malam UTC: pasar buka lagi (Senin pagi WIB)
+    - cron: '37 */6 * * 6'   # Sabtu: pasar libur, cukup refresh berita tiap 6 jam
+  push:
+    paths-ignore:
+      - 'data/**'
+      - '**.md'
+  workflow_dispatch:         # tombol "Run workflow" buat jalanin manual
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: robot-emas
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Ambil harga & berita
+        run: |
+          if [ "$(date -u +%u)" = "6" ]; then
+            node scripts/update-data.mjs --news-only
+          else
+            node scripts/update-data.mjs
+          fi
+
+      - name: Simpan data baru ke repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "Tidak ada data baru"
+            exit 0
+          fi
+          git commit -m "data: update $(date -u +'%Y-%m-%d %H:%M') UTC"
+          for i in 1 2 3; do
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            sleep $((i * 5))
+          done
+          echo "Gagal push setelah 3x coba" && exit 1
+
+      - name: Siapkan file website
+        run: |
+          mkdir -p _site
+          cp -r index.html assets data _site/
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
