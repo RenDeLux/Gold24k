@@ -1,6 +1,25 @@
 {
- "updated": "2026-11-26T07:43:01.475Z",
+ "updated": "2026-11-26T09:41:18.709Z",
  "items": [
+  {
+   "id": "2026-11-26-tokyo",
+   "date": "2026-11-26",
+   "session": "tokyo",
+   "code": "TYO",
+   "name": "Tokyo",
+   "end": "2026-11-26T09:00:00.000Z",
+   "pct": -0.022,
+   "close": 3572.9,
+   "title": {
+    "id": "Emas Stagnan di Sesi Tokyo; Sorotan pada Makro & Inflasi",
+    "en": "Gold Little Changed in Tokyo Session; Mining & Supply in Focus"
+   },
+   "lede": {
+    "id": "Harga emas spot relatif stagnan selama sesi Tokyo, ditutup di US$3.572,90 per troy ons dibandingkan US$3.573,70 saat pembukaan (07.00–16.00 WIB).",
+    "en": "Spot gold was little changed during the Tokyo session, ending at $3,572.90 an ounce versus $3,573.70 at the open (07:00–16:00 WIB)."
+   },
+   "generated": "2026-11-26T09:41:18.709Z"
+  },
   {
    "id": "2026-11-26-sydney",
    "date": "2026-11-26",
