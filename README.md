@@ -12,6 +12,7 @@ Website buat ngulik emas dunia **tiap hari**, pakai bahasa simpel.
 - 📈 **Grafik** 30 hari / 90 hari / 1 tahun, plus grafik live per jam (TradingView).
 - 🧮 **Harga per karat** (24K–16K) + **kalkulator** (gram → Rupiah, Rupiah → gram).
 - 🗓️ **Jadwal data ekonomi** (NFP, CPI, The Fed) dalam jam WIB.
+- 💬 **Live chat** + 👀 **berapa orang lagi online** + jumlah kunjungan (perlu Firebase, lihat di bawah).
 - 🧸 **Kenapa emas naik/turun?**: contekan 12 penyebab.
 
 ## 🚀 Cara nyalain (sekali aja)
@@ -23,6 +24,24 @@ Website buat ngulik emas dunia **tiap hari**, pakai bahasa simpel.
 Setelah itu robot jalan sendiri **tiap jam** (Senin–Jumat). Robotnya nyatet harga, ambil berita, lalu update website.
 
 > ⚠️ Robot jadwal (tiap jam) cuma jalan di **branch utama (default)** repo.
+
+## 💬 Nyalain live chat + penghitung pengunjung (Firebase, gratis)
+
+Butuh akun Google. Sekali setup ±5 menit:
+
+1. Buka **https://console.firebase.google.com** → **Create a project** → nama: `gold24k` → Google Analytics boleh dimatikan → **Create**.
+2. Menu **Build → Realtime Database** → **Create Database** → lokasi **Singapore (asia-southeast1)** → pilih **Start in locked mode** → **Enable**.
+3. Masih di Realtime Database, buka tab **Rules** → hapus semua isinya → tempel isi file [`firebase-rules.json`](firebase-rules.json) → **Publish**.
+4. Menu **Build → Authentication** → **Get started** → tab **Sign-in method** → pilih **Anonymous** → **Enable** → **Save**.
+   Lalu tab **Settings → Authorized domains** → **Add domain** → `rendelux.github.io`.
+5. Klik ⚙️ **Project settings** → bagian **Your apps** → ikon **`</>`** (Web) → nama `gold24k` → **Register app**.
+   Salin isi `firebaseConfig` (apiKey, authDomain, databaseURL, projectId, dst) ke file `assets/firebase-config.js`.
+   Kalau `databaseURL` nggak muncul, ambil dari halaman Realtime Database (alamat di atas daftar data).
+
+Aturan keamanan yang dipasang (`firebase-rules.json`):
+- Pesan maks 200 huruf, nama maks 20 huruf, **link diblokir** (anti penipuan), jeda **5 detik** antar pesan.
+- Orang cuma bisa nambah pesan, **nggak bisa edit/hapus** pesan orang lain.
+- Pemilik web bisa **hapus pesan** lewat Firebase console → Realtime Database → `chat` → klik 🗑️.
 
 ## 🤖 Cara kerjanya
 
@@ -46,6 +65,9 @@ Browser (index.html)
 | `assets/sessions.js` | Jam 4 sesi (otomatis ikut musim panas/dingin) |
 | `assets/chart.js` | Grafik garis (tanpa library) |
 | `assets/style.css` | Tampilan (ada mode terang & gelap) |
+| `assets/live.js` | Live chat + hitung pengunjung (Firebase) |
+| `assets/firebase-config.js` | Sambungan ke Firebase (diisi sekali) |
+| `firebase-rules.json` | Aturan keamanan chat (ditempel di Firebase) |
 | `scripts/update-data.mjs` | Robot pencatat harga & berita |
 | `.github/workflows/update-data.yml` | Jadwal robot |
 

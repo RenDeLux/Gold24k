@@ -16,10 +16,12 @@
       <nav class="nav" aria-label="Menu">
         <a href="#sesi">Sesi</a>
         <a href="#berita">Berita</a>
+        <a href="#chat">Chat</a>
         <a href="#grafik">Grafik</a>
         <a href="#kalkulator">Kalkulator</a>
         <a href="#belajar">Belajar</a>
       </nav>
+      <a class="online-chip" id="onlineChip" href="#chat" hidden title="Orang yang lagi buka web ini"><span class="dot"></span><span id="onlineChipNum">0</span> online</a>
       <button class="theme-btn" id="themeBtn" type="button" aria-label="Ganti tema terang/gelap">🌓</button>
     </div>
   </header>
@@ -109,6 +111,29 @@
       <p class="fineprint" id="newsUpdated"></p>
     </section>
 
+    <!-- ================= LIVE CHAT ================= -->
+    <section id="chat" class="section" aria-labelledby="chatTitle">
+      <h2 id="chatTitle">💬 Ngobrol live</h2>
+      <p class="lead">Diskusi bareng pengunjung lain soal emas hari ini. Tanpa daftar, cukup isi nama.</p>
+      <div class="live-stats" id="liveStats">
+        <div class="stat" id="onlineCount"><span class="stat-label">👀 Online</span><span class="stat-value"><span class="dot"></span> <span id="onlineNum">–</span> orang</span></div>
+        <div class="stat"><span class="stat-label">📅 Hari ini</span><span class="stat-value" id="viewsToday">–</span></div>
+        <div class="stat"><span class="stat-label">📈 Total</span><span class="stat-value" id="viewsTotal">–</span></div>
+      </div>
+      <div class="card chat-box" id="chatBox">
+        <p class="chat-status" id="chatStatus" role="status">Memuat chat…</p>
+        <ul class="chat-list" id="chatList" aria-live="polite"></ul>
+        <form class="chat-form" id="chatForm" hidden autocomplete="off">
+          <input id="chatName" class="chat-name" maxlength="20" placeholder="Nama" aria-label="Nama kamu">
+          <div class="chat-row">
+            <input id="chatText" maxlength="200" placeholder="Tulis pesan… (tanpa link)" aria-label="Pesan" enterkeyhint="send">
+            <button class="btn" id="chatSend" type="submit">Kirim</button>
+          </div>
+        </form>
+        <p class="fineprint">🛡️ Jangan bagikan nomor HP, rekening, atau data pribadi. Hati-hati sama yang nawarin "investasi emas pasti untung" — itu biasanya penipuan. Obrolan di sini bukan saran investasi.</p>
+      </div>
+    </section>
+
     <!-- ================= GRAFIK ================= -->
     <section id="grafik" class="section" aria-labelledby="grafikTitle">
       <h2 id="grafikTitle">📈 Grafik harga emas</h2>
@@ -195,7 +220,7 @@
 
   <footer class="footer">
     <div class="wrap">
-      <p><b>Sumber data:</b> harga live dari gold-api.com, kurs dari open.er-api.com, riwayat harian dari currency-api, berita dari Google News, grafik live &amp; kalender dari TradingView.</p>
+      <p><b>Sumber data:</b> harga live dari gold-api.com, kurs dari open.er-api.com, riwayat harian dari currency-api, berita dari Google News, grafik live &amp; kalender dari TradingView, chat &amp; penghitung pengunjung pakai Firebase.</p>
       <p>⚠️ Ini buat belajar &amp; pantau saja, <b>bukan saran investasi</b>. Harga bisa telat beberapa menit.</p>
     </div>
   </footer>

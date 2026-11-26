@@ -17,6 +17,7 @@ import {
   keyTimesWib,
 } from './sessions.js';
 import { renderLineChart } from './chart.js';
+import { startLive } from './live.js';
 
 const OZ_GRAM = 31.1034768; // 1 troy ons = 31,1 gram
 const LIVE_EVERY_MS = 60_000;
@@ -849,6 +850,8 @@ async function main() {
     importanceFilter: '0,1',
     countryFilter: 'us,cn,eu,id',
   });
+
+  startLive().catch((e) => console.warn('live', e));
 
   await loadRobotData();
   renderPrices();
