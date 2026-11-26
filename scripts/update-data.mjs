@@ -90,12 +90,15 @@ async function fetchGoldUsd() {
 async function fetchUsdIdr() {
   try {
     const j = await getJSON('https://open.er-api.com/v6/latest/USD');
-    if (j && j.rates && j.rates.IDR > 0) return { idr: round(j.rates.IDR, 0), source: 'open.er-api.com' };
+    if (j && j.rates && j.rates.IDR > 0) return { idr: round(j.rates.IDR, 0), source: 'open.er-api.com', rates: j.rates };
   } catch (e) {
     warn('open.er-api.com gagal:', e.message);
   }
   const j = await currencyApi('latest');
-  if (j && j.usd.idr > 0) return { idr: round(j.usd.idr, 0), source: 'currency-api' };
+  if (j && j.usd.idr > 0) {
+    const u = j.usd;
+    return { idr: round(u.idr, 0), source: 'currency-api', rates: { IDR: u.idr, SGD: u.sgd, EUR: u.eur, GBP: u.gbp } };
+  }
   return null;
 }
 
@@ -266,10 +269,12 @@ async function main() {
   const nowIso = new Date(now).toISOString();
   const onlyNews = process.argv.includes('--news-only');
 
+  let fxRates = null;
   if (!onlyNews) {
     // harga + kurs
     const gold = await fetchGoldUsd();
     const fx = await fetchUsdIdr();
+    fxRates = fx?.rates ?? null;
     const prices = await readJSON('prices.json', { samples: [] });
     const lastIdr = prices.samples.at(-1)?.idr ?? null;
     const sample = { t: nowIso, usd: gold.usd, idr: fx?.idr ?? lastIdr };
@@ -306,6 +311,16 @@ async function main() {
     log(`Berita: ${items.length} judul dari ${ok}/${NEWS_QUERIES.length} pencarian`);
   } else {
     warn('Semua pencarian berita gagal, data berita lama dipertahankan');
+  }
+
+  // panel pasar (perak, minyak, kurs)
+  if (!onlyNews) {
+    try {
+      const { updateMarkets } = await import('./markets.mjs');
+      await updateMarkets({ getJSON, readJSON, writeJSON, now, log, warn, currencyApi, fxRates });
+    } catch (e) {
+      warn('Panel pasar gagal:', e.message);
+    }
   }
 
   // laporan pasar per akhir sesi

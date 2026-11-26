@@ -37,8 +37,9 @@
   </header>
 
   <main class="wrap">
-    <!-- ================= HARGA UTAMA ================= -->
-    <section class="hero card" aria-labelledby="hargaTitle">
+    <!-- ================= HARGA UTAMA + MONITOR ================= -->
+    <div class="top-grid">
+    <section class="hero card top-hero" aria-labelledby="hargaTitle">
       <div class="hero-head">
         <h1 id="hargaTitle" class="eyebrow" data-i18n="hero.title">Emas Spot · 24K</h1>
         <span class="live" id="liveBadge"><span class="live-dot"></span><span id="liveText">…</span></span>
@@ -54,8 +55,14 @@
       <p class="fineprint" data-i18n="hero.note"></p>
     </section>
 
+    <section class="card monitor top-mon" aria-labelledby="monTitle">
+      <h2 id="monTitle" class="eyebrow" data-i18n="mon.title">Monitor Pasar</h2>
+      <div class="table-scroll"><table class="monitor-table" id="monitorTable"></table></div>
+      <p class="fineprint" data-i18n="mon.note"></p>
+    </section>
+
     <!-- ================= RINGKASAN ================= -->
-    <section class="card summary" aria-labelledby="ringkasTitle">
+    <section class="card summary top-brief" aria-labelledby="ringkasTitle">
       <h2 id="ringkasTitle" class="eyebrow" data-i18n="brief.title">Ringkasan Pasar</h2>
       <ul class="summary-list" id="summaryList"></ul>
       <div class="mood" id="moodBox" hidden>
@@ -68,6 +75,7 @@
         </div>
       </div>
     </section>
+    </div>
 
     <!-- ================= LAPORAN PASAR ================= -->
     <section id="laporan" class="section" aria-labelledby="repTitle">

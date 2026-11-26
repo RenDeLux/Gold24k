@@ -64,16 +64,20 @@ const state = {
   reportsShown: 6,
   liveTicks: [], // harga live selama halaman terbuka (tiap menit)
   intraDays: 1,
+  markets: {}, // perak, minyak, kurs dari robot
+  liveXag: null,
 };
 
 async function loadRobotData() {
   const bust = `?v=${Math.floor(Date.now() / 60000)}`;
-  const [prices, daily, news, reports] = await Promise.all([
+  const [prices, daily, news, reports, markets] = await Promise.all([
     safe(fetchJSON('data/prices.json' + bust)),
     safe(fetchJSON('data/daily.json' + bust)),
     safe(fetchJSON('data/news.json' + bust)),
     safe(fetchJSON('data/reports.json' + bust)),
+    safe(fetchJSON('data/markets.json' + bust)),
   ]);
+  state.markets = markets?.items || {};
   state.reports = (reports?.items || []).filter((r) => r && /^[0-9a-z-]+$/.test(r.id) && r.title);
   state.samples = (prices?.samples || [])
     .map((s) => ({ ms: Date.parse(s.t), usd: +s.usd, idr: s.idr ? +s.idr : null }))
@@ -96,6 +100,12 @@ async function loadLive() {
     }
   } catch (e) {
     console.warn('live price', e);
+  }
+  try {
+    const j = await fetchJSON('https://api.gold-api.com/price/XAG');
+    if (j?.price > 0) state.liveXag = { usd: +j.price, ms: Date.parse(j.updatedAt) || Date.now() };
+  } catch (e) {
+    console.warn('live silver', e);
   }
   if (!state.fx || Date.now() - state.fx.fetched > 30 * 60e3) {
     try {
@@ -160,6 +170,75 @@ function displayDate(now = Date.now()) {
 const sessName = (w) => w.name;
 const marketOpenNow = () => openSessionsAt(Date.now()).length > 0;
 
+// ---------------- DATA PANEL PASAR ----------------
+const MARKET_GROUPS = [
+  ['metals', ['XAU', 'XAG', 'GSR']],
+  ['energy', ['WTI', 'BRENT']],
+  ['fx', ['USDIDR', 'USDSGD', 'EURUSD', 'GBPUSD']],
+];
+const MARKET_META = {
+  XAU: { code: 'XAU/USD', dec: 2 },
+  XAG: { code: 'XAG/USD', dec: 2 },
+  GSR: { code: 'XAU/XAG', dec: 2 },
+  WTI: { code: 'WTI', dec: 2 },
+  BRENT: { code: 'BRENT', dec: 2 },
+  USDIDR: { code: 'USD/IDR', dec: 0 },
+  USDSGD: { code: 'USD/SGD', dec: 4 },
+  EURUSD: { code: 'EUR/USD', dec: 4 },
+  GBPUSD: { code: 'GBP/USD', dec: 4 },
+};
+
+// satu baris data: { last, prev, asOf, series:[[ms,v]], stale }
+function marketRow(sym) {
+  const now = Date.now();
+  const last24 = (series) => (series || []).filter((p) => now - p[0] < 30 * HOUR);
+  if (sym === 'XAU') {
+    const c = current();
+    const prev = previousClose();
+    const series = state.samples.map((p) => [p.ms, p.usd]);
+    for (const tk of state.liveTicks) if (!series.length || tk.ms > series.at(-1)[0]) series.push([tk.ms, tk.usd]);
+    return { last: c.usd, prev: prev?.usd ?? null, asOf: c.ms, series: last24(series) };
+  }
+  if (sym === 'XAG') {
+    const m = state.markets.XAG || {};
+    const series = [...(m.series || [])];
+    if (state.liveXag && (!series.length || state.liveXag.ms > series.at(-1)[0])) series.push([state.liveXag.ms, state.liveXag.usd]);
+    return { last: state.liveXag?.usd ?? m.last ?? null, prev: m.prev ?? null, asOf: state.liveXag?.ms ?? m.asOf, series: last24(series), stale: !state.liveXag && m.stale };
+  }
+  if (sym === 'GSR') {
+    const g = marketRow('XAU');
+    const a = marketRow('XAG');
+    return {
+      last: g.last && a.last ? g.last / a.last : null,
+      prev: g.prev && a.prev ? g.prev / a.prev : null,
+      asOf: g.asOf,
+      series: [],
+    };
+  }
+  const m = state.markets[sym] || {};
+  return { last: m.last ?? null, prev: m.prev ?? null, asOf: m.asOf, series: last24(m.series), stale: m.stale || (m.asOf && now - m.asOf > 6 * HOUR && marketOpenNow()) };
+}
+
+const pctOf = (r) => (r.last != null && r.prev ? ((r.last - r.prev) / r.prev) * 100 : null);
+
+function sparkSvg(series, d) {
+  const NS = 'http://www.w3.org/2000/svg';
+  const svg = document.createElementNS(NS, 'svg');
+  svg.setAttribute('viewBox', '0 0 72 22');
+  svg.setAttribute('class', `mini-spark ${d}`);
+  svg.setAttribute('aria-hidden', 'true');
+  if (series.length < 2) return svg;
+  const xs = series.map((p) => p[0]);
+  const ys = series.map((p) => p[1]);
+  const x0 = Math.min(...xs), x1 = Math.max(...xs);
+  const y0 = Math.min(...ys), y1 = Math.max(...ys);
+  const pts = series.map((p) => `${(2 + ((p[0] - x0) / (x1 - x0 || 1)) * 68).toFixed(1)},${(19 - ((p[1] - y0) / (y1 - y0 || 1)) * 16).toFixed(1)}`);
+  const line = document.createElementNS(NS, 'polyline');
+  line.setAttribute('points', pts.join(' '));
+  svg.append(line);
+  return svg;
+}
+
 // ---------------- TICKER ----------------
 function renderTicker() {
   const c = current();
@@ -177,10 +256,64 @@ function renderTicker() {
   item('XAU/USD', fmt.usd(c.usd), pct);
   const prevGram = prev?.usd && prev?.idr ? (prev.usd / OZ_GRAM) * prev.idr : null;
   item('XAU/IDR/g', fmt.idr(c.gramIdr), c.gramIdr && prevGram ? ((c.gramIdr - prevGram) / prevGram) * 100 : null);
-  item('USD/IDR', fmt.num(c.idr, 0));
+  for (const sym of ['XAG', 'WTI', 'BRENT', 'USDIDR', 'USDSGD', 'EURUSD', 'GBPUSD']) {
+    const r = marketRow(sym);
+    if (r.last == null) continue;
+    item(MARKET_META[sym].code, fmt.num(r.last, MARKET_META[sym].dec), pctOf(r));
+  }
   const open = openSessionsAt(Date.now());
   item(t('tick.session'), open.length ? open.map((w) => w.code).join(' · ') : t('tick.closed'));
   box.append(inner);
+}
+
+// ---------------- MONITOR PASAR ----------------
+function renderMonitor() {
+  const table = $('monitorTable');
+  table.replaceChildren();
+  const thead = make('thead');
+  const hr = make('tr');
+  hr.append(
+    make('th', null, t('mon.col.inst')),
+    make('th', 'num', t('mon.col.last')),
+    make('th', 'num col-chg', t('mon.col.chg')),
+    make('th', 'num', t('mon.col.pct')),
+    make('th', 'col-spark', t('mon.col.trend')),
+    make('th', 'num col-time', t('mon.col.time')),
+  );
+  thead.append(hr);
+  table.append(thead);
+  for (const [group, syms] of MARKET_GROUPS) {
+    const body = make('tbody');
+    const gr = make('tr', 'mon-group');
+    const gth = make('th', null, t(`mon.g.${group}`));
+    gth.colSpan = 6;
+    gr.append(gth);
+    body.append(gr);
+    for (const sym of syms) {
+      const r = marketRow(sym);
+      const meta = MARKET_META[sym];
+      const p = pctOf(r);
+      const d = p == null ? 'flat' : dir(p);
+      const tr = make('tr');
+      const inst = make('th', 'mon-inst');
+      inst.append(make('b', null, meta.code), make('span', 'mon-name', t(`mon.${sym}`)));
+      const pctCell = make('td', `num mon-pct ${d}`, p == null ? '–' : `${arrow(p)} ${fmt.pct(p)}`);
+      const spark = make('td', 'col-spark');
+      if (r.series?.length > 1) spark.append(sparkSvg(r.series, d));
+      const time = make('td', `num col-time${r.stale ? ' stale' : ''}`, r.asOf ? fmt.time(r.asOf) : '–');
+      if (r.stale) time.title = t('mon.stale');
+      tr.append(
+        inst,
+        make('td', 'num mon-last', r.last == null ? '–' : fmt.num(r.last, meta.dec)),
+        make('td', `num col-chg ${d}`, r.last != null && r.prev ? fmt.signed(r.last - r.prev, (v) => fmt.num(v, meta.dec)) : '–'),
+        pctCell,
+        spark,
+        time,
+      );
+      body.append(tr);
+    }
+    table.append(body);
+  }
 }
 
 // ---------------- HERO ----------------
@@ -903,6 +1036,7 @@ function setupLang() {
 function renderPrices() {
   renderIntraday();
   renderTicker();
+  renderMonitor();
   renderHero();
   renderSessionCards();
   renderHeat();

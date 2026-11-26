@@ -14,6 +14,7 @@ Website buat ngulik emas dunia **tiap hari**, pakai bahasa simpel.
 - 🗓️ **Jadwal data ekonomi** (NFP, CPI, The Fed) dalam jam WIB.
 - 📰 **Laporan pasar otomatis** tiap akhir sesi (ID & EN). Tiap laporan punya halaman sendiri di `reports/` + tombol share WhatsApp.
 - ⏱️ **Grafik intraday** per jam (1/3/5 hari) dengan lajur sesi SYD/TYO/LDN/NYC.
+- 📊 **Monitor pasar**: emas, perak, rasio emas/perak, minyak WTI & Brent, USD/IDR, USD/SGD, EUR/USD, GBP/USD (perubahan + grafik 24 jam).
 - 🌐 **Dua bahasa (ID / EN)** dengan gaya bahasa media keuangan. Tombol di pojok kanan atas, atau link langsung `?lang=en`.
 - 💬 **Live chat** + 👀 **berapa orang lagi online** + jumlah kunjungan (perlu Firebase, lihat di bawah).
 - 🧸 **Kenapa emas naik/turun?**: contekan 12 penyebab.
@@ -74,6 +75,7 @@ Browser (index.html)
 | `firebase-rules.json` | Aturan keamanan chat (ditempel di Firebase) |
 | `scripts/update-data.mjs` | Robot pencatat harga & berita |
 | `scripts/reports.mjs` | Penulis laporan pasar otomatis (per akhir sesi) |
+| `scripts/markets.mjs` | Data panel pasar: perak, minyak, kurs |
 | `.github/workflows/update-data.yml` | Jadwal robot |
 
 ## ✏️ Mau ubah sesuatu?
