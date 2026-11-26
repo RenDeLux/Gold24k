@@ -135,8 +135,8 @@ const safeUrl = (u) => (/^https?:\/\//i.test(u || '') ? u : '#');
 
 // ---------------- data laporan ----------------
 function buildReport(sessionWin, samples, news, nowMs) {
-  // snapshot sampai 15 menit setelah tutup dihitung sebagai harga penutupan (robot jalan tiap jam di menit ke-7)
-  const win = { ...sessionWin, end: sessionWin.end + 15 * 60e3 };
+  // snapshot sampai 25 menit setelah tutup dihitung sebagai harga penutupan (robot jalan tiap jam di menit ke-17)
+  const win = { ...sessionWin, end: sessionWin.end + 25 * 60e3 };
   const st = sessionStats(win, samples, nowMs);
   if (st.n < 2) return null;
   const fx = [...samples].reverse().find((p) => p.ms <= win.end && p.idr)?.idr ?? null;

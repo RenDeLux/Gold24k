@@ -3,9 +3,9 @@ name: Update data emas & website
 
 on:
   schedule:
-    - cron: '7 * * * 1-5'    # Senin–Jumat: tiap jam (menit ke-7, jam UTC)
-    - cron: '7 21-23 * * 0'  # Minggu malam UTC: pasar buka lagi (Senin pagi WIB)
-    - cron: '37 */6 * * 6'   # Sabtu: pasar libur, cukup refresh berita tiap 6 jam
+    - cron: '17 * * * 1-5'   # Senin–Jumat: tiap jam (menit ke-17, jam UTC; hindari jam sibuk di menit awal)
+    - cron: '17 21-23 * * 0' # Minggu malam UTC: pasar buka lagi (Senin pagi WIB)
+    - cron: '47 */6 * * 6'   # Sabtu: pasar libur, cukup refresh berita tiap 6 jam
   push:
     paths-ignore:
       - 'data/**'
