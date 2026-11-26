@@ -133,7 +133,10 @@ function current() {
   const lastD = state.daily.at(-1);
   const usd = state.live?.usd ?? lastS?.usd ?? lastD?.usd ?? null;
   const ms = state.live?.ms ?? lastS?.ms ?? null;
-  const idr = state.fx?.idr ?? [...state.samples].reverse().find((s) => s.idr)?.idr ?? lastD?.idr ?? null;
+  // kurs: utamakan USD/IDR per jam (Yahoo) kalau masih segar, lalu kurs harian
+  const mIdr = state.markets.USDIDR;
+  const freshIdr = mIdr?.last > 0 && !mIdr.stale && Date.now() - (mIdr.asOf || 0) < 12 * HOUR ? mIdr.last : null;
+  const idr = freshIdr ?? state.fx?.idr ?? [...state.samples].reverse().find((s) => s.idr)?.idr ?? lastD?.idr ?? null;
   const source = state.live?.source ?? (lastS ? t('src.snapshot') : null);
   return { usd, idr, ms, source, gramIdr: usd && idr ? (usd / OZ_GRAM) * idr : null };
 }
@@ -350,7 +353,9 @@ function renderHero() {
 
   const parts = [];
   if (c.ms) parts.push(t('hero.asOf', { time: fmt.time(c.ms), src: c.source }));
-  if (state.fx) parts.push(t('hero.fxSrc', { src: state.fx.source }));
+  const mIdr = state.markets.USDIDR;
+  const fxSrc = mIdr?.last > 0 && !mIdr.stale && Date.now() - (mIdr.asOf || 0) < 12 * HOUR ? mIdr.src : state.fx?.source;
+  if (fxSrc) parts.push(t('hero.fxSrc', { src: fxSrc }));
   $('heroSource').textContent = parts.join(' · ');
 }
 
