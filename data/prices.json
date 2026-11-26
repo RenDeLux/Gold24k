@@ -1,1 +1,14 @@
-{ "updated": null, "samples": [] }
+{
+ "updated": "2026-11-26T02:09:28.681Z",
+ "samples": [
+  {
+   "t": "2026-11-26T02:09:28.681Z",
+   "usd": 3573.7,
+   "idr": 18227
+  }
+ ],
+ "source": {
+  "gold": "gold-api.com",
+  "fx": "open.er-api.com"
+ }
+}
